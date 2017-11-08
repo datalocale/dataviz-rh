@@ -1,0 +1,237 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="EXPIRES" Content="never"/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<link type="text/css" rel="stylesheet" href="Dashboard.css">
+		<link rel="stylesheet" type="text/css" href="staticwebcontent/charts/template/css/dimpanel.css" charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="staticwebcontent/charts/template/css/axiseditor.css" />
+		<link rel="stylesheet" type="text/css" href="staticwebcontent/charts/template/jquery/css/ui-lightness/jquery-ui-1.8.23.custom.css" />
+		<link rel="stylesheet" type="text/css" href="staticwebcontent/charts/template/jquery/css/evol.colorpicker.min.css" />
+		<link rel="stylesheet" type="text/css" href="staticwebcontent/charts/template/jquery/css/chosen.css" />
+		<link rel="stylesheet" type="text/css" href="staticwebcontent/charts/template/jquery/css/jstree.css" />
+
+		<link rel="apple-touch-icon" sizes="114x114" href="icons/logo_iphone4.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="icons/logo_ipad.png" />
+		<link rel="apple-touch-icon" href="icons/logo_iphone.png" />
+		<link rel="apple-touch-startup-image" href="icons/digdash_ipad_startup.png" />
+
+	    <title>DigDash</title>
+
+		<script>var isomorphicDir = "dashboard/sc/"</script>
+	
+		<script src="dashboard/sc/modules/ISC_Core.js"></script>
+		<script src="dashboard/sc/modules/ISC_Foundation.js"></script>
+		<script src="dashboard/sc/modules/ISC_Containers.js"></script>
+		<script src="dashboard/sc/modules/ISC_Grids.js"></script>
+		<script src="dashboard/sc/modules/ISC_Forms.js"></script>
+		<script src="dashboard/sc/modules/ISC_RichTextEditor.js"></script>
+		<script src="dashboard/sc/modules/ISC_Calendar.js"></script>
+		<script src="dashboard/sc/modules/ISC_DataBinding.js"></script>
+
+		<script src="dashboard/sc/skins/Enterprise/load_skin.js"></script>
+
+
+		<script type="text/ecmascript" src="staticwebcontent/charts/template/scripts/js-scripts-dashboard-2017b1103.js"></script>
+
+
+
+		<script type="text/javascript">
+			ddCtrl.version = "2017b1103";
+		</script>
+
+
+		<script type="text/javascript" src="staticwebcontent/charts/template/jquery/js/jquery-1.8.0.min.js"></script>
+		<script type="text/javascript" src="staticwebcontent/charts/template/jquery/js/jquery-ui-1.8.23.custom.min.js"></script>
+		<script type="text/javascript" src="staticwebcontent/charts/template/jquery/js/jquery.ui.datepicker-langs.js"></script>
+		<script type="text/javascript" src="staticwebcontent/charts/template/jquery/js/evol.colorpicker.min.js"></script>
+		<script type="text/javascript" src="staticwebcontent/charts/template/jquery/js/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="staticwebcontent/charts/template/jquery/js/chosen.jquery.js"></script>
+		<script type="text/javascript" src="staticwebcontent/charts/template/jquery/js/jstree.js"></script>
+		<script type="text/javascript" src="staticwebcontent/charts/template/speechapi/speechapi.js"></script>
+		<script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
+		<script type="text/javascript" src="js-html-editor.js"></script>
+
+
+		<script type="text/ecmascript" language="javascript" src="js-history-2017b1103.js"></script>
+		<script type="text/ecmascript" language="javascript" src="js-dashboard-2017b1103.js"></script>
+
+
+
+		<script type="text/javascript">
+
+		/*isc.A.STATE_DOWN="Down";
+		isc.A.STATE_OVER="Over";
+		isc.A.STATE_DISABLED="Disabled";
+		isc.A.BUTTON="button";
+		isc.A.CHECKBOX="checkbox";
+		isc.A.RADIO="radio";
+		isc.A.FOCUSED="Focused";
+		isc.A.SELECTED="Selected";
+		isc.A.UNSELECTED="";*/
+
+		isc.StatefulCanvas.STATE_OVER = "";
+		isc.StatefulCanvas.STATE_DISABLED = "";
+		isc.StatefulCanvas.STATE_DOWN = "";
+		isc.StatefulCanvas.SELECTED = "";
+
+		isc.Log.log = function()
+		{
+			//do noting
+		}
+
+		var path = document.location.pathname;
+		path = path.substring(0, path.lastIndexOf("/"));
+		ddCtrl.servletFilePath = path + "/file";
+		ddCtrl.servletAPIPath = path + "/file";
+		ddCtrl.useCustomDialogs = true;	//use our own alert, confirm, prompt dialogs (in js-utils.js)
+		ddCtrl.ddAPI = new DDAPI(ddCtrl.servletAPIPath);
+
+		if (navigator.userAgent.toLowerCase().indexOf("ipad; cpu os 6_0_1") > -1)
+		{
+			var queryString = document.location.search;
+			var url = document.location.href;
+			if (queryString.match("ts=") == null)
+			{
+				if (queryString == "")
+					url += "?ts=" + new Date().getTime();
+				else
+					url += "&ts=" + new Date().getTime();
+				document.location.assign(url);
+			}
+		}
+
+		</script>
+		<script type="text/javascript" language="javascript" src="dashboard/dashboard.nocache.js"></script>
+		<script>
+		function doOnLoad()
+		{
+			//set body css class for different browser type
+			var bodyClass = "recentBrowser";
+			if (isIE() && Math.floor(BrowserDetect.version) < 9)
+				bodyClass = "oldBrowser";
+			document.body.className = bodyClass;
+
+			//disable context menu on IE8
+			if (isIE8() && document.body.attachEvent)
+			{
+				document.body.attachEvent("oncontextmenu", onContextMenuIE8);
+			}
+		}
+		function onContextMenuIE8()
+		{
+			return false;
+		}
+
+		ddCtrl.onMouseUpFunc = null;
+		ddCtrl.onMouseDownFunc = null;
+		ddCtrl.onDragStartFunc = null;
+		ddCtrl.onDragOverFunc = null;
+		ddCtrl.onDragEnterFunc = null;
+		ddCtrl.onDragLeaveFunc = null;
+		ddCtrl.onDropFunc = null;
+
+		ddCtrl.overrideListenersForSSBI = function()
+		{
+			if (ddCtrl.onMouseUpFunc == null)
+			{
+				ddCtrl.onMouseUpFunc = document.onmouseup;
+				document.onmouseup = function(e)
+				{
+					var target = e.target || event.srcElement;
+					var draggable = target.getAttribute("ddDraggable");
+					if (draggable != true && draggable != "true")
+					{
+						ddCtrl.onMouseUpFunc(e);
+					}
+				};
+			}
+			if (ddCtrl.onMouseDownFunc == null)
+			{
+				ddCtrl.onMouseDownFunc = document.onmousedown;
+				document.onmousedown = function(e)
+				{
+					var target = e.target || e.srcElement;
+					var draggable = target.getAttribute("ddDraggable");
+					if (draggable != true && draggable != "true")
+					{
+						ddCtrl.onMouseDownFunc(e);
+					}
+				};
+			}
+			if (ddCtrl.onDragStartFunc == null)
+			{
+				ddCtrl.onDragStartFunc = document.ondragstart;
+				document.ondragstart = function(e)
+				{
+					var target = e.target || e.srcElement;
+					var draggable = target.getAttribute("ddDraggable");
+					if (draggable != true && draggable != "true")
+					{
+						ddCtrl.onDragStartFunc(e);
+					}
+				};
+			}
+			if (ddCtrl.onDropFunc == null)
+			{
+				ddCtrl.onDropFunc = document.ondrop;
+				document.ondrop = function(e)
+				{
+					var target = e.target || e.srcElement;
+					var draggable = target.getAttribute("ddDraggable");
+					if (draggable != true && draggable != "true")
+					{
+						ddCtrl.onDropFunc(e);
+					}
+				};
+			}
+			if (ddCtrl.onDragOverFunc == null)
+			{
+				ddCtrl.onDragOverFunc = document.ondragover;
+				document.ondragover = function(e)
+				{
+					var target = e.target || e.srcElement;
+					var draggable = target.getAttribute("ddDraggable");
+					if (draggable != true && draggable != "true")
+					{
+						ddCtrl.onDragOverFunc(e);
+					}
+				};
+			}
+			if (ddCtrl.onDragLeaveFunc == null)
+			{
+				ddCtrl.onDragLeaveFunc = document.ondragleave;
+				document.ondragleave = function(e)
+				{
+					var target = e.target || e.srcElement;
+					var draggable = target.getAttribute("ddDraggable");
+					if (draggable != true && draggable != "true")
+					{
+						ddCtrl.onDragLeaveFunc(e);
+					}
+				};
+			}
+			if (ddCtrl.onDragEnterFunc == null)
+			{
+				ddCtrl.onDragEnterFunc = document.ondragenter;
+				document.ondragenter = function(e)
+				{
+					var target = e.target || e.srcElement;
+					var draggable = target.getAttribute("ddDraggable");
+					if (draggable != true && draggable != "true")
+					{
+						ddCtrl.onDragEnterFunc(e);
+					}
+				};
+			}
+		}
+		</script>
+	</head>
+
+	<body onmousemove="getPos(event)" onmouseup="mouseButtonPos='up'" onload="doOnLoad()" style="overflow:hidden">
+		<iframe src="javascript:''" id="__gwt_historyFrame" style="position:absolute;width:0;height:0;border:0"></iframe>
+	</body>
+</html>
