@@ -1,0 +1,433 @@
+.selHierTitle
+{
+	  font-family: Trebuchet MS, Arial, Verdana;
+    font-size: 8pt;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #d0d0d0;
+    table-layout:fixed;
+    width:100%;
+    padding: 0px;
+    cursor:pointer;
+    background:#d0d0d0 !important;
+	  -moz-border-radius: 4px;
+	  -webkit-border-radius: 4px;
+	  border-radius: 4px;
+}
+
+.selHierTitleDiv
+{
+  height: 16px;
+  float: left;
+  margin-right: 1px;
+  width:100px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.selHierTitleTD
+{
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.selHierTitleTDSelected
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: url("../image/16-combo-filter.png") no-repeat;
+	padding-left: 16px;
+}
+
+.selHierTitleSpan
+{
+  white-space:nowrap;
+  font-family: Trebuchet MS, Arial, Verdana;
+  font-size: 8pt;
+  margin-left: 2px;
+}
+
+.selHierTitleSpanWhite
+{
+  white-space:nowrap;
+  font-family: Trebuchet MS, Arial, Verdana;
+  font-size: 8pt;
+  margin-left: 2px;
+  font-weight:bold;
+}
+
+.selHierTitleDivWhite
+{
+   font-weight:bold;
+  -moz-box-shadow: 0px 1px 5px 1px #656565;
+  -webkit-box-shadow: 0px 1px 5px 1px #656565;
+  -o-box-shadow: 0px 1px 5px 1px #656565;
+  box-shadow: 0px 1px 5px 1px #656565;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.selHierPanel
+{
+  background-color: white;
+  -moz-box-shadow: 0px 0px 5px 1px #656565;
+  -webkit-box-shadow: 0px 0px 5px 1px #656565;
+  -o-box-shadow: 0px 0px 5px 1px #656565;
+  box-shadow: 0px 0px 5px 1px #656565;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=5);
+}
+
+.selHierCombo
+{
+  font-family: Trebuchet MS, Arial, Verdana;
+  font-size: 9pt;
+  border: 1px solid white;
+  width: 100%;
+}
+
+.selHierUnfoldImg
+{
+	width: 16px;
+	height: 16px;
+	background: url(../image/16-arrow_down.png) no-repeat center;
+}
+
+.selHierFoldImg
+{
+	width: 16px;
+	height: 16px;
+	background: url(../image/16-arrow_up.png) no-repeat center;
+}
+
+/*category:breadcrumb*/
+div.breadcrumbs
+{
+	font-size: 11px;
+	font-family: trebuchet ms, arial, verdana;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	line-height: 20px;
+	color: #888888;
+	white-space: nowrap;
+}
+
+.breadcrumbImg
+{
+ 	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url(../image/20-home-orange.png);
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+.breadcrumbTxt
+{
+	display: inline;
+}
+
+/*category:breadcrumb*/
+.clickablebreadcrumb
+{
+	color: #ed760a;
+	cursor: pointer;
+}
+
+/*category:breadcrumb*/
+.unclickablebreadcrumb
+{
+	color: #ed760a;
+}
+
+/*category:breadcrumb*/
+div.breadcrumbs a, div.breadcrumbs em, div.breadcrumbs span.breadspan, div.breadcrumbs img
+{
+	overflow: hidden;
+	height: 20px;
+	padding: 0 5px;
+}
+
+/*category:breadcrumb*/
+div.breadcrumbs em
+{
+	font-style: normal;
+}
+
+/*category:breadcrumb*/
+span.breadsep
+{
+	background-color: #cdcdcd;
+	overflow: hidden;
+	width: 10px;
+	height: 20px;
+	padding: 0 1px;
+}
+
+/*category:breadcrumb*/
+span.breadspan
+{
+	background :url(../image/bg-breadcrumb.png) no-repeat left center;
+	overflow: hidden;
+	padding: 0 0 0 5px;
+	width: 10px;
+}
+
+.selectedbreadcrumb
+{
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.unselectedbreadcrumb
+{
+	cursor: pointer;
+}
+
+div.res
+{
+	margin:0;
+	padding:0;
+}
+
+input.s
+{
+	margin:0;
+	padding:0;
+	padding-left: 18px;
+	margin-bottom: 2px;
+	background: url(../image/16-search.png) no-repeat left;
+	border: 1px solid #d0d0d0;
+	width:inherit !important;
+	height:20px;
+}
+
+ul.sbox
+{
+	font-family: Trebuchet MS, Arial, Verdana;
+	font-size: 9pt;
+	display: block;
+	overflow: hidden;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color: #fbfbfb;
+	overflow-y: auto;
+	max-height: 300px;
+}
+
+ul.sbox li
+{
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+ul.sbox li.hi
+{
+	background-color: #e0e0e0;
+	cursor : pointer;
+}
+
+.elOther
+{
+	font-style: italic;
+	font-size: 8pt;
+	text-align: right;
+}
+
+ul.ssel
+{
+	font-family: Trebuchet MS, Arial, Verdana;
+	font-size:8pt;
+	display: block;
+	overflow: hidden;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	border: 1px solid #efefef;
+	background-color: #fbfbfb;
+}
+
+ul.ssel li
+{
+	white-space:nowrap;
+}
+
+ul.ssel li div
+{
+	background: url(../image/16-del.png) no-repeat;
+	height: 16px;
+	cursor: pointer;
+}
+
+ul.ssel li span
+{
+	margin-left: 18px;
+}
+
+ul.ssel li.delall
+{
+  font-style: italic;
+  font-size: 8pt;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selSearch
+{
+  cursor: auto;
+  max-height: 100px;
+  overflow-y: auto;
+  line-height:15px;
+}
+
+.selSearchSlicer
+{
+  cursor: auto;
+  overflow-y: auto;
+}
+.datePickerSpanMin
+{
+	margin-top: 5px;
+}
+
+.datePickerSpanMax
+{
+	margin-top: 5px;
+	margin-left: 10px
+}
+
+.datePickerInput
+{
+	margin-right: 2px;
+	width: 100px
+}
+
+/* popup replacement */
+
+div.popupDivBg
+{
+  font-family:trebuchet ms, arial, verdana;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  background-color: rgba(255,255,255,0.75);
+  overflow: auto;
+  z-index: 2001;
+}
+div.popupDiv
+{
+  position:absolute;
+  left: 50%;
+  top: 25%;
+  border-radius: 4px;
+  border: solid 1px #CACACA;
+  background-color: #FEFEFE;
+  padding: 20px;
+  z-index: 2002;
+  width: 340px;
+  margin-left:-171px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+div.popupButtons
+{
+	margin-top: 6px;
+  text-align: right;
+}
+div.popupButtons button
+{
+  padding: 2px;
+	margin: 2px;
+  min-width: 80px;
+}
+input#popupPromptInput
+{
+  width: 330px;
+  margin: 4px;
+}
+input#popupPromptColorInput
+{
+  width: 298px;
+  margin: 4px;
+}
+input#popupPromptMultilineInput
+{
+  width: 298px;
+  margin: 4px;
+}
+input#popupFormulaName
+{
+  width: 330px;
+  margin: 4px;
+}
+textarea#popupFormulaFormula
+{
+  width: 328px;
+  height: 80px;
+  margin: 4px;
+}
+select#popupFormulaMeasureSelect
+{
+  width: 332px;
+  margin: 4px;
+  margin-bottom: 0px;
+}
+select#popupFormulaFormatSelect
+{
+  width: 332px;
+  margin: 4px;
+  margin-bottom: 0px;
+}
+select#popupPromptSelectSelect
+{
+  width: 332px;
+  margin: 4px;
+  margin-bottom: 0px;
+}
+div.previewBox
+{
+    padding: 2px;
+	border-radius: 4px;
+	border: solid 1px #CACACA;
+    width: 240px;
+    overflow: hidden;
+}
+div#preview
+{
+    padding: 10px 4px;
+    display: block;
+}
+div.cpick
+{
+    margin-top: 6px;
+}
+div.cpick div
+{
+    display:inline-block;
+}
+#popupPromptRange input
+{
+  width: 330px;
+  margin: 4px;
+}
+/*
+.evo-colorind
+{
+	margin-top:4px;
+}
+*/
