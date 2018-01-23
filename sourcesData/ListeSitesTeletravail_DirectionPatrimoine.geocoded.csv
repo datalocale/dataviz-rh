@@ -1,0 +1,440 @@
+id JOBDI,TypeSite,libelle,libelle_court,id_abyla,actif,adresse_complete,adresse_complement,code_postal,adresse_commune,code_insee,nb_pieces,nb_places,exclusif_drh,infos_pratiques,latitude,longitude,resp_site,Actif_2015-2016,NbPostesTeletravail2015-2016,POccupation2015-2016,Actif2016-2017,NbPostesTeletravail2016-2017,POccupation2016-2017,Actif2017-2018,NbPostesTeletravail2017-2018,POccupation2017-2018,Actif2018-2019,NbPostesTeletravail2018-2019,POccupation2018-2019
+16,Site Département,AGI de Lormont,AGI Lormont,,Non,1 allée du Vercors,,33310,LORMONT,33249,1,1,Non,"Bureau ""de passage"" / Téléphone 14 76",44.87548,-0.520131,Madame Dominique DELAGE,Non,1,100,Non,,,Non,,,Non,,
+198,Site Département,Antenne sociale de Bassens,AS Bassens,,Oui,20 rue Lamartine,,33530,Bassens,33032,5,11,Non,"5 bureaux à  disposition :_x000D_
+- 4 bureaux de 2 postes de travail : postes téléphoniques 13 41, 13 44 , 13 45 et 13 46_x000D_
+- 1 bureau de 3 postes de travail : postes téléphoniques 13 42 et 13 43",44.904406,-0.514696,Monsieur Philippe VILLETORTE,Non,,,Non,,,Oui,11,56,,,
+200,Site Département,Antenne sociale de Cenon,AS Cenon,,Oui,142 avenue René Cassagne,,33150,CENON,33119,1,3,Non,Téléphone 14 81 - 14 82 - 14 84,44.853195,-0.516795,Dominique DELAGE,Non,,,Non,,,Oui,3,20,,,
+27,Site Département,Centre d'Exploitation de Bazas,CE Bazas,,Oui,5 chemin de Barraou,,33430,BAZAS,33036,1,1,Non,Bureau magasinier  / Téléphone 73 13,44.440058,-0.241227,Monsieur Olivier BARIBEAUD,Oui,1,40,Oui,1,20,Oui,1,20,,,
+20,Site Département,Centre d'Exploitation de Cadillac,CE Cadillac,,Oui,3 avenue Joseph Caussil,,33410,CADILLAC,33081,1,2,Non,Ancien secrétariat  / Téléphone 73 56,44.635428,-0.311781,Monsieur Jean-Paul GELDER,Non,,,Oui,2,50,Oui,2,40,,,
+30,Site Département,Centre d'Exploitation de Castillon la Bataille,CE Castillon la Bataille,,Oui,11 rue Paul Bert,,33350,CASTILLON LA BATAILLE,33108,2,2,Non,"Bureau ""Ancien bureau du chef de subdivision"" / Téléphone 73 66_x000D_
+Bureau 1er étage / Téléphone 73 67",44.855682,-0.047307,Monsieur Romain CHARDON,Oui,1,20,Oui,1,60,Oui,2,60,,,
+29,Site Département,Centre d'Exploitation de Coutras,CE Coutras,,Oui,68 Z. I. Eugreteau,,33230,COUTRAS,33138,1,2,Non,Bureau positionné à  côté de celui du responsable du Centre d'Exploitation  / Téléphone 73 34,45.036957,-0.097885,Monsieur Christian HUCHET,Oui,1,20,Oui,2,30,Oui,2,30,,,
+108,Site Département,Centre d'Exploitation de La Brède,CE La Brède,,Oui,15 allée de la gare,,33650,La Brède,33213,1,2,Non,Bureau 4 (1er étage),44.681244,-0.523231,Monsieur Vincent PERRETO,Non,,,Non,,,Oui,2,70,,,
+28,Site Département,Centre d'Exploitation de la Réole,CE La Réole,,Oui,Chemin de Peyrefitte,,33190,LA REOLE,33352,2,2,Non,"Bureau situé en face de celui du responsable du centre d'exploitation  / Téléphone 73 49_x000D_
+Bureau à  proximité de la salle de réunion / Téléphone 73 47_x000D_
+Responsable Centre d'exploitation : Albert CALDO (73 45)",44.587721,-0.039788,Monsieur Albert CALDO,Oui,1,10,Oui,1,60,Oui,2,30,,,
+26,Site Département,Centre d'Exploitation de Lesparre,CE Lesparre,,Oui,38 rue du Docteur Scheweitzer,,33340,LESPARRE,33240,1,2,Non,Bureau secrétariat (1er étage) / Téléphone 73 26,45.310195,-0.929212,Monsieur François SOULARD,Oui,1,20,Oui,1,40,Oui,2,40,,,
+193,Site Département,Centre d'Exploitation de Mérignac,CE Mérignac,,Oui,240 avenue de la Marne,,33700,MERIGNAC,33281,,2,Non,2ème bureau à  gauche face à  l'entrée / Téléphone 71 86,44.832541,-0.643247,Monsieur Pascal GIRARD,Non,,,Non,,,Oui,2,80,,,
+195,Site Département,Centre d'Exploitation de Monségur,CE Monségur,,Oui,Les Fontaines,,33580,MONSEGUR,33289,,1,Non,,44.642413,0.081912,Monsieur Robert CARLESSO,Non,,,Non,,,Oui,1,10,,,
+31,Site Département,Centre d'Exploitation de Podensac,CE Podensac,,Oui,6 rue Salans,,33720,PODENSAC,33327,1,2,Non,Bureau  / Pas de téléphone (pas de transfert de ligne),44.65314,-0.35591,Monsieur Guy DUMEAU,Non,,,Oui,2,30,Oui,2,60,,,
+12,Site Département,Centre d'Exploitation de Salles,CE Salles,,Oui,2 route de Perrin,,33770,SALLES,33498,4,6,Non,"Salle de l'ancien magasinier (1 poste de travail) / Téléphone 73 43_x000D_
+Salle de réunion (1 poste de travail) / Téléphone 73 44_x000D_
+Salle de l'ADIL (1 poste de travail) / Téléphone 73 78_x000D_
+Salle de l'ancien secrétariat (2 postes de travail) / Téléphone 73 79",44.551476,-0.858244,Monsieur Laurent CAMPET,Oui,2,0,Oui,2,60,Oui,2,100,,,
+196,Site Département,Centre d'Exploitation de Sauveterre,CE Sauveterre,,Oui,42 boulevard du XI novembre,,33540,SAUVETERRE,33506,,1,Non,,44.693601,-0.088835,Monsieur Joël LE HOUARNER,Non,,,Non,,,Oui,1,40,,,
+11,Site Département,CRD du Bassin d'Arcachon,CRD Bassin d'Arcachon,,Oui,Route de Blagon,ZA de Cantalaude - Bâtiment B5,33138,LANTON,33229,1,2,Non,Salle de réunion (1er étage) / Téléphone 71 15 - 71 18,44.710021,-1.025222,Monsieur Francis BARETTA,Oui,1,80,Oui,1,80,Oui,2,50,,,
+10,Site Département,CRD du Médoc,CRD Médoc,88116,Oui,1 B Rue André Audubert,,33480,CASTELNAU-DE-MEDOC,33104,1,2,Non,"Bureau R-12 / 2 postes de travail / Téléphone 71 78 et 71 79_x000D_
+Salle de réunion R-01 / 1 poste de travail mis à  disposition les vendredi et mardi / Téléphone 73 83",45.036559,-0.801087,Monsieur Pascal BARILLET,Oui,1,60,Oui,1,80,Oui,1,100,,,
+32,Site Département,CRD du Sud Gironde,CRD Sud Gironde,,Oui,110 cours de Verdun,,33210,LANGON,33227,1,1,Non,Bureau R 07 / Téléphone 72 24,44.552973,-0.261131,Monsieur Stéphane DUCOS,Non,,,Oui,1,80,Oui,1,100,,,
+33,Site Département,CRD Graves Entre deux Mers,CRD Graves Entre 2 Mers,,Oui,2 chemin de Peyrouney,,33670,CREON,33140,1,1,Non,Poste téléphonique : 7159,44.779879,-0.352254,Monsieur Didier BOUEY,Non,,,Oui,1,100,Non,,,,,
+197,Site Département,Domaine de Certes & Graveyron,Domaine de Certes,,Oui,47 avenue de Certes,,33980,Audenge,33019,1,3,Non,Téléphone 17 78 et 17 79,44.692658,-1.021545,Madame Odile COURBIN,Non,,,Non,,,Oui,1,100,,,
+34,Site Département,Laboratoire Départemental d'Analyses,Labo Départemental,,Oui,33 Avenue du Docteur Schweitzer,,33600,PESSAC,33318,1,2,Non,"05.57.35.01.90_x000D_
+Salle 103 (2 postes de travail)",44.805754,-0.608422,Monsieur Patrick SENEGAS,Non,,,Oui,2,90,Oui,2,80,,,
+35,Site Département,Laboratoire végétal,Laboratoire végétal,,Oui,71 avenue Edouard Bourlaux,,33140,VILLENAVE D'ORNON,33550,2,4,Non,05 56 23 94 83,44.785477,-0.576522,Monsieur Patrick SENEGAS,Non,,,Oui,4,35,Oui,4,85,,,
+23,Site Département,MDSI d'Ambarès et Lagrave,MDSI Ambarès et Lagrave,,Oui,2 rue Louis Massina,,33440,AMBARES ET LAGRAVE,33003,3,7,Non,"Bureau R 43  / Téléphone 17 07 (1 poste)_x000D_
+Bureau 115 - 1er étage (3 postes) / Téléphone 17 10 - 17 11_x000D_
+Bureau 118 - 1er étage (3 postes) / Téléphone 17 12 - 17 13",44.927327,-0.487867,Madame Fabienne MILLOX,Non,,,Oui,7,71,Oui,7,97,,,
+8,Site Département,MDSI de Bazas,MDSI Bazas,87975,Oui,14 avenue de la République,,33430,BAZAS,33036,3,9,Non,"Bureau 1-28 (3 postes de travail) / Téléphone 12 38 - 12 14_x000D_
+Bureau 1-03 (3 postes de travail) / Téléphone 12 03 - 44 91_x000D_
+Bureau 1-05 (3 postes de travail) / Téléphone 13 91 - 13 92",44.433779,-0.22585,Madame Anne-Marie BOURNET,Oui,3,60,Oui,6,43,Oui,9,36,,,
+15,Site Département,MDSI de Blaye,MDSI Blaye,,Oui,2 rue de la Libération,,33390,BLAYE,33058,1,1,Non,"Bureau 2 / Téléphone 40 29_x000D_
+Bureau 6 / Téléphone 40 32",45.127536,-0.662344,Madame Marie-Ange PAYEN,Oui,1,60,Oui,1,20,Oui,1,67,,,
+13,Site Département,MDSI de Bordeaux Bastide,MDSI Bordeaux Bastide,,Oui,253 avenue Thiers,,33100,BORDEAUX,33063,1,2,Non,Bureau 3-06  / Téléphone 75 93,44.84821,-0.546662,Madame Francine MAURICE,Oui,2,20,Oui,2,60,Oui,2,50,,,
+22,Site Département,MDSI de Bordeaux Saint Jean,MDSI Bordeaux St Jean,,Oui,15 rue Belle Etoile,,33800,BORDEAUX,33063,1,2,Non,Bureau 2-08  / Téléphone 12 49,44.828697,-0.559191,Madame Mireille FELIX,Non,,,Oui,2,30,Oui,2,30,,,
+14,Site Département,MDSI de Bordeaux Saint Michel,MDSI Bordeaux St Michel,,Oui,18 rue du Cloître,,33000,BORDEAUX,33063,1,2,Non,Bureau 2-01 (2ème étage)  / Téléphone 78 56,44.833483,-0.568059,Madame Christine LACOME GRAULLE,Non,,,Oui,2,0,Oui,2,10,,,
+9,Site Département,MDSI de Cadillac,MDSI Cadillac,87230,Oui,21 route de Sauveterre,,33410,CADILLAC,33081,3,5,Non,"Bureau 2-05 (2 postes de travail) / Téléphone 14 88_x000D_
+Bureau 2-10 (2 postes de travail) / Téléphone 14 89_x000D_
+Bureau 2-11 (1 poste de travail) / Téléphone 14 93",44.636493,-0.315872,Madame Marie-Anne BOU,Oui,4,25,Oui,4,45,Oui,5,36,,,
+17,Site Département,MDSI de Créon,MDSI Créon,,Oui,1 chemin de la Douve,,33670,CREON,33140,2,4,Non,"Bureau 1-08 / Téléphone 45 71 et 45 72_x000D_
+Bureau 1-10 / Téléphone 45 82",44.775521,-0.35404,Madame Marie-Line LEUDE,Oui,3,40,Oui,3,96,Oui,4,100,,,
+109,Site Département,MDSI de La Réole,MDSI La Réole,,Oui,3 rue Jules Ferry,,33190,LA REOLE,33352,1,2,Non,Bureau 1-01 (2 postes de travail) / Téléphone 73 96,44.581503,-0.028271,Monsieur Ali CHAKHS,Non,,,Oui,2,0,Oui,2,0,,,
+18,Site Département,MDSI de Sainte Foy La Grande,MDSI Ste Foy La Grande,,Oui,85 B rue Waldeck Rousseau,,33220,SAINTE FOY LA GRANDE,33402,1,1,Non,Salle de réunion / Téléphone 43 41,44.840894,0.219917,Madame Cécile BEN LAHOUCINE,Oui,1,100,Oui,1,100,Oui,1,100,,,
+19,Site Département,MDSI de Saint Médard en Jalles,MDSI St Médard en Jalles,,Oui,2 rue Firmin Montignac,,33160,SAINT MEDARD EN JALLES,33449,1,2,Non,Bureau 1-04  / Téléphone 45 09,44.89326,-0.718426,Monsieur Jérôme LAJUS,Oui,2,100,Oui,2,100,Oui,2,100,,,
+7,Site Département,MDSI d'Eysines,MDSI Eysines,87142,Oui,16 rue des Treytins,,33320,EYSINES,33162,2,6,Non,"Bureau 1-07 (trois postes de travail) / Téléphone 46 85 et 46 95_x000D_
+Bureau 1-35 (trois postes de travail) / Téléphone 46 86 (un seul poste téléphonique envisageable au regard des prises réseaux disponibles)",44.881203,-0.631907,Madame Carine POMMIER,Oui,3,27,Oui,7,46,Oui,6,70,,,
+6,Site Département,MDSI du Bouscat,MDSI Bouscat,87263,Oui,17B rue Georges Lafont,,33110,LE BOUSCAT,33069,1,2,Non,Bureau 1-07 / Téléphone 12 18 et 43 76,44.866546,-0.59745,Madame Joëlle FEVRIER,Oui,1,20,Oui,1,100,Oui,2,90,,,
+5,Site Département,MDSI du Teich,MDSI Teich,1008099,Oui,102 avenue de Bordeaux,,33470,LE TEICH,33527,2,4,Non,"Bureau 1-22 (2 postes de travail) / Téléphone 16 94_x000D_
+Bureau 1-23 (2 postes de travail) / Téléphone 16 95",44.621577,-1.017049,Madame Sylvie MANCEL,Oui,4,50,Oui,4,55,Oui,4,70,,,
+201,Site Département,Parc routier départemental,Parc routier,,Oui,235 avenue du Docteur Schinazi,,33300,BORDEAUX,33063,1,1,Non,,,,Stéphanie SALVAT AIT ZENATI,Non,,,Non,,,Non,,,Oui,,
+21,Site Département,Pôle Jeunesse Territorial du Sud Gironde,PJT LANGON,,Oui,1 Boulevard Léon Blum,BP 7,33210,LANGON,33227,1,1,Non,"Bureau ""partagé"" R-03 / Téléphone 70 59",44.545318,-0.253086,Madame Nathalie BURTIN-DAUZAN,Oui,1,100,Oui,1,100,Oui,1,100,,,
+3,Site Département,Pôle Territorial de Solidarité de Haute Gironde,PTS Haute Gironde,88004,Oui,49 rue Henri Grouès dit Abbé Pierre,,33240,SAINT-ANDRE-DE-CUBZAC,33366,3,9,Non,"Bureau 1-53 (2 postes de travail) / Téléphone 16 34 _x000D_
+Bureau 1-08 (3 postes de travail) / Téléphone 16 35 - 40 48 - 40 74_x000D_
+Bureau 1-06 (4 postes de travail) / Téléphone 16 38 - 74 32",44.988606,-0.450383,Monsieur Christophe GUE,Oui,4,70,Oui,8,60,Oui,9,76,,,
+2,Site Département,Pôle Territorial de Solidarité des Graves,PTS Graves,7945,Oui,226 cours Gambetta,,33400,TALENCE,33522,2,4,Non,"Bureau 1-17 (Espace d'Attente Sécurisé) / Téléphone 15 17_x000D_
+Bureau 1-19 / Téléphone 15 18",44.813679,-0.589301,Madame Isabelle RASTRERO,Oui,4,"37,5",Oui,4,50,Oui,4,40,,,
+101,Site Département,Pôle Territorial de Solidarité des Hauts de Garonne,PTS Hauts de Garonne,,Oui,Avenue de la Libération,,33310,LORMONT,33249,1,3,Non,"Bureau R-08 (rez-de-chaussée)_x000D_
+Deux postes téléphoniques : téléphone 1476 et 1477_x000D_
+A confirmer en septembre 2017",44.87185,-0.521202,Monsieur Philippe VILLETORTE,Non,,,Oui,3,87,Oui,3,100,,,
+1,Site Département,Pôle Territorial de Solidarité du Bassin,PTS Bassin,1179927,Oui,1 rue Transversale,,33138,LANTON,33229,1,3,Non,Bureau 1-57 / Téléphone 16 74 et 16 75,44.704896,-1.033857,Madame Caroline LEGRAND,Oui,3,67,Oui,3,93,Oui,3,93,,,
+4,Site Département,Pôle Territorial de Solidarité du Libournais,PTS Libournais,?,Oui,14 rue Jules Védrines,,33500,LIBOURNE,33243,1,3,Non,Bureau 1-07 / Téléphone 14 57,44.907755,-0.236425,Madame Sylvie POINTEL,Oui,3,"43,5",Oui,3,"43,5",Oui,3,73,,,
+24,Site Département,Pôle Territorial de Solidarité du Médoc,PTS Médoc,,Oui,1 B rue André Audubert,,33480,CASTELNAU DE MEDOC,33104,1,1,Non,Bureau R-33  / Téléphone 15 54,45.036559,-0.801087,Monsieur Eric CHAILLET,Oui,1,100,Oui,1,100,Oui,1,100,,,
+25,Site Département,Site de Mériadeck,Mériadeck,,Oui,1 Esplanade Charles de Gaulle,,33074,BORDEAUX,33063,1,3,Non,Bureau D142 / Téléphone 32 04 - 32 21,44.835582,-0.586097,Madame Aurélie TCHEKALOFF,Oui,2,100,Oui,2,10,Oui,3,27,,,
+58,Tiers lieux,Tiers-lieu ACQS Coworking - DAX,TL ACQS Coworking,,Oui,1 impasse du Tuc d'Eauze,,40100,DAX,40088,,1,Non,"05 58 90 04 20_x000D_
+aldax40@gmail.com_x000D_
+http://amicale-laique.ald-dax.fr/",43.708524,-1.056644,Myriam Labastie,Non,,,Oui,,,Oui,,,,,
+129,Tiers lieux,Tiers-lieu A Lab Bonheur - SAINT-AUBIN-DE-MEDOC,TL A Lab Bonheur,,Oui,7 route de Saint-Médard,,33160,SAINT-AUBIN-DE-MEDOC,33376,,1,Non,"05 35 54 68 98_x000D_
+contact@alabbonheur.fr_x000D_
+medoc@aide-a-venir.com_x000D_
+www.alabbonheur.fr",44.912138,-0.72525,Célia Viresolvy,Non,,,Non,,,Oui,,,,,
+130,Tiers lieux,Tiers-lieu A l'Ouest - LACANAU,TL A l'Ouest,,Oui,3 rue de l'Aiguillonne,,33680,LACANAU,33214,,1,Non,"06.78.31.89.64_x000D_
+captain@a-louest.org_x000D_
+www.a-louest.org_x000D_
+06.12.64.12.18",44.979221,-1.074364,Cécile Lecoeur,Non,,,Non,,,Oui,,,,,
+40,Tiers lieux,Tiers-lieu Aqui Work Center - MERIGNAC,TL Aqui Work Center,,Oui,80 avenue de la Libération,,33700,MERIGNAC,33281,,1,Non,05 33 48 44 46                                  coworkingmerignac@gmail.com                      www.coworking-merignac.com,44.850215,-0.644336,,Non,,,Oui,,,Oui,,,,,
+42,Tiers lieux,Tiers-lieu Arrêt Minute - COUTRAS,TL Arrêt Minute,,Oui,rue Gambetta,,33230,COUTRAS,33138,,1,Non,"06 20 96 04 15                               _x000D_
+arret-minute@live.fr                                         www.arretminute.fr",45.043705,-0.128931,Lucile Aigron,Non,,,Oui,,,Oui,,,,,
+41,Tiers lieux,Tiers-Lieu Arrêt Minute - LIBOURNE,TL Arrêt Minute,,Oui,96 cours des Girondins,,33500,LIBOURNE,33243,,1,Non,"06 20 96 04 15                                _x000D_
+arret-minute@live.fr                                         www.arretminute.fr",44.91114,-0.242832,Lucile Aigron,Non,,,Oui,,,Oui,,,,,
+179,Tiers lieux,Tiers-lieu Atelier Grizzly -POITIERS,TL Atelier Grizzly,,Oui,43 rue de la Croix Rouge,,86000,POITIERS,86194,,1,Non,"ateliergrizzly@gmail.com_x000D_
+05 49 42 87 78_x000D_
+www.ateliergrizzly.fr",46.582484,0.354131,,Non,,,Non,,,Oui,,,,,
+115,Tiers lieux,Tiers-lieu Big Up 17 - SAINTES,TL Big Up 17,,Oui,17 rue Palissy,,17100,SAINTES,17415,,1,Non,"03.32.54.89.54_x000D_
+contact@bigup17.xyz_x000D_
+bigup17.xyz",45.74132,-0.637911,,Non,,,Non,,,Oui,,,,,
+125,Tiers lieux,Tiers-lieu Céla - DORDOGNE,TL Céla,,Oui,38 avenue Marceau Feyry,,24100,BERGERAC,24037,,1,Non,"cela24.asso@gmail.com_x000D_
+http://cela.site",44.864039,0.498804,Bastien Sager,Non,,,Non,,,Oui,,,,,
+165,Tiers lieux,Tiers-lieu Centre Social du Pays de Nexon - NEXON,TL Centre Social de Nexon,,Oui,5 rue Jean-Jacques Rousseau,,87800,NEXON,87106,,1,Non,"05 55 58 11 05_x000D_
+pij.nexon@wanadoo.fr_x000D_
+www.aajpn.fr",45.681147,1.183637,Pierre Garot,Non,,,Non,,,Oui,,,,,
+168,Tiers lieux,Tiers-lieu Citels - LIMOGES,TL Citels,,Oui,38 rue Domnolet Lafarge,,87000,LIMOGES,87085,,1,Non,"05 55 31 88 20_x000D_
+insertion@capf-asso.fr_x000D_
+www.capf-asso.fr",45.815763,1.270799,Nabila Anis,Non,,,Non,,,Oui,,,,,
+180,Tiers lieux,Tiers-lieu COBALT - POITIERS,TL Cobalt,,Oui,5 rue Victor Hugo,,86000,POITIERS,86194,,1,Non,"lisa.harel@spn.asso.fr_x000D_
+http://www.cobaltpoitiers.fr",46.58071,0.337358,Lisa Harel,Non,,,Non,,,Oui,,,,,
+63,Tiers lieux,Tiers-lieu CO-CLIC-CO - SERIGNAC-SUR-GARONNE,TL CO-CLIC-CO,,Oui,2356 avenue des Landes,,47310,SERIGNAC-SUR-GARONNE,47300,,1,Non,06 12 95 10 73,44.213132,0.484667,,Non,,,Oui,,,Oui,,,,,
+144,Tiers lieux,Tiers-lieu Cocoba - HENDAYE,TL Cocoba,,Oui,9 rue Lekueder,,64700,HENDAYE,64260,,1,Non,"05.59.03.72.59_x000D_
+contact@cocoba.work_x000D_
+www.cocoba.work",43.375053,-1.756212,,Non,,,Non,,,Oui,,,,,
+43,Tiers lieux,Tiers-lieu Cocotte Minute - LESPARRE-MEDOC,TL Cocotte Minute,,Oui,16 rue Jean-Jacques Rousseau,,33340,LESPARRE-MEDOC,33240,,1,Non,"05 57 75 28 40                                  cocotte.info@gmail.com         _x000D_
+www.cocotte-minute.info",45.30686,-0.939936,Mélissa Bernard,Non,,,Oui,,,Oui,,,,,
+44,Tiers lieux,Tiers-lieu Coeur d'Aquitaine - CAPTIEUX,TL Coeur d'Aquitaine,,Oui,3 place du 8 mai 1945,,33840,CAPTIEUX,33095,,1,Non,"05 56 65 49                          _x000D_
+tlg.captieux@co-actions.com                                         www.co-actions.com/Tiers-Lieux-de-Gascogne",44.291696,-0.261208,David Le Norcy,Non,,,Oui,,,Oui,,,,,
+127,Tiers lieux,Tiers-lieu Corner Cow - COULOUNIEIX-CHAMIERS,TL Corner Cow Coulounieix,,Oui,51 boulevard des Saveurs,,24660,COULOUNIEIX-CHAMIERS,24138,,1,Non,"05.32.28.00.70_x000D_
+www.corner-cow.fr",45.145001,0.697597,,Non,,,Non,,,Oui,,,,,
+126,Tiers lieux,Tiers-lieu Corner Cow - HAUTEFORT,TL Corner Cow Hautefort,,Oui,,"Lieu dit ""Les Clauds""",24390,HAUTEFORT,24210,,1,Non,"05.32.28.00.70_x000D_
+www.corner-cow.fr",45.268564,1.125396,,Non,,,Non,,,Oui,,,,,
+105,Tiers lieux,Tiers-lieu Corner Cow - VELINES,TL Corner Cow,,Oui,9 Route de Saint Seurin de Prats,Les Grands Champs,24230,Vélines,24568,,1,Non,"05.32.28.00.70_x000D_
+www.corner-cow.fr",44.843111,0.099514,Claudine PICHARDIE,Non,,,Oui,,,Oui,,,,,
+37,Tiers lieux,Tiers-lieu Corner Cow - VILLEFRANCHE-DU-PERIGORD,TL Corner Cow,,Oui,Route de Besse,,24550,VILLEFRANCHE-DU-PERIGORD,24585,,1,Non,"05 32 28 00 70             _x000D_
+www.corner-cow.fr",44.62837,1.080097,,Non,,,Oui,,,Oui,,,,,
+67,Tiers lieux,Tiers-lieu Coworking Pays Basque - BIARRITZ,TL Coworking Pays Basque,,Oui,7 rue Chapelet,,64200,BIARRITZ,64122,,1,Non,"06 60 15 90 16                         _x000D_
+contact@coworking-pb.com          _x000D_
+www.coworking-pb.com",43.462277,-1.544784,Jean-Claude Fauquenot,Non,,,Oui,,,Oui,,,,,
+116,Tiers lieux,Tiers-lieu Cowork Rochefort Océan - ROCHEFORT,TL Cowork Rochefort Océan,,Oui,10 rue Docteur Peltier,,17300,ROCHEFORT,17299,,1,Non,"05.46.88.71.39_x000D_
+coworking@agglo-rochefortocean.fr_x000D_
+cowork-rochefortocean.net",45.939705,-0.963633,Alice Pieuchot,Non,,,Non,,,Oui,,,,,
+110,Tiers lieux,Tiers-lieu Créalab - ANGOULêME,TL Créalab,,Oui,121 rue de Bordeaux,,16000,ANGOULêME,16015,,1,Non,"06.59.32.30.80_x000D_
+contact@crealab-angouleme.fr_x000D_
+www.crealab-angouleme.fr",45.653155,0.150537,Jordan Rodrigues,Non,,,Non,,,Oui,,,,,
+61,Tiers lieux,Tiers-lieu de Gascogne - HAGETMAU,TL de Gascogne,,Oui,910 avenue Corisandre,,40700,HAGETMAU,40119,,1,Non,"06 99 82 16 61                            _x000D_
+cmarsan@co-actions.fr                _x000D_
+www.co-actions.com/Tiers-Lieux-de-Gascogne",43.660463,-0.602247,Cécile Marsan,Non,,,Oui,,,Oui,,,,,
+62,Tiers lieux,Tiers-lieu de Tarnos - TARNOS,TL de Tarnos,,Oui,1 rue Hélène Boucher,Espace technologique Jean Bertin,40220,TARNOS,40312,,1,Non,"05 59 74 84 12                             _x000D_
+creation.activites@cbe-seignanx.com",43.545473,-1.491851,Sandrine Lacorne,Non,,,Oui,,,Oui,,,,,
+133,Tiers lieux,Tiers-lieu EcoWorking33 - SAUCATS,TL EcoWorking 33,,Oui,26 allée Migelanne,ZA les Pins Verts,33650,SAUCATS,33501,,1,Non,"06.03.93.47.92 / 05.56.72.54.94_x000D_
+contact@aaes.fr_x000D_
+www.ecoworking33.fr",44.682041,-0.604349,Emilie Macombe,Non,,,Non,,,Oui,,,,,
+68,Tiers lieux,Tiers-lieu Epi-Oloron - OLORON SAINTE-MARIE,TL Epi-Oloron,,Oui,14 rue Despourrins,,64400,OLORON SAINTE-MARIE,64422,,1,Non,"06 01 79 27 96                           _x000D_
+epi-oloron@gap-solutions.fr        _x000D_
+www.epi-oloron.fr",43.192692,-0.611783,Gérard Portet,Non,,,Oui,,,Oui,,,,,
+45,Tiers lieux,Tiers-lieu Espace 21 - BELIN BELIET,TL Espace 21,,Oui,20 route de Suzon,,33830,BELIN BELIET,33042,,1,Non,05 56 88 85 88                                 espace21@valdeleyre.fr                                         www.espace-21.com,44.501363,-0.785015,Evelyne Durif,Non,,,Oui,,,Oui,,,,,
+134,Tiers lieux,Tiers-lieu Espace de Coworking - LANTON,TL Espace de Coworking,,Oui,Salle de Lavoir,,33138,LANTON,33229,,1,Non,d.brouch@ville-lanton.fr,44.716947,-1.063801,Dominique Brouch,Non,,,Non,,,Oui,,,,,
+36,Tiers lieux,Tiers-lieu Esp de travail partagé - MIMIZAN,TL Esp de travail partagé,,Oui,3 rue de la Gare,,40200,MIMIZAN,40184,,1,Non,"05 47 81 70 09                                _x000D_
+deveco@cc-mimizan.fr            _x000D_
+www.cc-mimizan.fr",44.198418,-1.223052,Philippe Fouassier,Non,,,Oui,,,Oui,,,,,
+181,Tiers lieux,Tiers-lieu Essaim - POITIERS,TL Essaim,,Oui,6 bis rue Albin Heller,,86000,POITIERS,86194,,1,Non,"essaim@kurioz.org_x000D_
+www.essaimpoitiers.wix",46.609867,0.339873,Mathieu Chaveneau,Non,,,Non,,,Oui,,,,,
+104,Tiers lieux,Tiers-lieu Eurêka Marmande - MARMANDE,TL Eurêka Marmande,,Oui,2 rue des frères Hyatt,,47200,MARMANDE,47157,,1,Non,"05 53 64 89 90_x000D_
+eurekamarmande@vg-agglo.com",44.506931,0.153658,Laure ROSSETTO,Non,,,Oui,,,Oui,,,,,
+102,Tiers lieux,Tiers-lieu Eurêka Marmande Sud - SAMAZAN,TL Eurêka Marmande Sud,,Oui,ZAC de Marmande Sud - Quadrant Nord Est,Rue Gutenberg,47250,SAMAZAN,47285,,1,Non,"05 53 76 08 07_x000D_
+05 64 63 00 01_x000D_
+eurekamarmandesud@vg-agglo.com",44.435883,0.13149,MME Vinciane CHARRIN,Non,,,Oui,,,Oui,,,,,
+103,Tiers lieux,Tiers-lieu Eurêka Tonneins - TONNEINS,TL Eurêka Tonneins,,Oui,ZA de Vénès,Rue Tarride,47400,TONNEINS,47310,,1,Non,"05 53 79 91 91 _x000D_
+eurêkatonneins@vg-agglo.com",44.400694,0.321119,MME Vinciane CHARRIN,Non,,,Oui,,,Oui,,,,,
+92,Tiers lieux,Tiers-lieu Eysi'work - EYSINES,TL Eysi'work,,Oui,15 avenue de Saint Médard,,33320,EYSINES,33162,,1,Non,"06 14 98 73 08_x000D_
+contact@clubentreprises-eysines.org_x000D_
+www.clubentreprises-eysines.org",44.860919,-0.639297,Alexandrine BARRE,Non,,,Oui,,,Oui,,,,,
+147,Tiers lieux,Tiers-lieu Garden Kolektiboa - SAINT-JEAN-DE-LUZ,TL Garden Kolektiboa,,Oui,21 rue de la République,,64500,SAINT-JEAN-DE-LUZ,64483,,1,Non,05.59.51.83.14,43.388784,-1.664493,,Non,,,Non,,,Oui,,,,,
+146,Tiers lieux,Tiers-lieu Intérieur(e) - BAYONNE,TL Intérieur(e),,Oui,ZA Saint Frédéric,16 rue de la Gabare,64100,BAYONNE,64102,,1,Non,"08.05.69.20.28_x000D_
+contact@interieure.fr_x000D_
+www.interieure.fr",43.487155,-1.451447,Sacha Cohen,Non,,,Non,,,Oui,,,,,
+186,Tiers lieux,Tiers-lieu Jardin Public - POITIERS,TL Jardin Public,,Oui,64 rue Gambetta,,86000,POITIERS,86194,,1,Non,"05 49 60 68 68 _x000D_
+Siegfried.burgeot@gmail.com_x000D_
+www.jardinpublic.com",46.581437,0.339615,Maryse Delaunay,Non,,,Non,,,Oui,,,,,
+47,Tiers lieux,Tiers-lieu La Bastide Numérique - SAINTE FOY LA GRANDE,TL La Bastide Numérique,,Oui,79 rue Victor Hugo,,33220,SAINTE FOY LA GRANDE,33402,,1,Non,"06 31 87 28 47                _x000D_
+pierre-santos@orange.fr",44.839938,0.217438,Pierre Santos,Non,,,Oui,,,Oui,,,,,
+91,Tiers lieux,Tiers-lieu La boîte à  bosse - LA TOUR BLANCHE,TL La boîte à  bosse,,Oui,1 place du marché Dieu,,24320,LA TOUR BLANCHE,24554,,1,Non,"contact@laboiteabosse.fr_x000D_
+http://www.laboiteabosse.fr/",45.365804,0.446076,Aurore FORET,Non,,,Oui,,,Oui,,,,,
+154,Tiers lieux,Tiers-lieu La Boutique - BOUSSAC,TL La Boutique,,Oui,9 rue du 11 Novembre,,23600,BOUSSAC,23031,,1,Non,"05 19 70 03 00_x000D_
+laboutique@cc-paysdeboussac.fr_x000D_
+www.cc-paysdeboussac.fr",46.348191,2.216244,Philippe Guillerme,Non,,,Non,,,Oui,,,,,
+96,Tiers lieux,Tiers-lieu La cabane - PAU,TL La cabane,,Oui,1 rue Jean Réveil,,64100,PAU,64445,,1,Non,"05 59 27 11 08_x000D_
+contact@lacabane.space_x000D_
+www.lacabane.space",43.300606,-0.365308,Stéphane VOGELSINGER,Non,,,Oui,,,Oui,,,,,
+117,Tiers lieux,Tiers-lieu La Cagouille - AIGREFEUILLE D'AUNIS,TL La Cagouille,,Oui,11 rue de l'Aunis,,17290,AIGREFEUILLE D'AUNIS,17003,,1,Non,"09.64.32.29.90_x000D_
+contact@cedricdelmas.com_x000D_
+www.coworking-aigrefeuille.com",46.115377,-0.935107,Cédric Delmas,Non,,,Non,,,Oui,,,,,
+93,Tiers lieux,Tiers-lieu La Canopée - GRADIGNAN,TL La Canopée,,Oui,6 place Bernard Roumegoux,,33170,GRADIGNAN,33192,,1,Non,"07 77 20 39 42_x000D_
+msena@ville-gradignan.fr_x000D_
+www.ville-gradignan.fr/menu-principal/economie-et-emploi/espace-de-travail-partage",44.773618,-0.614544,Marion Sena,Non,,,Oui,,,Oui,,,,,
+69,Tiers lieux,Tiers-lieu La Cocotte - BAYONNE,TL La Cocotte,,Oui,15 place Paul Bert,,64100,BAYONNE,64102,,1,Non,"06 37 55 85 72                           _x000D_
+contact@cocotte-coworking.fr      _x000D_
+www.cocotte-coworking.fr",43.489701,-1.470753,Anne d'Abbadie d'Arrast,Non,,,Oui,,,Oui,,,,,
+128,Tiers lieux,Tiers-lieu La Coopinière - COULOUNIEIX-CHAMIERS,TL La Coopinière,,Oui,Boulevard des Saveurs,Cré@vallée Nord,24660,COULOUNIEIX-CHAMIERS,24138,,1,Non,"09.54.95.00.16_x000D_
+stephanekeirel@la-coopiniere.org_x000D_
+www.la-coopiniere.org",45.145001,0.697597,Stéphane Keirel,Non,,,Non,,,Oui,,,,,
+70,Tiers lieux,Tiers-lieu La Diagonale - ORTHEZ,TL La Diagonale,,Oui,Pôle I.Etech - Zone des Saligues,rue Louis Rabier,64300,ORTHEZ,64430,,1,Non,"05 59 60 84 22                             _x000D_
+m-hayet@cc-lacqorthez.fr            _x000D_
+www.cc-lacqorthez.fr",43.47867,-0.761724,Marlène Hayet,Non,,,Oui,,,Oui,,,,,
+59,Tiers lieux,Tiers-lieu La Fabrik - MONT-DE-MARSAN,TL La Fabrik,,Oui,236 avenue de Canenx,,40000,MONT-DE-MARSAN,40192,,1,Non,"05 58 51 88 88                             _x000D_
+contact@lemarsan-entreprendre.fr                www.lemarsan-entreprendre.fr",43.902003,-0.480904,Catherine Manceau,Non,,,Oui,,,Oui,,,,,
+64,Tiers lieux,Tiers-lieu La Fontaine - AGEN,TL La Fontaine,,Oui,2 rue Emile Sentini,,47000,AGEN,47001,,1,Non,"05 24 29 69 04                            coworking.agen@gmail.com              _x000D_
+www.lafontaine-coworking.com",44.206023,0.621196,Martine Puig,Non,,,Oui,,,Oui,,,,,
+159,Tiers lieux,Tiers-lieu La Fourmilière - THENEZAY,TL La Fourmilière,,Oui,15 rue Saint Honoré,,79390,THENEZAY,79326,,1,Non,"05 49 64 20 24_x000D_
+lafourmiliere79@gmail.com",46.720056,-0.029297,Alexandra Guinut,Non,,,Non,,,Oui,,,,,
+118,Tiers lieux,Tiers-lieu La Grappe - SAINT-JEAN-D'ANGELY,TL La Grappe,,Oui,27 rue Grosse Horloge,,17400,SAINT-JEAN-D'ANGELY,17347,,1,Non,"06.19.09.68.12_x000D_
+contact@espace-lagrappe.com_x000D_
+www.espace-lagrappe.com",45.943642,-0.520915,Dominique Bernazeau,Non,,,Non,,,Oui,,,,,
+112,Tiers lieux,Tiers-lieu La Kabane - ANGOULêME,TL La Kabane,,Oui,147 rue de Limoges,,16000,ANGOULêME,16015,,1,Non,"coworking.charente@gmail.com_x000D_
+la-kabane.fr",45.659065,0.175134,,Non,,,Non,,,Oui,,,,,
+48,Tiers lieux,Tiers-lieu La Loco - PESSAC,TL La Loco,,Oui,4 rue Eugène et Marc Dulout,,33600,PESSAC,33318,,1,Non,"06 50 46 82 57                                  _x000D_
+contact@laloco-coworking.fr                      _x000D_
+www.laloco-coworking.fr",44.804918,-0.63121,Marie-Laure Cuvelier,Non,,,Oui,,,Oui,,,,,
+156,Tiers lieux,Tiers-lieu L'Alzire - JARNAGES,TL L'Alzire,,Oui,30 Grande Rue,,23140,JARNAGES,23100,,1,Non,"05 55 84 47 27_x000D_
+contact@alzire.fr_x000D_
+www.alzire.fr",46.181267,2.084577,Sébastien Moreau,Non,,,Non,,,Oui,,,,,
+46,Tiers lieux,Tiers-lieu L'amarrage - SAINT-MEDARD EN JALLES,TL L'amarrage,,Oui,141 avenue Montaigne,,33160,SAINT-MEDARD EN JALLES,33449,,1,Non,"05 56 70 17 89                               _x000D_
+tierslieux@saint-medard-en-jalles.fr_x000D_
+www.saint-medard-en-jalles.fr/tiers-lieux",44.894768,-0.712818,Claire Jouhault,Non,,,Oui,,,Oui,,,,,
+100,Tiers lieux,Tiers-lieu La MCPE de Barbezieux - BARBEZIEUX-SAINT-HILAIRE,TL La MCPE de Barbezieux,,Oui,32 rue de la Motte,,16300,BARBEZIEUX-SAINT-HILAIRE,16028,,1,Non,economie@cdc4b.com,45.473486,-0.157919,Sylvie COT (05 45 78 89 09),Non,,,Oui,,,Oui,,,,,
+49,Tiers lieux,Tiers-lieu La Mezzanine - SAINT AUBIN DE BLAYE,TL La Mezzanine,,Oui,Parc éco. Gironde Synergies,rue 4 septembre,33820,SAINT AUBIN DE BLAYE,33159,,1,Non,"05 57 42 75 60                                  _x000D_
+pepiniere@cc-estuaire.fr                      _x000D_
+www.pepiniere-hotel-entreprises.fr",45.249375,-0.557235,Magali Bodéi,Non,,,Oui,,,Oui,,,,,
+136,Tiers lieux,Tiers-lieu La Morue Noire - BEGLES,TL La Morue Noire,,Oui,Trésorerie,1 place du XIV juillet,33130,BEGLES,33039,,1,Non,nescortell@co-actions.fr,44.803626,-0.567466,,Non,,,Non,,,Oui,,,,,
+153,Tiers lieux,Tiers-lieu La Palette - DUN LE PALESTEL,TL La Palette,,Oui,9 place de la Poste,,23800,DUN LE PALESTEL,23075,,1,Non,"05 87 66 00 00_x000D_
+centre.animation@paysdunois.fr_x000D_
+www.paysdunois.fr",46.305329,1.663737,Marion Bergognon,Non,,,Non,,,Oui,,,,,
+157,Tiers lieux,Tiers-lieu La Quincaillerie - GUERET,TL La Quincaillerie,,Oui,6 ue Maurice Rollinat,,23000,GUERET,23096,,1,Non,"05 55 80 93 25_x000D_
+baptiste.ridoux@agglo-grandgueret.fr_x000D_
+www.laquincaillerienumerique.fr",46.171967,1.869143,Baptiste Ridoux,Non,,,Non,,,Oui,,,,,
+98,Tiers lieux,Tiers-lieu La ruche - BARBEZIEUX,TL La ruche,,Oui,1 place du Haut Faubourg,,16300,BARBEZIEUX,16028,,1,Non,"09 70 72 34 21_x000D_
+contact@laruche.com",45.47045,-0.156834,,Non,,,Oui,,,Oui,,,,,
+51,Tiers lieux,Tiers-lieu La Source - CADILLAC,TL La Source,,Oui,12 avenue du Pont,,33410,CADILLAC,33081,,1,Non,"06 80 46 62 26                                  coworking.cadillac@gmail.com                 _x000D_
+www.asso-la-source.org",44.636993,-0.321257,Raoul Manriquez,Non,,,Oui,,,Oui,,,,,
+170,Tiers lieux,Tiers-lieu La Suite - LIMOGES,TL La Suite,,Oui,1B place d'Aine,,87000,LIMOGES,87085,,1,Non,"06 63 57 35 89_x000D_
+contact@kailis-design.net",45.830229,1.255374,Amélie Decharentenay,Non,,,Non,,,Oui,,,,,
+50,Tiers lieux,Tiers-lieu La Tabatière - LA REOLE,TL La Tabatière,,Oui,21 avenue Gabriel Chaigne,,33190,LA REOLE,33352,,1,Non,"Mme BOOKER : 06 71 17 34 24_x000D_
+vb@veroniquebooker.com                          _x000D_
+_x000D_
+Mme MAUVE : 06 15 20 34 88_x000D_
+latabatieretl@gmail.com  _x000D_
+                 _x000D_
+www.capsolidaire.org/La-Tabatiere-espace-de-travail",44.581199,-0.031663,Véronique Booker & Bérangère Mauve,Non,,,Oui,,,Oui,,,,,
+65,Tiers lieux,Tiers-lieu La Tuilerie - CASSENEUIL,TL La Tuilerie,,Oui,Ancienne Mairie,Place Bergonié,47440,CASSENEUIL,47049,,1,Non,06 03 55 23 06                         avec2L.47@gmail.com,44.442657,0.622968,Frédérique Teree,Non,,,Oui,,,Oui,,,,,
+152,Tiers lieux,Tiers-lieu Le 400 - BRIVE,TL Le 400,,Oui,12 avenue Jean Lurçat,,19100,BRIVE,19031,,1,Non,"05 55 22 44 71_x000D_
+contact@le400.fr_x000D_
+www.le400.fr",45.150233,1.543149,Karine Machat,Non,,,Non,,,Oui,,,,,
+138,Tiers lieux,Tiers-lieu Le Chai 2.0 - MARSAS,TL Le Chai 2.0,,Oui,51 rue Jean de Combret,,33620,MARSAS,33272,,1,Non,"pole-numerique@latitude-nord-gironde.fr_x000D_
+05 57 32 40 34_x000D_
+http://www.latitude-nord-gironde.fr/pole-numerique/",45.066273,-0.382803,Arnaud Laperche,Non,,,Non,,,Oui,,,,,
+60,Tiers lieux,Tiers-lieu Le Container - ANGRESSE,TL Le Container,,Oui,1076 route de Capbreton,,40150,ANGRESSE,40004,,1,Non,06 64 83 64 39                             container@androphyne.com              www.androphyne.com,43.654221,-1.381731,Angela GADAFI,Non,,,Oui,,,Oui,,,,,
+52,Tiers lieux,Tiers-lieu Le Forum - CENON,TL Le Forum,,Oui,Le Rocher de Palmer,1 rue Aristide Briand,33150,CENON,33119,,1,Non,"06 71 83 86 26_x000D_
+forum@lerocherdepalmer.fr",44.862336,-0.524315,François Friquet,Non,,,Oui,,,Oui,,,,,
+161,Tiers lieux,Tiers-lieu Le Grenier de Py - PARTHENAY,TL Le Grenier de Py,,Oui,6 rue Jean Macé,,79200,PARTHENAY,79202,,1,Non,"06 72 02 86 26_x000D_
+legrenierdepy@gmail.com_x000D_
+www.legrenierdepy.com",46.646671,-0.249512,Charlotte Robert,Non,,,Non,,,Oui,,,,,
+66,Tiers lieux,Tiers-lieu Le Kiosque - NERAC,TL Le Kiosque,,Oui,2 allée d'Albret,,47600,NERAC,47195,,1,Non,06 20 61 37 69                           coworking.nerac@gmail.com            www.coworkingnerac.wix.com/lekiosque,44.132665,0.339671,Céline Larigaldie,Non,,,Oui,,,Oui,,,,,
+97,Tiers lieux,Tiers-lieu Le Kub - CHALAIS,TL Le Kub,,Oui,93 rue Barbezieux,,16210,CHALAIS,16073,,1,Non,"05ï»¿ 45 98 10 47_x000D_
+lekub.teletravail@gmail.com",45.272077,0.037792,,Non,,,Oui,,,Oui,,,,,
+53,Tiers lieux,Tiers-lieu Le Patchwork - BOURG SUR GIRONDE,TL Le Patchwork,,Oui,18 rue Valentin Bernard,,33710,BOURG SUR GIRONDE,33067,,1,Non,"06 26 45 31 18                                  _x000D_
+contact@le-patchwork.fr                     _x000D_
+www.le-patchwork.fr",45.040211,-0.557065,Laurent Robin,Non,,,Oui,,,Oui,,,,,
+54,Tiers lieux,Tiers-lieu Le Patio - LE BOUSCAT,TL  Le Patio,,Oui,212 avenue de Tivoli,,33110,LE BOUSCAT,33069,,1,Non,05 33 48 08 64                                  espace.lepatio@gmail.com                      www.lepatiocoworking.fr,44.867016,-0.596241,Sonia Tebessi,Non,,,Oui,,,Oui,,,,,
+171,Tiers lieux,Tiers-lieu Le Phare Centre - LIMOGES,TL Le Phare Centre,,Oui,50 boulevard Gambetta,,87000,LIMOGES,87085,,1,Non,"06 43 49 24 41_x000D_
+adrien@lepharecoworking.com_x000D_
+www.lephare-limoges.com",45.828424,1.256526,Adrien Boisdevesy,Non,,,Non,,,Oui,,,,,
+172,Tiers lieux,Tiers-lieu Le Phare Vienne - LIMOGES,TL Le Phare Viennes,,Oui,90 route du Palais,,87000,LIMOGES,87085,,1,Non,"06 43 49 24 41_x000D_
+adrien@lepharecoworking.com_x000D_
+www.lephare-limoges.com",45.848123,1.293715,Adrien Boisdevesy,Non,,,Non,,,Oui,,,,,
+99,Tiers lieux,Tiers-lieu Le RSP de Montmoreau - MONTMOREAU-SAINT-CYBARD,TL Le RSP de Montmoreau,,Oui,41 avenue de l'Aquitaine,,16190,MONTMOREAU-SAINT-CYBARD,16230,,1,Non,"05 45 24 08 79_x000D_
+accueil@tude-et-dronne.fr",45.398917,0.132584,,Non,,,Oui,,,Oui,,,,,
+38,Tiers lieux,Tiers-lieu L'escale numérique - PERIGUEUX,TL L'escale numérique,,Oui,9 rue du Président Wilson,,24000,PERIGUEUX,24322,,1,Non,"06 17 40 13 09                    _x000D_
+hello@escalenumerique.fr_x000D_
+www.escalenumerique.fr",45.183779,0.717452,Pascal Menut,Non,,,Oui,,,Oui,,,,,
+114,Tiers lieux,Tiers-lieu L'Eschalou - GARAT,TL L'Eschalou,,Oui,,,16410,GARAT,16146,,1,Non,"06.11.32.84.30_x000D_
+asso.leschalou@hotmail.com_x000D_
+http://leschalou.jimdo.com",45.632666,0.257489,Marc-Antoine Deprat,Non,,,Non,,,Oui,,,,,
+119,Tiers lieux,Tiers-lieu Les Etablis&co - LA ROCHELLE,TL Les Etablis&co,,Oui,17 bis rue Maurice Ravel,,17000,LA ROCHELLE,17300,,1,Non,"06.16.36.80.86_x000D_
+mickael.dasilva@lesetablisandco.fr_x000D_
+lesetablisandco.fr",46.162848,-1.12427,Mickaël Da Silva,Non,,,Non,,,Oui,,,,,
+150,Tiers lieux,Tiers-lieu Les Imaginations Fertiles - TOULOUSE,TL Imaginations Fertiles,,Oui,27 bis allées Maurice Sarraut,,31300,TOULOUSE,31555,,1,Non,"05.61.40.92.16_x000D_
+contact@imaginationsfertiles.fr",43.594005,1.421281,,Non,,,Non,,,Oui,,,,,
+177,Tiers lieux,Tiers-lieu Les Usines Nouvelles - LIGUGE,TL Les Usines Nouvelles,,Oui,avenue de la Plage,La Filature,86240,LIGUGE,86133,,1,Non,"06 28 37 14 25_x000D_
+denis.menier@neuf.fr_x000D_
+www.lesusinesnouvelles.com",46.517296,0.334966,Denis Menier,Non,,,Non,,,Oui,,,,,
+142,Tiers lieux,Tiers-lieu L'Etabli - SOUSTONS,TL L'Etabli,,Oui,Pôle associatif Resano,rue de Moscou,40140,SOUSTONS,40310,,1,Non,"06.37.20.21.53_x000D_
+contact@letabli.net_x000D_
+www.letabli.net",43.778133,-1.39875,Fernand Mainpin,Non,,,Non,,,Oui,,,,,
+166,Tiers lieux,Tiers-lieu Le Temps de Vivre - AIXE-SUR-VIENNE,TL Le Temps de Vivre,,Oui,18 place Aymard Fayard,,87700,AIXE-SUR-VIENNE,87001,,1,Non,"05 55 31 00 42_x000D_
+contact@letempsdevivre.co_x000D_
+www.letempsdevivre.co",45.795753,1.135885,,Non,,,Non,,,Oui,,,,,
+120,Tiers lieux,Tiers-lieu Le Vaisseau - LA ROCHELLE,TL Le Vaisseau,,Oui,17 rue Jean Perrin,,17000,LA ROCHELLE,17300,,1,Non,"09.81.18.97.65_x000D_
+contact@levaisseau.pro_x000D_
+http://levaisseau.pro",46.140611,-1.158022,,Non,,,Non,,,Oui,,,,,
+162,Tiers lieux,Tiers-lieu Le Vaisseau Niort - NIORT,TL Le Vaisseau Niort,,Oui,7B rue Jacques Daguerre,,79000,NIORT,79191,,1,Non,"07 70 05 27 30_x000D_
+vincent@guibert.xyz_x000D_
+www.levaisseau.pro",46.314536,-0.480003,Vincent Guibert,Non,,,Non,,,Oui,,,,,
+183,Tiers lieux,Tiers-lieu Le Vaisseau - POITIERS,TL Le Vaisseau,,Oui,17 rue Albin Haller,,86000,POITIERS,86194,,1,Non,"contact@levaisseau.pro_x000D_
+09 81 18 97 65_x000D_
+www.levaisseau.pro",46.611174,0.339391,,Non,,,Non,,,Oui,,,,,
+184,Tiers lieux,Tiers-lieu Level 6 - POITIERS,TL Level 6,,Oui,22 rue Thibaudeau,,86000,POITIERS,86194,,1,Non,06 72 11 05 86,46.582093,0.335306,,Non,,,Non,,,Oui,,,,,
+164,Tiers lieux,Tiers-lieu Moulin de Retournay - MARNES,TL Moulin de Retournay,,Oui,Retournay,,79600,MARNES,79167,,1,Non,"05 49 67 41 04_x000D_
+moulin.retournay@gmail.com_x000D_
+www.monlinderetournay.wordpress.com",46.863196,-0.016806,Hilaire Herbert,Non,,,Non,,,Oui,,,,,
+189,Tiers lieux,Tiers-lieu Pépite - POITIERS,TL Pépite,,Oui,2 rue Pierre Brousse,Bâtiment B 25,86073,POITIERS CEDEX 9,,,1,Non,"05 49 45 44 60_x000D_
+safire@univ-poitiers.fr_x000D_
+www.safire.univ-poitiers.fr",46.567887,0.383439,Sandra Choisy,Non,,,Non,,,Oui,,,,,
+190,Tiers lieux,Tiers-lieu S'Factory - POITIERS,TL S'Factory,,Oui,Univ Poitiers Campus Sud,Bâtiment B24,86000,POITIERS,86194,,1,Non,"05 49 45 35 66_x000D_
+james.robert@univ-poitiers.fr_x000D_
+www.sfa.univ-poitiers.fr/lcs/factory",46.586461,0.340315,James Robert,Non,,,Non,,,Oui,,,,,
+95,Tiers lieux,Tiers-lieu Simone et les Mauhargats - SAINT MACAIRE,TL Simone & Mauhargats,,Oui,19 rue Carnot,,33490,SAINT MACAIRE,33435,,1,Non,"06 09 21 01 91_x000D_
+simoneetlesmauhargats@gmail.com",44.565029,-0.226225,,Non,,,Oui,,,Oui,,,,,
+55,Tiers lieux,Tiers-lieu Splendid Coworking - LANGOIRAN,TL Splendid Coworking,,Oui,avenue Michel Picon,,33550,LANGOIRAN,33226,,1,Non,06 16 24 79 45                                  splendidcoworking@gmail.com                     www.splendidcoworking.fr,44.710523,-0.398881,Denis Loulier,Non,,,Oui,,,Oui,,,,,
+191,Tiers lieux,Tiers-lieu SPN - POITIERS,TL SPN,,Oui,5 rue Victor Hugo,,86000,POITIERS,86194,,1,Non,"05 49 03 17 76_x000D_
+lisa.harel@spn.asso.fr_x000D_
+www.spn.asso.fr_x000D_
+www.27balt.co",46.58071,0.337358,Lisa Harel,Non,,,Non,,,Oui,,,,,
+149,Tiers lieux,Tiers-lieu Spot Coworking - ANGLET,TL Spot Coworking,,Oui,1 Place de la Chapelle,,64600,ANGLET,64024,,1,Non,"05.59.57.93.32_x000D_
+info@spot-coworking.fr_x000D_
+http://www.spot-coworking.fr",43.496507,-1.538174,,Non,,,Non,,,Oui,,,,,
+158,Tiers lieux,Tiers-lieu Taf - FAUX LA MONTAGNE,TL Taf,,Oui,le Bourg,Association TAF,23340,FAUX LA MONTAGNE,23077,,1,Non,www.taf.millevaches.net,45.723442,1.908526,,Non,,,Non,,,Oui,,,,,
+56,Tiers lieux,Tiers-lieu Télécentre - LATRESNE,TL Télécentre,,Oui,chemin du Port de l'Homme,,33360,LATRESNE,33234,,1,Non,"05 56 20 80 96_x000D_
+developpementeconomique@cdc-portesentredeuxmers.fr",44.785193,-0.506172,Cécil Clémenceau-Mazon,Non,,,Oui,,,Oui,,,,,
+139,Tiers lieux,Tiers-lieu The Woodstock - LORMONT,TL The Woodstock,,Oui,1 rue du Prince Noir,,33310,LORMONT,33249,,1,Non,"05.35.54.42.22_x000D_
+jullian@the-woodstock.com_x000D_
+www.the-woodstock.com",44.879418,-0.524969,,Non,,,Non,,,Oui,,,,,
+57,Tiers lieux,Tiers-lieu Working Mios - MIOS,TL Working Mios,,Oui,6C rue Gustave Eiffel,,33380,MIOS,33284,,1,Non,"09 80 86 31 15_x000D_
+06 48 95 94 23                           _x000D_
+contact@working-mios.fr             www.facebook.com/workingmios",44.621675,-0.949819,Anne François,Non,,,Oui,,,Oui,,,,,
+124,Tiers lieux,Tiers-lieu Working Share - LA ROCHELLE,TL Working Share,,Oui,15 rue Alfred Kastler,,17000,LA ROCHELLE,17300,,1,Non,"09.73.57.90.15_x000D_
+contact@larochelle-coworking.org_x000D_
+www.workingshare.org",46.140385,-1.160389,Denis Hurtaud,Non,,,Non,,,Oui,,,,,
+123,Tiers lieux,Tiers-lieu Work'in - LA ROCHELLE,TL Work'in,,Oui,24 rue du Bastion Saint Nicolas,,17000,LA ROCHELLE,17300,,1,Non,"05 46 28 10 28_x000D_
+contact@workinlarochelle.fr_x000D_
+http://coworking-larochelle.fr",46.154062,-1.145719,Johan Konstowicz,Non,,,Non,,,Oui,,,,,
+192,Tiers lieux,Tiers-lieu Zebocal - POITIERS,TL Zebocal,,Oui,21 rue Gaston Hulin,,86000,POITIERS,86194,,1,Non,"05 49 60 13 03_x000D_
+info@zebocal.fr_x000D_
+www.zebocal.fr",46.582348,0.340301,Anthony Tihibault & Delphine Lechat,Non,,,Non,,,Oui,,,,,
+140,Tiers lieux,Tiers-lieu Art3Fact Lab - DAX,TL Art3Fact Lab,,Non,1 avenue de La Gare,,40100,DAX,40088,,1,Non,"06.83.66.02.77_x000D_
+pol.olory@gmail.com_x000D_
+http://www.pulseo.fr/art3fact-lab",43.719944,-1.051884,Pol Olory,Non,,,Non,,,Non,,,,,
+71,Tiers lieux,Tiers-lieu Atelier Zelium - BORDEAUX,TL Atelier Zelium,,Non,19 rue Sainte-Cécile,,33000,BORDEAUX,33063,,1,Oui,"05 56 35 88 25                     _x000D_
+contact@atelierzelium.fr           _x000D_
+www.atelierzelium.fr",44.831193,-0.58572,,Non,,,Non,,,Non,,,,,
+72,Tiers lieux,Tiers-lieu Bloc B - BORDEAUX,TL Bloc B,,Non,10 rue Charles Martin,,33000,BORDEAUX,33063,,1,Oui,06 81 79 16 19                   laruche.bordeaux@gmail.com,44.843308,-0.589983,Catherine Duret & Yves Jouanard,Non,,,Non,,,Non,,,,,
+131,Tiers lieux,Tiers-lieu Canap'Café - LANGON,TL Canap'Café,,Non,43 rue Maubec,,33210,LANGON,33227,,1,Non,"06.22.09.03.67_x000D_
+canapcafe@yahoo.fr_x000D_
+www.canapcafe.jimdo.com",44.553594,-0.245901,Mmes Sage et Agathon,Non,,,Non,,,Non,,,,,
+174,Tiers lieux,Tiers-lieu Canopée Futuroscope - CHASSENEUIL-DU-POITOU,TL Canopée Futuroscope,,Non,Arbouse 4,,86360,CHASSENEUIL-DU-POITOU,86062,,1,Non,05 49 49 78 78,46.657119,0.383157,,Non,,,Non,,,Non,,,,,
+73,Tiers lieux,Tiers-lieu Com la Lune - BORDEAUX,TL Com la Lune,,Non,5 rue Vantrasson,,33000,BORDEAUX,33063,,1,Oui,"06 50 96 58 30             _x000D_
+j.bordeau@comlalune.com_x000D_
+www.comlalune.com",44.852602,-0.581269,Joëlle Bordeau,Non,,,Non,,,Non,,,,,
+74,Tiers lieux,Tiers-lieu CoolWorking - BORDEAUX,TL CoolWorking,,Non,9 rue Condé,,33000,BORDEAUX,33063,,1,Oui,"09 72 37 89 11            _x000D_
+contact@coolworking.fr_x000D_
+www.coolworking.fr",44.843561,-0.5733,Fabrice Jeannet,Non,,,Non,,,Non,,,,,
+132,Tiers lieux,Tiers-lieu Dagoma - PESSAC,TL Dagoma,,Non,8 rue Gustave Hertz,,33600,PESSAC,33318,,1,Non,"06.63.01.25.88_x000D_
+alice@dagoma.fr_x000D_
+https://www.dagoma.fr",44.784747,-0.654267,Alice Pieuchot,Non,,,Non,,,Non,,,,,
+75,Tiers lieux,Tiers-lieu Darwin CoWorking - BORDEAUX,TL Darwin CoWorking,,Non,87 quai de Queyries,,33100,BORDEAUX,33063,,1,Oui,"05 56 77 52 06            _x000D_
+contact@darwin-ecosysteme.fr_x000D_
+www.darwin-ecosysteme.fr",44.849663,-0.561238,Jean-Marc Gancille,Non,,,Non,,,Non,,,,,
+151,Tiers lieux,Tiers-lieu FabLab 19 - BRIVE,TL FabLab 19,,Non,16 rue Jules Valles,,19100,BRIVE,19031,,1,Non,"fablab19@unilim.f_x000D_
+www.brive.unilim.fr/fablab19",45.1544,1.509284,,Non,,,Non,,,Non,,,,,
+143,Tiers lieux,Tiers-lieu FabLab 47 - AGEN,TL FabLab 47,,Non,52 cours Gambetta,,47007,AGEN,47001,,1,Non,"r.delehonte@cci47.fr_x000D_
+05.53.77.10.82_x000D_
+www.innovation47.fr",44.198081,0.612377,Romain Delehonte,Non,,,Non,,,Non,,,,,
+169,Tiers lieux,Tiers-lieu FabLab LCube - LIMOGES,TL FabLab LCube,,Non,90 route du Palais,,87000,LIMOGES,87085,,1,Non,"06 99 11 57 07_x000D_
+contact@fab-l3.org_x000D_
+www.fab-l3.org",45.848123,1.293715,Tristan Champomier,Non,,,Non,,,Non,,,,,
+145,Tiers lieux,Tiers-lieu FabLab Pau - BILLERE,TL FabLab Pau,,Non,Les Abattoirs,Allée Montesquieu,64140,BILLERE,64129,,1,Non,"contact@fablab-pau.org_x000D_
+www.fablab-pau.org",43.314468,-0.384481,Vincent Meyer,Non,,,Non,,,Non,,,,,
+141,Tiers lieux,Tiers-lieu Fabriques Alternatives - COUDURES,TL Fabriques Alternatives,,Non,69 chemin Saint Pierre,,40500,COUDURES,40086,,1,Non,"06.86.97.82.56_x000D_
+fabriques.alternatives@gmail.com_x000D_
+www.fabriques-alternatives.org",43.689398,-0.519989,Frédéric Coubard,Non,,,Non,,,Non,,,,,
+76,Tiers lieux,Tiers-lieu Health Square - BORDEAUX,TL Health Square,,Non,229 rue Judaïque,,33000,BORDEAUX,33063,,1,Oui,"contact@healthsquare.fr_x000D_
+www.healthsquare.fr",44.840505,-0.596516,Sophie Dannet,Non,,,Non,,,Non,,,,,
+77,Tiers lieux,Tiers-lieu Kowork - BORDEAUX,TL Kowork,,Non,92 bis quai des Chartrons,,33000,BORDEAUX,33063,,1,Oui,"06 60 55 89 57          _x000D_
+contact@kowork.fr_x000D_
+www.kowork.fr",44.85434,-0.565913,Lorenzo Arcaini,Non,,,Non,,,Non,,,,,
+155,Tiers lieux,Tiers-lieu Lab'Rousse - CROZE,TL Lab'Rousse,,Non,6 La Brousse,,23500,CROZE,23071,,1,Non,"06 51 99 43 82_x000D_
+eric@lab-rousse.org_x000D_
+www.lab-rousse.org",45.825895,2.154677,Eric Gaidatzis,Non,,,Non,,,Non,,,,,
+80,Tiers lieux,Tiers-lieu La Fabrique des Lieux - BORDEAUX,TL La Fabrique des Lieux,,Non,Métiers de la ville,282 rue d'Ornano,33000,BORDEAUX,33063,,1,Oui,"09 72 44 36 59        _x000D_
+contact@fl-coworking.net",44.851074,-0.577324,Hugues Drapeau,Non,,,Non,,,Non,,,,,
+187,Tiers lieux,Tiers-lieu La Gibbeuse - POITIERS,TL La Gibbeuse,,Non,84 rue de la Méruigotte,,86000,POITIERS,86194,,1,Non,"06 74 66 91 28_x000D_
+contact@gibbeuse.org_x000D_
+www.gibbeuse.org",46.563791,0.331671,Louise Ollier,Non,,,Non,,,Non,,,,,
+81,Tiers lieux,Tiers-lieu La Girafe - BORDEAUX,TL La Girafe,,Non,20 place Saint-Martial,,33000,BORDEAUX,33063,,1,Oui,"06 07 54 37 62       _x000D_
+contact@lagirafebordeaux.fr_x000D_
+www.lagirafebordeaux.fr",44.841332,-0.571562,Sabine Marzat,Non,,,Non,,,Non,,,,,
+175,Tiers lieux,Tiers-lieu La Machine à  Coude - VOULÊME,TL La Machine à  Coude,,Non,1 allée de la Mairie,Mairie,86400,VOULÊME,86295,,1,Non,"07 82 80 53 19_x000D_
+lamachineacoude@gmail.com_x000D_
+www.lamachineacoude.blogspot.fr",46.099456,0.230699,,Non,,,Non,,,Non,,,,,
+148,Tiers lieux,Tiers-lieu La Manufaktura - BIDACHE,TL La Manufaktura,,Non,route de Guiche,Lieu dit Barbé,64520,BIDACHE,64123,,1,Non,"06.64.66.12.16_x000D_
+gael.le.risbe@gmail.com_x000D_
+www.hk-charpentier-bois.com",43.487992,-1.154076,Gaël Le Risbé & Marie Berrotte,Non,,,Non,,,Non,,,,,
+82,Tiers lieux,Tiers-lieu La Petite Boîte - BORDEAUX,TL La Petite Boîte,,Non,2 rue Camille Claudel,Bâtiment F - appt 81,33300,BORDEAUX,33063,,1,Oui,"05 35 40 49 81       _x000D_
+info@lapetiteagence-bordeaux.com",44.860447,-0.576946,Timothée Labouglie,Non,,,Non,,,Non,,,,,
+188,Tiers lieux,Tiers-lieu La Regratterie - POITIERS,TL La Regratterie,,Non,80 rue Jean Mermoz,,86000,POITIERS,86194,,1,Non,"09 51 49 16 28_x000D_
+lesregrattiers@gmail.com_x000D_
+www.laregratterie.fr",46.581576,0.325111,Francky Bruneau,Non,,,Non,,,Non,,,,,
+83,Tiers lieux,Tiers-lieu La Ruche - BORDEAUX,TL La Ruche,,Non,66 rue Abbé de l'Epée,,33300,BORDEAUX,33063,,1,Oui,"07 89 82 30 39      _x000D_
+camille@la-ruche.net_x000D_
+www.la-ruche.net",44.842282,-0.582627,Camille Panczer,Non,,,Non,,,Non,,,,,
+78,Tiers lieux,Tiers-lieu L'Asile - BORDEAUX,TL L'Asile,,Non,26 rue Rolland,,33000,BORDEAUX,33063,,1,Oui,"05 24 60 55 78         _x000D_
+bureau@lasile-bordeaux.fr_x000D_
+www.lasile-bordeaux.fr",44.842641,-0.581143,,Non,,,Non,,,Non,,,,,
+84,Tiers lieux,Tiers-lieu La Sirène - BORDEAUX,TL La Sirène,,Non,71 cours Anatole France,,33300,BORDEAUX,33063,,1,Oui,"05 57 89 49 42     _x000D_
+www.pepitomicorazon.fr",44.87865,-0.550619,,Non,,,Non,,,Non,,,,,
+160,Tiers lieux,Tiers-lieu Le Bêta Lab - MELLE,TL Le Bêta Lab,,Non,1 place Aristide Briand,,79500,MELLE,79174,,1,Non,"06 68 32 84 44_x000D_
+betalab@labetapi.fr_x000D_
+www.labetapi.fr",46.222761,-0.143275,Kim Delagarde,Non,,,Non,,,Non,,,,,
+94,Tiers lieux,Tiers-lieu Le bocal - LANGON,TL Le bocal,,Non,12 rue Pasteur,,33210,LANGON,33227,,1,Non,nb.beausejour@laposte.net,44.552095,-0.247966,Nathalie BIREAUD,Non,,,Oui,,,Oui,,,,,
+182,Tiers lieux,Tiers-lieu Le Lieu Multiple - POITIERS,TL Le Lieu Multiple,,Non,1 place de la Cathédrale,BP 80964,86038,POITIERS,86194,,1,Non,"05 49 50 33 00_x000D_
+Patrick.treguer@emf.ccsti.et_x000D_
+www.lieumultiple.org",46.580584,0.348113,Patrick Treguer,Non,,,Non,,,Non,,,,,
+85,Tiers lieux,Tiers-lieu Le Node - BORDEAUX,TL Le Node,,Non,12 rue des Faussets,,33000,BORDEAUX,33063,,1,Oui,"contact@nodebordeaux.org_x000D_
+www.aquinum.fr",44.840409,-0.57053,François Moraud & Hélène Desliens,Non,,,Non,,,Non,,,,,
+86,Tiers lieux,Tiers-lieu Les Parcelles - BORDEAUX,TL Les Parcelles,,Non,11 rue David Johnston,,33000,BORDEAUX,33063,,1,Oui,"contact@lesparcelles.co_x000D_
+www.lesparcelles.co",44.850388,-0.582756,,Non,,,Non,,,Non,,,,,
+173,Tiers lieux,Tiers-lieu Limouzi Lab - LIMOGES,TL Limouzi Lab,,Non,2 bis impasse Daguerre,,87100,LIMOGES,87085,,1,Non,"06 84 75 65 53_x000D_
+contact@limouzi.org_x000D_
+www.lab.limouzi.org",45.839706,1.267414,Quentin Dalbrut,Non,,,Non,,,Non,,,,,
+79,Tiers lieux,Tiers-lieu L'Odyssée - BORDEAUX,TL L'Odyssée,,Non,46 ter rue Francin,,33800,BORDEAUX,33063,,1,Oui,"06 29 93 42 49        _x000D_
+lodyssee.bordeaux@gmail.com_x000D_
+www.lodyssée.com",44.824782,-0.561109,,Non,,,Non,,,Non,,,,,
+135,Tiers lieux,Tiers-lieu L'Overground - TALENCE,TL L'Overground,,Non,24 rue du 14 juillet,,33400,TALENCE,33522,,1,Non,"contact@loverground.com_x000D_
+www.loverground.com",44.821112,-0.584475,,Non,,,Non,,,Non,,,,,
+113,Tiers lieux,Tiers-lieu Maison du Peuple et de la Paix - ANGOULÊME,TL Maison Peuple et Paix,,Non,50 rue Hergé,,16000,ANGOULÊME,16015,,1,Non,"05.45.92.48.32_x000D_
+peuples16@reseau-mpp.org",45.648511,0.158807,Bruno Vallade,Non,,,Non,,,Non,,,,,
+87,Tiers lieux,Tiers-lieu Nomade - BORDEAUX,TL Nomade,,Non,39 rue du Château d'eau,,33000,BORDEAUX,33063,,1,Oui,"05 56 84 41 21      _x000D_
+nomade-bordeaux@laposte.fr_x000D_
+www.nomade.laposte.fr",44.839767,-0.583073,,Non,,,Non,,,Non,,,,,
+163,Tiers lieux,Tiers-lieu Parth'Lab - PARTHENAY,TL Parth'Lab,,Non,5 rue Jean Macé,,79200,PARTHENAY,79202,,1,Non,"05 49 71 08 70_x000D_
+david.jadaud@parthlab.fr_x000D_
+www.parthlab.fr",46.646627,-0.249066,David Jadaud,Non,,,Non,,,Non,,,,,
+185,Tiers lieux,Tiers-lieu Petits Débrouillards - POITIERS,TL Petits Débrouillards,,Non,64 rue Gambetta,,86000,POITIERS,86194,,1,Non,05 49 47 38 69,46.581437,0.339615,,Non,,,Non,,,Non,,,,,
+121,Tiers lieux,Tiers-lieu Rupellab - LA ROCHELLE,TL Rupellab,,Non,17 rue Newton,,17000,LA ROCHELLE,17300,,1,Non,"07.68.84.74.82_x000D_
+contact@rupellab.org_x000D_
+www.rupellab.org",46.147506,-1.156104,Jocelyn Niget,Non,,,Non,,,Non,,,,,
+88,Tiers lieux,Tiers-lieu Social Club - BORDEAUX,TL Social Club,,Non,7 passage des Argentiers,,33000,BORDEAUX,33063,,1,Oui,"emmanuelle@les-social-clubs.com_x000D_
+www.les-social-clubs.com",44.838732,-0.570142,Emmanuelle Roques,Non,,,Non,,,Non,,,,,
+122,Tiers lieux,Tiers-lieu Tema - LA ROCHELLE,TL Tema,,Non,158 avenue Carnot,,17000,LA ROCHELLE,17300,,1,Non,"06.51.54.33.19_x000D_
+association.tema@gmail.com_x000D_
+www.ressourcerie-larochelle.fr",46.164568,-1.177224,Engueran Dubroca,Non,,,Non,,,Non,,,,,
+89,Tiers lieux,Tiers-lieu WeeColab - BORDEAUX,TL WeeColab,,Non,53 rue Pomme d'Or,,33000,BORDEAUX,33063,,1,Oui,"06 23 04 33 82      _x000D_
+maud@weecolab.com_x000D_
+www.weecolab.com",44.854075,-0.570164,Maud Sapene,Non,,,Non,,,Non,,,,,
+90,Tiers lieux,Tiers-lieu WorkingPlace - BORDEAUX,TL WorkingPlace,,Non,147 rue Croix de Seguey,,33000,BORDEAUX,33063,,1,Oui,"06 86 58 76 54     _x000D_
+contact@workingplace.fr_x000D_
+www.workingplace.fr",44.853056,-0.59221,Célia Chevalier,Non,,,Non,,,Non,,,,,
