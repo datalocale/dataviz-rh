@@ -1,0 +1,29 @@
+/*
+ * Ensemble de règles !important : pour surcharger les css inline (via js ?)
+ */
+
+.portletcontainer{
+	position: relative !important;
+	width: 100% !important;
+	height: auto !important;
+	top: unset !important;
+	left: unset !important;
+	z-index: unset !important;
+	*{
+		position: relative !important;
+		width: auto !important;
+		min-height: unset !important;
+		min-width: unset !important;
+		top: unset !important;
+		left: unset !important;
+	}
+	*:not(iframe){
+		height: auto !important;
+	}
+	iframe{
+		width: 100% !important;
+	}
+	*[style*="visibility: hidden"]{
+		height: 0 !important;
+	}
+}

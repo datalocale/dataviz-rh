@@ -1,0 +1,62 @@
+@import "variables.scss";
+@import "override.scss";
+
+
+/*
+ * Layout
+ */
+
+*{
+	box-sizing: border-box;
+}
+
+.portletcontainer{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	> div{
+		width: 100% !important;
+		max-width: 1280px !important;
+		margin:0 auto;
+		
+	}
+	> div:first-child{
+		display: none;
+	}
+	> div:last-child{
+		> .portlet-content > div{
+			display: flex;
+			flex-wrap: flex-wrap;
+			padding:$fullMarge ($fullMarge/2);
+			background-color: $blue;
+		}
+		> .portlet-content > div .portlet{
+				margin:0 ($fullMarge/2);
+		}
+	}
+}
+
+/* Column */
+
+.portletcontainer.col-2 > div:last-child > .portlet-content > div .portlet{
+	flex-basis: calc(50% - #{$fullMarge});
+}
+.portletcontainer.col-3 > div:last-child > .portlet-content > div .portlet{
+	flex-basis: calc(33.33% - #{$fullMarge});
+}
+
+// etc...
+
+/*
+ * Sample
+ */
+
+ .pane-1{
+ 	background-color: $sand;
+ }
+
+ .pane-2{
+ 	background: url('../imgs/bg-1.jpg') fixed;
+ 	background-size:  cover;
+ }
