@@ -1,70 +1,115 @@
 @charset "UTF-8";
+
 /* colors */
+
+
 /* marge */
+
+
 /*
  * Ensemble de règles !important : pour surcharger les css inline (via js ?)
  */
+
 .portletcontainer {
-  position: relative !important;
-  width: 100% !important;
-  height: auto !important;
-  top: unset !important;
-  left: unset !important;
-  z-index: unset !important; }
-  .portletcontainer * {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    top: unset !important;
+    left: unset !important;
+    z-index: unset !important;
+}
+
+.portletcontainer * {
     position: relative !important;
     width: auto !important;
     min-height: unset !important;
     min-width: unset !important;
     top: unset !important;
-    left: unset !important; }
-  .portletcontainer *:not(iframe) {
-    height: auto !important; }
-  .portletcontainer iframe {
-    width: 100% !important; }
-  .portletcontainer *[style*="visibility: hidden"] {
-    height: 0 !important; }
+    left: unset !important;
+}
+
+.portletcontainer *:not(iframe) {
+    height: auto !important;
+}
+
+.portletcontainer iframe {
+    width: 100% !important;
+}
+
+.portletcontainer *[style*="visibility: hidden"] {
+    height: 0 !important;
+}
+
 
 /*
  * Layout
  */
+
 * {
-  box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
 
 .portletcontainer {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around; }
-  .portletcontainer > div {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.portletcontainer>div {
     width: 100% !important;
     max-width: 1280px !important;
-    margin: 0 auto; }
-  .portletcontainer > div:first-child {
-    display: none; }
-  .portletcontainer > div:last-child > .portlet-content > div {
+    margin: 0 auto;
+}
+
+.portletcontainer>div:first-child {
+    display: none;
+}
+
+.portletcontainer>div:last-child>.portlet-content>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: flex-wrap;
+    -ms-flex-wrap: flex-wrap;
+        flex-wrap: flex-wrap;
     padding: 30px 15px;
-    background-color: #2b3a85; }
-  .portletcontainer > div:last-child > .portlet-content > div .portlet {
-    margin: 0 15px; }
+    background-color: #2b3a85;
+}
+
+.portletcontainer>div:last-child>.portlet-content>div .portlet {
+    margin: 0 15px;
+}
+
 
 /* Column */
-.portletcontainer.col-2 > div:last-child > .portlet-content > div .portlet {
-  flex-basis: calc(50% - 30px); }
 
-.portletcontainer.col-3 > div:last-child > .portlet-content > div .portlet {
-  flex-basis: calc(33.33% - 30px); }
+.portletcontainer.col-2>div:last-child>.portlet-content>div .portlet {
+    -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+}
+
+.portletcontainer.col-3>div:last-child>.portlet-content>div .portlet {
+    -ms-flex-preferred-size: calc(33.33% - 30px);
+        flex-basis: calc(33.33% - 30px);
+}
+
 
 /*
  * Sample
  */
+
 .pane-1 {
-  background-color: #f0e6de; }
+    background-color: #f0e6de;
+}
 
 .pane-2 {
-  background: url("../imgs/bg-1.jpg") fixed;
-  background-size: cover; }
-
-/*# sourceMappingURL=styles.css.map */
+    background: url("../imgs/bg-1.jpg") fixed;
+    background-size: cover;
+}
