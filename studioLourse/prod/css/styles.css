@@ -1,0 +1,430 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*
+ * Ensemble de règles !important : pour surcharger les css inline (via js ?)
+ */
+
+.portletcontainer {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    top: unset !important;
+    left: unset !important;
+    z-index: unset !important;
+}
+
+.portletcontainer * {
+    position: relative !important;
+    width: auto !important;
+    min-height: unset !important;
+    min-width: unset !important;
+    top: unset !important;
+    left: unset !important;
+}
+
+.portletcontainer *:not(iframe) {
+    height: auto !important;
+}
+
+.portletcontainer iframe {
+    width: 100% !important;
+}
+
+.portletcontainer *[style*="visibility: hidden"] {
+    height: 0 !important;
+}
+
+
+/*
+ * Idem mais version DEV : à virer en prod
+ */
+
+
+/*
+#dashboard_viewer{
+  > tbody > tr:last-child{
+    > td > div,
+    #tabPanel{
+      height:100vh !important;
+    }
+  }
+}
+*/
+
+
+/* colors */
+
+
+/* width */
+
+
+/* marge */
+
+
+/*
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Barlow', sans-serif;
+*/
+
+body,
+* {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px !important;
+    line-height: 1.4rem;
+}
+
+
+/*
+ * Layout
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.componentGroup {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.componentGroup>div {
+    width: 100% !important;
+    max-width: 1280px !important;
+    margin: 120px auto;
+}
+
+.componentGroup>div:first-child {
+    display: none;
+}
+
+.componentGroup>div:last-child>.portlet-content>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 30px 15px;
+    /* background-color: $color1; */
+}
+
+.componentGroup>div:last-child .component {
+    margin: 0 15px;
+}
+
+
+/* Group behavior Vertical */
+
+.minHeightFull {
+    min-height: 100vh;
+}
+
+.minHeightAuto {
+    min-height: auto;
+}
+
+.alignItemsVertTop {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.alignItemsVertBottom {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+
+/* Column */
+
+.col-1 {
+    -ms-flex-preferred-size: calc(8.33%- 30px);
+    flex-basis: calc(8.33%- 30px);
+}
+
+.col-2 {
+    -ms-flex-preferred-size: calc(16.66% - 30px);
+    flex-basis: calc(16.66% - 30px);
+}
+
+.col-3 {
+    -ms-flex-preferred-size: calc(25% - 30px);
+    flex-basis: calc(25% - 30px);
+}
+
+.col-4 {
+    -ms-flex-preferred-size: calc(33.33% - 30px);
+    flex-basis: calc(33.33% - 30px);
+}
+
+.col-5 {
+    -ms-flex-preferred-size: calc(41.66% - 30px);
+    flex-basis: calc(41.66% - 30px);
+}
+
+.col-6 {
+    -ms-flex-preferred-size: calc(50%- 30px);
+    flex-basis: calc(50%- 30px);
+}
+
+.col-7 {
+    -ms-flex-preferred-size: calc(58.33% - 30px);
+    flex-basis: calc(58.33% - 30px);
+}
+
+.col-8 {
+    -ms-flex-preferred-size: calc(66.66% - 30px);
+    flex-basis: calc(66.66% - 30px);
+}
+
+.col-9 {
+    -ms-flex-preferred-size: calc(75% - 30px);
+    flex-basis: calc(75% - 30px);
+}
+
+.col-10 {
+    -ms-flex-preferred-size: calc(83.33% - 30px);
+    flex-basis: calc(83.33% - 30px);
+}
+
+.col-11 {
+    -ms-flex-preferred-size: calc(91.66% - 30px);
+    flex-basis: calc(91.66% - 30px);
+}
+
+.col-12 {
+    -ms-flex-preferred-size: calc(100% - 30px);
+    flex-basis: calc(100% - 30px);
+}
+
+
+/* Margin */
+
+.marginLeft-1 {
+    margin-left: calc(8.33% + (30px / 2)) !important;
+}
+
+.marginLeft-2 {
+    margin-left: calc(16.66% + (30px / 2)) !important;
+}
+
+.marginLeft-3 {
+    margin-left: calc(25% + (30px / 2)) !important;
+}
+
+.marginLeft-4 {
+    margin-left: calc(33.33% + (30px / 2)) !important;
+}
+
+.marginLeft-5 {
+    margin-left: calc(41.66% + (30px / 2)) !important;
+}
+
+.marginLeft-6 {
+    margin-left: calc(50% + (30px / 2)) !important;
+}
+
+.marginRight-1 {
+    margin-right: calc(8.33% + (30px / 2)) !important;
+}
+
+.marginRight-2 {
+    margin-right: calc(16.66% + (30px / 2)) !important;
+}
+
+.marginRight-3 {
+    margin-right: calc(25% + (30px / 2)) !important;
+}
+
+.marginRight-4 {
+    margin-right: calc(33.33% + (30px / 2)) !important;
+}
+
+.marginRight-5 {
+    margin-right: calc(41.66% + (30px / 2)) !important;
+}
+
+.marginRight-6 {
+    margin-right: calc(50% + (30px / 2)) !important;
+}
+
+
+/*
+ * Backgrounds
+ */
+
+.bgColor-1 {
+    background-color: #e10019;
+}
+
+.bgColor-2 {
+    background-color: #2b3a85;
+}
+
+.bgColor-3 {
+    background-color: #f0e6de;
+}
+
+.bgImg {
+    background-image: url("../assets/imgs/dessin.svg");
+    background-repeat: no-repeat;
+}
+
+.bgImgCover {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgImgBottom {
+    background-position: bottom center;
+}
