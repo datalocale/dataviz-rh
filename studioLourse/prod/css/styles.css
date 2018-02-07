@@ -1,404 +1,309 @@
 @charset "UTF-8";
-#dashboard_viewer {
-    /* http://meyerweb.com/eric/tools/css/reset/ 
+/* colors */
+/* width */
+/* marge */
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
+body.dashboard_viewer {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #333; }
+  body.dashboard_viewer p {
+    font-size: 1.25rem; }
+  body.dashboard_viewer h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; }
+  body.dashboard_viewer h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 4rem;
+    text-transform: uppercase; }
+  body.dashboard_viewer .little-big {
+    font-size: 1.2rem;
+    line-height: 1.2; }
+  body.dashboard_viewer .big {
+    font-size: 1.5rem;
+    line-height: 1.2; }
+  body.dashboard_viewer .very-big {
+    font-size: 3rem;
+    line-height: 1.1; }
+  body.dashboard_viewer .very-very-big {
+    font-size: 5rem;
+    line-height: 1; }
+  body.dashboard_viewer .small {
+    font-size: 0.8rem; }
+  body.dashboard_viewer .light {
+    font-weight: 100; }
+  body.dashboard_viewer .semi-bold {
+    font-weight: 600; }
+  body.dashboard_viewer .bold {
+    font-weight: 700; }
+  body.dashboard_viewer .serif {
+    font-family: 'Merriweather', sans-serif; }
+  body.dashboard_viewer .italic {
+    font-style: italic; }
+  body.dashboard_viewer .sans-serif {
+    font-family: 'Barlow', sans-serif; }
+  body.dashboard_viewer .sans-serif-condensed {
+    font-family: 'Barlow Condensed', sans-serif; }
+  body.dashboard_viewer sup {
+    font-size: 50%; }
+  body.dashboard_viewer .color-1 {
+    color: #e10019; }
+  body.dashboard_viewer .color-2 {
+    color: #2b3a85; }
+  body.dashboard_viewer .color-3 {
+    color: #f0e6de; }
+  body.dashboard_viewer .centered {
+    text-align: center; }
+  body.dashboard_viewer .righted {
+    text-align: right; }
+
+.dashboard_viewer {
+  /* http://meyerweb.com/eric/tools/css/reset/
      v2.0 | 20110126
      License: none (public domain)
   */
-    /* HTML5 display-role reset for older browsers */
-    /*
+  /* HTML5 display-role reset for older browsers */
+  /*
    * Ensemble de règles !important : pour surcharger les css inline (via js ?)
    */
-    /*
+  /*
    * Idem mais version DEV : à virer en prod
    */
-    /*
+  /*
+
   #dashboard_viewer{
-    > tbody > tr:last-child{
-      > td > div,
-      #tabPanel{
-        height:100vh !important;
-      }
-    }
+  	> tbody > tr:last-child{
+  		> td > div,
+  		#tabPanel{
+  			height:100vh !important;
+  			border: 1px solid red;
+  		}
+  	}
   }
   */
-    /* colors */
-    /* width */
-    /* marge */
-    @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
-    /*
-  font-family: 'Barlow Condensed', sans-serif;
-  font-family: 'Merriweather', serif;
-  font-family: 'Barlow', sans-serif;
-  */
-    /*
+  /*
    * Layout
    */
-    /* Group behavior Vertical */
-    /* Column */
-    /* Margin */
-    /*
+  /* Group behavior Vertical */
+  /* Column */
+  /* Margin */
+  /*
    * Backgrounds
    */
-}
-
-#dashboard_viewer html,
-#dashboard_viewer body,
-#dashboard_viewer div,
-#dashboard_viewer span,
-#dashboard_viewer applet,
-#dashboard_viewer object,
-#dashboard_viewer iframe,
-#dashboard_viewer h1,
-#dashboard_viewer h2,
-#dashboard_viewer h3,
-#dashboard_viewer h4,
-#dashboard_viewer h5,
-#dashboard_viewer h6,
-#dashboard_viewer p,
-#dashboard_viewer blockquote,
-#dashboard_viewer pre,
-#dashboard_viewer a,
-#dashboard_viewer abbr,
-#dashboard_viewer acronym,
-#dashboard_viewer address,
-#dashboard_viewer big,
-#dashboard_viewer cite,
-#dashboard_viewer code,
-#dashboard_viewer del,
-#dashboard_viewer dfn,
-#dashboard_viewer em,
-#dashboard_viewer img,
-#dashboard_viewer ins,
-#dashboard_viewer kbd,
-#dashboard_viewer q,
-#dashboard_viewer s,
-#dashboard_viewer samp,
-#dashboard_viewer small,
-#dashboard_viewer strike,
-#dashboard_viewer strong,
-#dashboard_viewer sub,
-#dashboard_viewer sup,
-#dashboard_viewer tt,
-#dashboard_viewer var,
-#dashboard_viewer b,
-#dashboard_viewer u,
-#dashboard_viewer i,
-#dashboard_viewer center,
-#dashboard_viewer dl,
-#dashboard_viewer dt,
-#dashboard_viewer dd,
-#dashboard_viewer ol,
-#dashboard_viewer ul,
-#dashboard_viewer li,
-#dashboard_viewer fieldset,
-#dashboard_viewer form,
-#dashboard_viewer label,
-#dashboard_viewer legend,
-#dashboard_viewer table,
-#dashboard_viewer caption,
-#dashboard_viewer tbody,
-#dashboard_viewer tfoot,
-#dashboard_viewer thead,
-#dashboard_viewer tr,
-#dashboard_viewer th,
-#dashboard_viewer td,
-#dashboard_viewer article,
-#dashboard_viewer aside,
-#dashboard_viewer canvas,
-#dashboard_viewer details,
-#dashboard_viewer embed,
-#dashboard_viewer figure,
-#dashboard_viewer figcaption,
-#dashboard_viewer footer,
-#dashboard_viewer header,
-#dashboard_viewer hgroup,
-#dashboard_viewer menu,
-#dashboard_viewer nav,
-#dashboard_viewer output,
-#dashboard_viewer ruby,
-#dashboard_viewer section,
-#dashboard_viewer summary,
-#dashboard_viewer time,
-#dashboard_viewer mark,
-#dashboard_viewer audio,
-#dashboard_viewer video {
+  /* Filters */ }
+  .dashboard_viewer html, .dashboard_viewer body, .dashboard_viewer div, .dashboard_viewer span, .dashboard_viewer applet, .dashboard_viewer object, .dashboard_viewer iframe,
+  .dashboard_viewer h1, .dashboard_viewer h2, .dashboard_viewer h3, .dashboard_viewer h4, .dashboard_viewer h5, .dashboard_viewer h6, .dashboard_viewer p, .dashboard_viewer blockquote, .dashboard_viewer pre,
+  .dashboard_viewer a, .dashboard_viewer abbr, .dashboard_viewer acronym, .dashboard_viewer address, .dashboard_viewer big, .dashboard_viewer cite, .dashboard_viewer code,
+  .dashboard_viewer del, .dashboard_viewer dfn, .dashboard_viewer em, .dashboard_viewer img, .dashboard_viewer ins, .dashboard_viewer kbd, .dashboard_viewer q, .dashboard_viewer s, .dashboard_viewer samp,
+  .dashboard_viewer small, .dashboard_viewer strike, .dashboard_viewer strong, .dashboard_viewer sub, .dashboard_viewer sup, .dashboard_viewer tt, .dashboard_viewer var,
+  .dashboard_viewer b, .dashboard_viewer u, .dashboard_viewer i, .dashboard_viewer center,
+  .dashboard_viewer dl, .dashboard_viewer dt, .dashboard_viewer dd, .dashboard_viewer ol, .dashboard_viewer ul, .dashboard_viewer li,
+  .dashboard_viewer fieldset, .dashboard_viewer form, .dashboard_viewer label, .dashboard_viewer legend,
+  .dashboard_viewer table, .dashboard_viewer caption, .dashboard_viewer tbody, .dashboard_viewer tfoot, .dashboard_viewer thead, .dashboard_viewer tr, .dashboard_viewer th, .dashboard_viewer td,
+  .dashboard_viewer article, .dashboard_viewer aside, .dashboard_viewer canvas, .dashboard_viewer details, .dashboard_viewer embed,
+  .dashboard_viewer figure, .dashboard_viewer figcaption, .dashboard_viewer footer, .dashboard_viewer header, .dashboard_viewer hgroup,
+  .dashboard_viewer menu, .dashboard_viewer nav, .dashboard_viewer output, .dashboard_viewer ruby, .dashboard_viewer section, .dashboard_viewer summary,
+  .dashboard_viewer time, .dashboard_viewer mark, .dashboard_viewer audio, .dashboard_viewer video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
-}
-
-#dashboard_viewer article,
-#dashboard_viewer aside,
-#dashboard_viewer details,
-#dashboard_viewer figcaption,
-#dashboard_viewer figure,
-#dashboard_viewer footer,
-#dashboard_viewer header,
-#dashboard_viewer hgroup,
-#dashboard_viewer menu,
-#dashboard_viewer nav,
-#dashboard_viewer section {
-    display: block;
-}
-
-#dashboard_viewer body {
-    line-height: 1;
-}
-
-#dashboard_viewer ol,
-#dashboard_viewer ul {
-    list-style: none;
-}
-
-#dashboard_viewer blockquote,
-#dashboard_viewer q {
-    quotes: none;
-}
-
-#dashboard_viewer blockquote:before,
-#dashboard_viewer blockquote:after,
-#dashboard_viewer q:before,
-#dashboard_viewer q:after {
+    vertical-align: baseline; }
+  .dashboard_viewer article, .dashboard_viewer aside, .dashboard_viewer details, .dashboard_viewer figcaption, .dashboard_viewer figure,
+  .dashboard_viewer footer, .dashboard_viewer header, .dashboard_viewer hgroup, .dashboard_viewer menu, .dashboard_viewer nav, .dashboard_viewer section {
+    display: block; }
+  .dashboard_viewer body {
+    line-height: 1; }
+  .dashboard_viewer ol, .dashboard_viewer ul {
+    list-style: none; }
+  .dashboard_viewer blockquote, .dashboard_viewer q {
+    quotes: none; }
+  .dashboard_viewer blockquote:before, .dashboard_viewer blockquote:after,
+  .dashboard_viewer q:before, .dashboard_viewer q:after {
     content: '';
-    content: none;
-}
-
-#dashboard_viewer table {
+    content: none; }
+  .dashboard_viewer table {
     border-collapse: collapse;
-    border-spacing: 0;
-}
-
-#dashboard_viewer .portletcontainer {
+    border-spacing: 0; }
+  .dashboard_viewer .portletcontainer {
     position: relative !important;
     width: 100% !important;
     height: auto !important;
     top: unset !important;
     left: unset !important;
-    z-index: unset !important;
-}
-
-#dashboard_viewer .portletcontainer * {
-    position: relative !important;
-    width: auto !important;
-    min-height: unset !important;
-    min-width: unset !important;
-    top: unset !important;
-    left: unset !important;
-}
-
-#dashboard_viewer .portletcontainer *:not(iframe) {
-    height: auto !important;
-}
-
-#dashboard_viewer .portletcontainer iframe {
-    width: 100% !important;
-}
-
-#dashboard_viewer .portletcontainer *[style*="visibility: hidden"] {
-    height: 0 !important;
-}
-
-#dashboard_viewer body,
-#dashboard_viewer * {
-    font-family: 'Barlow', sans-serif;
-    font-size: 20px !important;
-    line-height: 1.4rem;
-}
-
-#dashboard_viewer * {
+    z-index: unset !important; }
+    .dashboard_viewer .portletcontainer * {
+      position: relative !important;
+      width: auto !important;
+      min-height: unset !important;
+      min-width: unset !important;
+      top: unset !important;
+      left: unset !important; }
+    .dashboard_viewer .portletcontainer *:not(iframe) {
+      height: auto !important; }
+    .dashboard_viewer .portletcontainer iframe {
+      width: 100% !important; }
+    .dashboard_viewer .portletcontainer *[style*="visibility: hidden"] {
+      height: 0 !important; }
+  .dashboard_viewer * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-#dashboard_viewer .componentGroup {
+            box-sizing: border-box; }
+  .dashboard_viewer .componentGroup {
     min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
-}
-
-#dashboard_viewer .componentGroup>div {
-    width: 100% !important;
-    max-width: 1280px !important;
-    margin: 120px auto;
-}
-
-#dashboard_viewer .componentGroup>div:first-child {
-    display: none;
-}
-
-#dashboard_viewer .componentGroup>div:last-child>.portlet-content>div {
+        justify-content: space-around; }
+    .dashboard_viewer .componentGroup > div {
+      width: 100% !important;
+      max-width: 1280px !important;
+      margin: 120px auto; }
+    .dashboard_viewer .componentGroup > div:first-child {
+      display: none; }
+    .dashboard_viewer .componentGroup > div:last-child > .portlet-content > div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      padding: 30px 15px;
+      /* background-color: $color1; */ }
+    .dashboard_viewer .componentGroup > div:last-child .component {
+      margin: 0 15px; }
+  .dashboard_viewer .cols {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 30px 15px;
-    /* background-color: $color1; */
-}
-
-#dashboard_viewer .componentGroup>div:last-child .component {
-    margin: 0 15px;
-}
-
-#dashboard_viewer .minHeightFull {
-    min-height: 100vh;
-}
-
-#dashboard_viewer .minHeightAuto {
-    min-height: auto;
-}
-
-#dashboard_viewer .alignItemsVertTop {
+        flex-wrap: wrap; }
+    .dashboard_viewer .cols > * {
+      margin: 0 15px; }
+  .dashboard_viewer .fixed {
+    position: fixed !important; }
+  .dashboard_viewer .fixedLeft {
+    left: 0 !important; }
+  .dashboard_viewer .fixedRight {
+    right: 0 !important; }
+  .dashboard_viewer .fixedTop {
+    top: 0 !important; }
+  .dashboard_viewer .fixedBottom {
+    bottom: 0 !important; }
+  .dashboard_viewer .fixedCenter {
+    top: 45% !important; }
+  .dashboard_viewer .minHeightFull {
+    min-height: 100vh; }
+  .dashboard_viewer .minHeightAuto {
+    min-height: auto; }
+  .dashboard_viewer .alignItemsVertTop {
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-}
-
-#dashboard_viewer .alignItemsVertBottom {
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  .dashboard_viewer .alignItemsVertBottom {
     -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-}
-
-#dashboard_viewer .col-1 {
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+  .dashboard_viewer .cols.alialignItemsVertBottom {
+    .align-items: flex-end; }
+  .dashboard_viewer .col-1 {
     -ms-flex-preferred-size: calc(8.33%- 30px);
-    flex-basis: calc(8.33%- 30px);
-}
-
-#dashboard_viewer .col-2 {
+        flex-basis: calc(8.33%- 30px); }
+  .dashboard_viewer .col-2 {
     -ms-flex-preferred-size: calc(16.66% - 30px);
-    flex-basis: calc(16.66% - 30px);
-}
-
-#dashboard_viewer .col-3 {
+        flex-basis: calc(16.66% - 30px); }
+  .dashboard_viewer .col-3 {
     -ms-flex-preferred-size: calc(25% - 30px);
-    flex-basis: calc(25% - 30px);
-}
-
-#dashboard_viewer .col-4 {
+        flex-basis: calc(25% - 30px); }
+  .dashboard_viewer .col-4 {
     -ms-flex-preferred-size: calc(33.33% - 30px);
-    flex-basis: calc(33.33% - 30px);
-}
-
-#dashboard_viewer .col-5 {
+        flex-basis: calc(33.33% - 30px); }
+  .dashboard_viewer .col-5 {
     -ms-flex-preferred-size: calc(41.66% - 30px);
-    flex-basis: calc(41.66% - 30px);
-}
-
-#dashboard_viewer .col-6 {
+        flex-basis: calc(41.66% - 30px); }
+  .dashboard_viewer .col-6 {
     -ms-flex-preferred-size: calc(50%- 30px);
-    flex-basis: calc(50%- 30px);
-}
-
-#dashboard_viewer .col-7 {
+        flex-basis: calc(50%- 30px); }
+  .dashboard_viewer .col-7 {
     -ms-flex-preferred-size: calc(58.33% - 30px);
-    flex-basis: calc(58.33% - 30px);
-}
-
-#dashboard_viewer .col-8 {
+        flex-basis: calc(58.33% - 30px); }
+  .dashboard_viewer .col-8 {
     -ms-flex-preferred-size: calc(66.66% - 30px);
-    flex-basis: calc(66.66% - 30px);
-}
-
-#dashboard_viewer .col-9 {
+        flex-basis: calc(66.66% - 30px); }
+  .dashboard_viewer .col-9 {
     -ms-flex-preferred-size: calc(75% - 30px);
-    flex-basis: calc(75% - 30px);
-}
-
-#dashboard_viewer .col-10 {
+        flex-basis: calc(75% - 30px); }
+  .dashboard_viewer .col-10 {
     -ms-flex-preferred-size: calc(83.33% - 30px);
-    flex-basis: calc(83.33% - 30px);
-}
-
-#dashboard_viewer .col-11 {
+        flex-basis: calc(83.33% - 30px); }
+  .dashboard_viewer .col-11 {
     -ms-flex-preferred-size: calc(91.66% - 30px);
-    flex-basis: calc(91.66% - 30px);
-}
-
-#dashboard_viewer .col-12 {
+        flex-basis: calc(91.66% - 30px); }
+  .dashboard_viewer .col-12 {
     -ms-flex-preferred-size: calc(100% - 30px);
-    flex-basis: calc(100% - 30px);
-}
-
-#dashboard_viewer .marginLeft-1 {
-    margin-left: calc(8.33% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginLeft-2 {
-    margin-left: calc(16.66% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginLeft-3 {
-    margin-left: calc(25% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginLeft-4 {
-    margin-left: calc(33.33% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginLeft-5 {
-    margin-left: calc(41.66% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginLeft-6 {
-    margin-left: calc(50% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginRight-1 {
-    margin-right: calc(8.33% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginRight-2 {
-    margin-right: calc(16.66% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginRight-3 {
-    margin-right: calc(25% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginRight-4 {
-    margin-right: calc(33.33% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginRight-5 {
-    margin-right: calc(41.66% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .marginRight-6 {
-    margin-right: calc(50% + (30px / 2)) !important;
-}
-
-#dashboard_viewer .bgColor-1 {
-    background-color: #e10019;
-}
-
-#dashboard_viewer .bgColor-2 {
-    background-color: #2b3a85;
-}
-
-#dashboard_viewer .bgColor-3 {
-    background-color: #f0e6de;
-}
-
-#dashboard_viewer .bgImg {
-    background-repeat: no-repeat;
-}
-
-#dashboard_viewer .bgImgCover {
+        flex-basis: calc(100% - 30px); }
+  .dashboard_viewer .marginLeft-1 {
+    margin-left: calc(8.33% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginLeft-2 {
+    margin-left: calc(16.66% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginLeft-3 {
+    margin-left: calc(25% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginLeft-4 {
+    margin-left: calc(33.33% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginLeft-5 {
+    margin-left: calc(41.66% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginLeft-6 {
+    margin-left: calc(50% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginRight-1 {
+    margin-right: calc(8.33% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginRight-2 {
+    margin-right: calc(16.66% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginRight-3 {
+    margin-right: calc(25% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginRight-4 {
+    margin-right: calc(33.33% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginRight-5 {
+    margin-right: calc(41.66% + (30px / 2) ) !important; }
+  .dashboard_viewer .marginRight-6 {
+    margin-right: calc(50% + (30px / 2) ) !important; }
+  .dashboard_viewer .bgColor-1 {
+    background-color: #e10019; }
+  .dashboard_viewer .bgColor-2 {
+    background-color: #2b3a85; }
+  .dashboard_viewer .bgColor-3 {
+    background-color: #f0e6de; }
+  .dashboard_viewer .bgImg {
+    background-repeat: no-repeat; }
+  .dashboard_viewer .bgImgCover {
     background-size: cover;
-    background-attachment: fixed;
-}
-
-#dashboard_viewer .bgImgBottom {
-    background-position: bottom center;
-}
+    background-attachment: fixed; }
+  .dashboard_viewer .bgImgBottom {
+    background-position: bottom center; }
+  .dashboard_viewer .componentFilter {
+    z-index: 99; }
+    .dashboard_viewer .componentFilter .divContent {
+      padding: 0 15px; }
+      .dashboard_viewer .componentFilter .divContent table tbody td {
+        cursor: pointer;
+        font-family: 'Merriweather', serif;
+        color: #999;
+        text-align: center;
+        height: 40px;
+        vertical-align: middle;
+        font-size: 1.5rem; }
+        .dashboard_viewer .componentFilter .divContent table tbody td:hover {
+          color: #2b3a85; }
+        .dashboard_viewer .componentFilter .divContent table tbody td.tdMemberSelected {
+          background: url("../assets/imgs/curseur.svg") no-repeat center left;
+          color: #fff;
+          border-radius: 10px; }

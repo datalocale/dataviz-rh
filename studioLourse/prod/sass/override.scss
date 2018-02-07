@@ -34,11 +34,13 @@
  */
 
 /*
+
 #dashboard_viewer{
 	> tbody > tr:last-child{
 		> td > div,
 		#tabPanel{
 			height:100vh !important;
+			border: 1px solid red;
 		}
 	}
 }

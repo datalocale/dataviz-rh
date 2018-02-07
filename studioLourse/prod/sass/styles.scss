@@ -1,10 +1,14 @@
-#dashboard_viewer{
+
+@import "variables.scss";
+@import "fonts.scss";
 
 
+
+.dashboard_viewer{
 	@import "reset.scss";
+
+
 	@import "override.scss";
-	@import "variables.scss";
-	@import "fonts.scss";
 
 	/*
 	 * Layout
@@ -23,7 +27,7 @@
 			width: 100% !important;
 			max-width: $pMaxWidth !important;
 			margin: ($fullMarge*4) auto;
-			
+
 		}
 		> div:first-child{
 			display: none;
@@ -41,6 +45,33 @@
 		}
 	}
 
+	.cols{
+		display: flex;
+		flex-wrap: wrap;
+		> *{
+			margin:0 ($fullMarge / 2);
+		}
+	}
+
+	.fixed{
+		position: fixed !important;
+	}
+	.fixedLeft{
+		left:0 !important;
+	}
+	.fixedRight{
+		right:0 !important;
+	}
+	.fixedTop{
+		top:0 !important;
+	}
+	.fixedBottom{
+		bottom:0 !important;
+	}
+	.fixedCenter{
+		top:45% !important;
+	}
+
 	/* Group behavior Vertical */
 
 	.minHeightFull{
@@ -54,6 +85,9 @@
 	}
 	.alignItemsVertBottom{
 		justify-content: flex-end;
+	}
+	.cols.alialignItemsVertBottom{
+		.align-items: flex-end;
 	}
 
 	/* Column */
@@ -160,4 +194,32 @@
 		background-position: bottom center;
 	}
 
+	/* Filters */
+
+	.componentFilter{
+		z-index: 99;
+		.divContent{
+			padding:0 ($fullMarge / 2);
+			table{
+				tbody td{
+					cursor: pointer;
+					font-family: 'Merriweather', serif;
+					color: #999;
+					text-align: center;
+					height: 40px;
+					vertical-align: middle;
+					font-size: 1.5rem;
+					&:hover{
+						color: $color2;
+					}
+					&.tdMemberSelected{
+						background: url('../assets/imgs/curseur.svg') no-repeat center left;
+						color: #fff;
+						border-radius: 10px;
+					}
+				}
+			}
+		}
+
+	}
 }
