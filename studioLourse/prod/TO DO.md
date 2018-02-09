@@ -26,7 +26,9 @@
 - Il est important de supprimer complètement la feuille de styles Dashboard-2018b0207.css
 - Maj des templates des composants 3 4 et 5
 - Ajouts des classe "bgColor-WhiteTamed" et "collapsed" sur les composants 3, 4 et 5
+- Ajout des template des composants 6, 9, 14 et 15
+- Ajout du dossier /prod/pictos comprenant tous les pictos nécessaires au doc
 - Ajout de la classe
-- Mettre en place le titre <h3> dans le composant 3
+- Mettre en place le titre h3 dans le composant 3
 - Dans la feuille de style, styles.css, mettre à jour toute les urls pointant sur des images
 - Ajout de la classe "justifyCenter" sur le groupe B
