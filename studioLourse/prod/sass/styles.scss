@@ -45,6 +45,14 @@
 		}
 	}
 
+	.justifyCenter{
+		> div:last-child{
+			> .portlet-content > div{
+				justify-content: center;
+			}
+		}
+	}
+
 	.cols{
 		display: flex;
 		flex-wrap: wrap;
@@ -169,6 +177,11 @@
 		margin-right: calc(#{$col6} + (#{$fullMarge} / 2) ) !important;
 	}
 
+	.collapsed{
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+
 	/*
 	 * Backgrounds
 	 */
@@ -181,6 +194,12 @@
 	}
 	.bgColor-3{
 		background-color: $color3;
+	}
+	.bgColor-White{
+		background-color: white;
+	}
+	.bgColor-WhiteTamed{
+		background-color:rgba(255,255,255,0.5);
 	}
 
 	.bgImg{
@@ -196,9 +215,9 @@
 
 	/* Filters */
 
-	.componentFilter{
-		z-index: 99;
-		.divContent{
+	.groupFilter{
+		z-index: 999 !important;
+		.filtersSelect{
 			padding:0 ($fullMarge / 2);
 			table{
 				tbody td{

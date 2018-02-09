@@ -19,7 +19,8 @@
   .portletcontainer *:not(iframe) {
     height: auto !important; }
   .portletcontainer iframe {
-    width: 100% !important; }
+    width: 100% !important;
+    height: auto !important; }
   .portletcontainer *[style*="visibility: hidden"] {
     height: 0 !important; }
 

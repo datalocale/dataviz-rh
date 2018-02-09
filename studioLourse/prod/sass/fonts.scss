@@ -5,7 +5,7 @@ body.dashboard_viewer{
 	font-family: 'Barlow', sans-serif;
 	font-size: 20px;
 	line-height: 1.4;
-	color: #333;
+	color: $color4;
 	p{
 		font-size: 1.25rem;
 	}
@@ -74,6 +74,12 @@ body.dashboard_viewer{
 	}
 	.color-3{
 		color: $color3;
+	}
+	.color-4{
+		color: $color4;
+	}
+	.color-5{
+		color: $color5;
 	}
 	.centered{
 		text-align: center;
