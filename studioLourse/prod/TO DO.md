@@ -34,3 +34,15 @@ Modifications de classes, etc
 - Mettre en place le titre h3 dans le composant 3
 - Dans la feuille de style, styles.css, mettre à jour toute les urls pointant sur des images
 - Ajout de la classe "justifyCenter" sur le groupe B
+
+# 13 février #
+
+- Supprimer la feuille de style Dashboard-NNNNNNNNN.css
+- Mettre à jour les styles
+- Ajouter la classe "groupFilter" sur le groupe de Filtres
+- Faire pointer les urls des styles sur le bon dossiers
+- Ajout du fichier /assets/imgs/logo.png
+- Mettre les composants du groupe G dans le bon ordre et créer le dernier composant manquant
+- Mettre à jour les templates de composants 9, 14
+- Ajout des templates de composant 16 et 20
+- Créer les composants du groupe H

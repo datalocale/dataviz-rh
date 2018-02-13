@@ -10,9 +10,9 @@ Error: Undefined variable: "$color4".
 8: 	color: $color4;
 9: 	p{
 10: 		font-size: 1.25rem;
-11: 	}
-12: 	h1{
-13: 		font-family: 'Barlow Condensed', sans-serif;
+11: 		margin-bottom:1em;
+12: 	}
+13: 	h1{
 
 Backtrace:
 sass/fonts.scss:8
@@ -69,4 +69,4 @@ sass/fonts.scss:8
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color4\".\A         on line 8 of sass/fonts.scss\A \A 3: \A 4: body.dashboard_viewer{\A 5: 	font-family: 'Barlow', sans-serif;\A 6: 	font-size: 20px;\A 7: 	line-height: 1.4;\A 8: 	color: $color4;\A 9: 	p{\A 10: 		font-size: 1.25rem;\A 11: 	}\A 12: 	h1{\A 13: 		font-family: 'Barlow Condensed', sans-serif;"; }
+  content: "Error: Undefined variable: \"$color4\".\A         on line 8 of sass/fonts.scss\A \A 3: \A 4: body.dashboard_viewer{\A 5: 	font-family: 'Barlow', sans-serif;\A 6: 	font-size: 20px;\A 7: 	line-height: 1.4;\A 8: 	color: $color4;\A 9: 	p{\A 10: 		font-size: 1.25rem;\A 11: 		margin-bottom:1em;\A 12: 	}\A 13: 	h1{"; }

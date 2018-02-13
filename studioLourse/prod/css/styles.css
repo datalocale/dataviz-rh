@@ -12,7 +12,8 @@ body.dashboard_viewer {
 }
 
 body.dashboard_viewer p {
-  font-size: 1.25rem;
+  font-size    : 1.25rem;
+  margin-bottom: 1em;
 }
 
 body.dashboard_viewer h1 {
@@ -129,16 +130,16 @@ body.dashboard_viewer .righted {
    */
   /*
 
-  #dashboard_viewer{
-  	> tbody > tr:last-child{
-  		> td > div,
-  		#tabPanel{
-  			height:100vh !important;
-  			border: 1px solid red;
-  		}
-  	}
-  }
-  */
+#dashboard_viewer{
+	> tbody > tr:last-child{
+		> td > div,
+		#tabPanel{
+			height:100vh !important;
+			border: 1px solid red;
+		}
+	}
+}
+*/
   /*
    * Layout
    */
@@ -149,6 +150,7 @@ body.dashboard_viewer .righted {
    * Backgrounds
    */
   /* Filters */
+  /* header */
 }
 
 .dashboard_viewer a,
@@ -582,6 +584,7 @@ body.dashboard_viewer .righted {
   height        : 40px;
   vertical-align: middle;
   font-size     : 1.5rem;
+  padding       : 0 0.5em 0 1.5em;
 }
 
 .dashboard_viewer .groupFilter .filtersSelect table tbody td:hover {
@@ -592,4 +595,73 @@ body.dashboard_viewer .righted {
   background   : url("../assets/imgs/curseur.svg") no-repeat center left;
   color        : #fff;
   border-radius: 10px;
+}
+
+.dashboard_viewer .topPanel {
+  background-color : #2b3a85;
+  color            : white;
+  font-size        : 14px !important;
+  display          : -webkit-box;
+  display          : -ms-flexbox;
+  display          : flex;
+  -webkit-box-align: center;
+  -ms-flex-align   : center;
+  align-items      : center;
+  padding          : 0.5em !important;
+}
+
+.dashboard_viewer .topPanel .logoTopPanel {
+  background  : url("assets/imgs/logo.png") no-repeat center center;
+  height      : 32px;
+  width       : 87px;
+  margin-right: auto;
+}
+
+.dashboard_viewer .topPanel .rightTopPanel {
+  display          : -webkit-box;
+  display          : -ms-flexbox;
+  display          : flex;
+  -webkit-box-align: center;
+  -ms-flex-align   : center;
+  align-items      : center;
+}
+
+.dashboard_viewer .topPanel .rightTopPanel div {
+  cursor: pointer;
+}
+
+.dashboard_viewer .topPanel .rightTopPanel .divider {
+  width           : 1px;
+  height          : 1em;
+  background-color: white;
+  margin          : 0 1em;
+}
+
+.dashboard_viewer .dd-tab-bar {
+  background-color: #f0e6de;
+  color           : #333;
+  text-transform  : uppercase;
+  font-weight     : 600;
+  font-size       : 14px !important;
+  display         : -webkit-box;
+  display         : -ms-flexbox;
+  display         : flex;
+  padding         : 0 !important;
+  position        : relative !important;
+  left            : unset !important;
+  right           : unset !important;
+  bottom          : unset !important;
+  width           : 100% !important;
+  line-height     : 1 !important;
+}
+
+.dashboard_viewer .dd-tab-bar .dd-tab-header,
+.dashboard_viewer .dd-tab-bar .dd-tab-header-selected {
+  position: relative !important;
+  margin  : 5px !important;
+  cursor  : pointer;
+}
+
+.dashboard_viewer .dd-tab-bar .dd-tab-header-selected {
+  color: #e10019;
 }
