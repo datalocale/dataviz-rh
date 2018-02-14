@@ -49,6 +49,7 @@ Modifications de classes, etc
 
 # 14 février #
 
+- Mettre à jour styles.css (ne pas oublier de corriger les urls pointant sur des images)
 - Nouveau découpage de la maquette : /maquettes/decoupeMaquetteV2.pdf (J'y ai enlevé les classes des composants pour plus de clarté et j'ai rajouté les composants 22 à 29)
 - Ajouts des classes suivantes :
 -- Composant 1 : marginBottom-2
