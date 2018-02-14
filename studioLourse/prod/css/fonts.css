@@ -1,72 +1,70 @@
-/*
-Error: Undefined variable: "$color4".
-        on line 8 of sass/fonts.scss
+/* colors */
+/* width */
+/* marge */
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
+body.dashboard_viewer {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #333; }
+  body.dashboard_viewer p {
+    font-size: 1.25rem;
+    margin-bottom: 1em; }
+  body.dashboard_viewer h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; }
+  body.dashboard_viewer h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 4rem;
+    text-transform: uppercase; }
+  body.dashboard_viewer .little-big {
+    font-size: 1.2rem;
+    line-height: 1.2; }
+  body.dashboard_viewer .big {
+    font-size: 1.5rem;
+    line-height: 1.2; }
+  body.dashboard_viewer .very-big {
+    font-size: 3rem;
+    line-height: 1.1; }
+  body.dashboard_viewer .very-very-big {
+    font-size: 5rem;
+    line-height: 1; }
+  body.dashboard_viewer .small {
+    font-size: 0.8rem; }
+  body.dashboard_viewer .light {
+    font-weight: 100; }
+  body.dashboard_viewer .semi-bold {
+    font-weight: 600; }
+  body.dashboard_viewer .bold {
+    font-weight: 700; }
+  body.dashboard_viewer .serif {
+    font-family: 'Merriweather', sans-serif; }
+  body.dashboard_viewer .italic {
+    font-style: italic; }
+  body.dashboard_viewer .sans-serif {
+    font-family: 'Barlow', sans-serif; }
+  body.dashboard_viewer .sans-serif-condensed {
+    font-family: 'Barlow Condensed', sans-serif; }
+  body.dashboard_viewer sup {
+    font-size: 50%; }
+  body.dashboard_viewer .color-1 {
+    color: #e10019; }
+  body.dashboard_viewer .color-2 {
+    color: #2b3a85; }
+  body.dashboard_viewer .color-3 {
+    color: #f0e6de; }
+  body.dashboard_viewer .color-4 {
+    color: #333; }
+  body.dashboard_viewer .color-5 {
+    color: white; }
+  body.dashboard_viewer .centered {
+    text-align: center; }
+  body.dashboard_viewer .righted {
+    text-align: right; }
 
-3: 
-4: body.dashboard_viewer{
-5: 	font-family: 'Barlow', sans-serif;
-6: 	font-size: 20px;
-7: 	line-height: 1.4;
-8: 	color: $color4;
-9: 	p{
-10: 		font-size: 1.25rem;
-11: 		margin-bottom:1em;
-12: 	}
-13: 	h1{
-
-Backtrace:
-sass/fonts.scss:8
-/usr/lib/ruby/vendor_ruby/sass/script/tree/variable.rb:49:in `_perform'
-/usr/lib/ruby/vendor_ruby/sass/script/tree/node.rb:58:in `perform'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:397:in `visit_prop'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `map'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
-/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:168:in `visit_children'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:188:in `visit_root'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:159:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
-/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:381:in `_render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/engine.rb:298:in `render_with_sourcemap'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:473:in `on_file_changed'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:331:in `block in watch'
-/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
-/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
-/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
-/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
-/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$color4\".\A         on line 8 of sass/fonts.scss\A \A 3: \A 4: body.dashboard_viewer{\A 5: 	font-family: 'Barlow', sans-serif;\A 6: 	font-size: 20px;\A 7: 	line-height: 1.4;\A 8: 	color: $color4;\A 9: 	p{\A 10: 		font-size: 1.25rem;\A 11: 		margin-bottom:1em;\A 12: 	}\A 13: 	h1{"; }
+/*# sourceMappingURL=fonts.css.map */

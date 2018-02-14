@@ -66,9 +66,11 @@
 	}
 	.fixedLeft{
 		left:0 !important;
+		width: auto !important;
 	}
 	.fixedRight{
 		right:0 !important;
+		width: auto !important;
 	}
 	.fixedTop{
 		top:0 !important;
@@ -241,10 +243,17 @@
 			}
 		}
 
+		.trFilter{
+			.tdFilterImage{
+				width: 1em !important;
+				height: 1em !important;
+			}
+		}
+
 	}
 
 	/* header */
-
+/*
 	.topPanel{
 		background-color: $color2;
 		color: $color5;
@@ -298,4 +307,5 @@
 		}
 	}
 
+	*/
 }

@@ -65,3 +65,4 @@ Modifications de classes, etc
 -- Composant 17 : remplacer col-8 par col-6, retirer legendRight
 -- Composant 18 et 19 : minHeight-6
 -- Composant 28 et 29 : component componentLegend col-12
+-- Groupes des filtres : groupFilter
