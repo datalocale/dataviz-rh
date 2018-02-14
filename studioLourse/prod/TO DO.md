@@ -46,3 +46,22 @@ Modifications de classes, etc
 - Mettre à jour les templates de composants 9, 14
 - Ajout des templates de composant 16 et 20
 - Créer les composants du groupe H
+
+# 14 février #
+
+- Nouveau découpage de la maquette : /maquettes/decoupeMaquetteV2.pdf (J'y ai enlevé les classes des composants pour plus de clarté et j'ai rajouté les composants 22 à 29)
+- Ajouts des classes suivantes :
+-- Composant 1 : marginBottom-2
+-- Composants 3, 4 et 5 : minHeight-3
+-- Composants 6 et 7 : minHeight-8 marginBottom-2
+-- Composant 22 : component componentFilter col-6 marginRight-3 marginLeft-3 marginBottom-1
+-- Composants 11 et 12 : remplacer col-6 par col-3, retirer legendRight
+-- Composant 24 et 25 : component componentLegend col-3 alignItemsVertCenter
+-- Composant 26 : component componentLegend col-9 alignItemsVertCenter
+-- Composant 15 : marginBottom-2
+-- Composant 30 : component componentHtml col-12 marginBottom-2
+-- Composant 16 et 17 : marginBottom-2
+-- Composant 27 : composant componentLegend col-2 alignItemsVertCenter marginBottom-2
+-- Composant 17 : remplacer col-8 par col-6, retirer legendRight
+-- Composant 18 et 19 : minHeight-6
+-- Composant 28 et 29 : component componentLegend col-12
