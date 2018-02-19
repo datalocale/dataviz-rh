@@ -67,3 +67,10 @@ Modifications de classes, etc
 -- Composant 18 et 19 : minHeight-6
 -- Composant 28 et 29 : component componentLegend col-12
 -- Groupes des filtres : groupFilter
+
+# 19 février #
+
+- Régler tous les graphiques afin qu'ils utilisent les couleurs de la charte, disponibles dans le fichier "colors.md" nouvellement créé
+- Régler la largeur des barres des composants 8, 10 et 21 afin de se rapprocher au mieux de la maquette
+- Création d'une feuille de styles "components.css" à importer dans chaque composants
+- Mettre à jour la feuille de styles "styles.css"

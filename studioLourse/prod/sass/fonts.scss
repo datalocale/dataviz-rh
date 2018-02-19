@@ -1,91 +1,87 @@
 @import "variables.scss";
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i');
 
-body.dashboard_viewer{
+
+
+p{
+	font-size: 1.25rem;
+	margin-bottom:1em;
+}
+h1{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 6rem;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+h2{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 100;
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+.little-big{
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+.big{
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+.very-big{
+	font-size: 3rem;
+	line-height: 1.1;
+}
+.very-very-big{
+	font-size: 5rem;
+	line-height: 1;
+}
+.small{
+	font-size: 0.8rem;
+}
+.light{
+	font-weight: 100;
+}
+.semi-bold{
+	font-weight: 600;
+}
+.bold{
+	font-weight: 700;
+}
+.serif{
+	font-family: 'Merriweather', sans-serif;
+}
+.italic{
+	font-style:italic;
+}
+.sans-serif{
 	font-family: 'Barlow', sans-serif;
-	font-size: 20px;
-	line-height: 1.4;
+}
+.sans-serif-condensed{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+sup{
+	font-size: 50%;
+}
+.color-1{
+	color: $color1;
+}
+.color-2{
+	color: $color2;
+}
+.color-3{
+	color: $color3;
+}
+.color-4{
 	color: $color4;
-	p{
-		font-size: 1.25rem;
-		margin-bottom:1em;
-	}
-	h1{
-		font-family: 'Barlow Condensed', sans-serif;
-		font-weight: 700;
-		font-size: 6rem;
-		line-height: 1;
-		text-transform: uppercase;
-		letter-spacing: 0.2rem;
-	}
-	h2{
-		font-family: 'Barlow Condensed', sans-serif;
-		font-weight: 100;
-		font-size: 4rem;
-		text-transform: uppercase;
-	}
-	.little-big{
-		font-size: 1.2rem;
-		line-height: 1.2;
-	}
-	.big{
-		font-size: 1.5rem;
-		line-height: 1.2;
-	}
-	.very-big{
-		font-size: 3rem;
-		line-height: 1.1;
-	}
-	.very-very-big{
-		font-size: 5rem;
-		line-height: 1;
-	}
-	.small{
-		font-size: 0.8rem;
-	}
-	.light{
-		font-weight: 100;
-	}
-	.semi-bold{
-		font-weight: 600;
-	}
-	.bold{
-		font-weight: 700;
-	}
-	.serif{
-		font-family: 'Merriweather', sans-serif;
-	}
-	.italic{
-		font-style:italic;
-	}
-	.sans-serif{
-		font-family: 'Barlow', sans-serif;
-	}
-	.sans-serif-condensed{
-		font-family: 'Barlow Condensed', sans-serif;
-	}
-	sup{
-		font-size: 50%;
-	}
-	.color-1{
-		color: $color1;
-	}
-	.color-2{
-		color: $color2;
-	}
-	.color-3{
-		color: $color3;
-	}
-	.color-4{
-		color: $color4;
-	}
-	.color-5{
-		color: $color5;
-	}
-	.centered{
-		text-align: center;
-	}
-	.righted{
-		text-align: right;
-	}
+}
+.color-5{
+	color: $color5;
+}
+.centered{
+	text-align: center;
+}
+.righted{
+	text-align: right;
 }

@@ -1,18 +1,26 @@
 
 @import "variables.scss";
-@import "fonts.scss";
+//@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i');
+
+body.dashboard_viewer{
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+	@import "fonts.scss";
+}
 
 
 
 .dashboard_viewer{
 	@import "reset.scss";
-
-
 	@import "override.scss";
+	@import "columns.scss";
+
 
 	/*
 	 * Layout
 	 */
+
 
 	*{
 		box-sizing: border-box;
@@ -53,13 +61,6 @@
 		}
 	}
 
-	.cols{
-		display: flex;
-		flex-wrap: wrap;
-		> *{
-			margin:0 ($fullMarge / 2);
-		}
-	}
 
 	.fixed{
 		position: fixed !important;
@@ -97,92 +98,98 @@
 		justify-content: flex-end;
 	}
 	.cols.alialignItemsVertBottom{
-		.align-items: flex-end;
+		align-items: flex-end;
 	}
 
-	/* Column */
 
-	.col-1{
-		flex-basis: calc(#{$col1}- #{$fullMarge});
+	/* Height iframe */
+
+	.minHeight-1{
+	  > div:last-child{
+	    iframe{
+	      min-height: calc( (#{$pMaxWidth} / (12 / 1)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-2{
-		flex-basis: calc(#{$col2} - #{$fullMarge});
+	.minHeight-2{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 2)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-3{
-		flex-basis: calc(#{$col3} - #{$fullMarge});
+	.minHeight-3{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 3)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-4{
-		flex-basis: calc(#{$col4} - #{$fullMarge});
+	.minHeight-4{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 4)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-5{
-		flex-basis: calc(#{$col5} - #{$fullMarge});
+	.minHeight-5{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 5)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-6{
-		flex-basis: calc(#{$col6} - #{$fullMarge});
+	.minHeight-6{
+	  > div:last-child{
+	    iframe{
+	      min-height: calc( (#{$pMaxWidth} / (12 / 6)) - (#{$fullMarge} * 2) ) !important;
+
+	    }
+	  }
 	}
-	.col-7{
-		flex-basis: calc(#{$col7} - #{$fullMarge});
+	.minHeight-7{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 7)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-8{
-		flex-basis: calc(#{$col8} - #{$fullMarge});
+	.minHeight-8{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 8)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-9{
-		flex-basis: calc(#{$col9} - #{$fullMarge});
+	.minHeight-9{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 9)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-10{
-		flex-basis: calc(#{$col10} - #{$fullMarge});
+	.minHeight-10{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 10)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-11{
-		flex-basis: calc(#{$col11} - #{$fullMarge});
+	.minHeight-11{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 11)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
-	.col-12{
-		flex-basis: calc(#{$col12} - #{$fullMarge});
+	.minHeight-12{
+	  > div:last-child{
+	    iframe{
+	       min-height: calc( (#{$pMaxWidth} / (12 / 12)) - (#{$fullMarge} * 2) ) !important;
+	    }
+	  }
 	}
 
-	/* Margin */
-
-	.marginLeft-1{
-		margin-left: calc(#{$col1} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginLeft-2{
-		margin-left: calc(#{$col2} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginLeft-3{
-		margin-left: calc(#{$col3} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginLeft-4{
-		margin-left: calc(#{$col4} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginLeft-5{
-		margin-left: calc(#{$col5} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginLeft-6{
-		margin-left: calc(#{$col6} + (#{$fullMarge} / 2) ) !important;
-	}
-
-	.marginRight-1{
-		margin-right: calc(#{$col1} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginRight-2{
-		margin-right: calc(#{$col2} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginRight-3{
-		margin-right: calc(#{$col3} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginRight-4{
-		margin-right: calc(#{$col4} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginRight-5{
-		margin-right: calc(#{$col5} + (#{$fullMarge} / 2) ) !important;
-	}
-	.marginRight-6{
-		margin-right: calc(#{$col6} + (#{$fullMarge} / 2) ) !important;
-	}
-
-	.collapsed{
-		margin-right: 0 !important;
-		margin-left: 0 !important;
-	}
 
 	/*
 	 * Backgrounds
