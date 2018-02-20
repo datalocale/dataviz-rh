@@ -2,6 +2,8 @@
  * Ensemble de règles !important : pour surcharger les css inline (via js ?)
  */
 
+
+
 .portletcontainer{
 	position: relative !important;
 	width: 100% !important;
@@ -20,6 +22,7 @@
 	*:not(iframe){
 		height: auto !important;
 	}
+
 	iframe{
 		width: 100% !important;
 		height: auto !important;
@@ -28,6 +31,7 @@
 		height: 0 !important;
 	}
 }
+
 
 
 /*

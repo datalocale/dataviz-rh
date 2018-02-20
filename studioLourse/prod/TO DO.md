@@ -74,3 +74,9 @@ Modifications de classes, etc
 - Régler la largeur des barres des composants 8, 10 et 21 afin de se rapprocher au mieux de la maquette
 - Création d'une feuille de styles "components.css" à importer dans chaque composants
 - Mettre à jour la feuille de styles "styles.css"
+
+
+# 20 février #
+
+- Mise à jour de styles.css
+- Ajout de la classe slicerSelectComponent sur les composants 22 et "22 bis" (composant rajouté par la suite, concernant les filtres selon les pôles sol.)

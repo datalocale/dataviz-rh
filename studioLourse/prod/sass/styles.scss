@@ -226,7 +226,12 @@ body.dashboard_viewer{
 
 	.groupFilter{
 		z-index: 999 !important;
+		overflow: visible !important;
+		*{
+			overflow: visible !important;
+		}
 		.filtersSelect{
+			margin-top: ($fullMarge / 2);
 			padding:0 ($fullMarge / 2);
 			table{
 				tbody td{
@@ -241,25 +246,46 @@ body.dashboard_viewer{
 					&:hover{
 						color: $color2;
 					}
+					&.tdMemberActive{
+						background: none;
+					}
 					&.tdMemberSelected{
 						background: url('../assets/imgs/curseur.svg') no-repeat center left;
 						color: #fff;
 						border-radius: 10px;
 					}
+
 				}
 			}
 		}
 
+	}
+	.slicerTable{
+		width: 100% !important;
 		.trFilter{
 			.tdFilterImage{
 				width: 1em !important;
 				height: 1em !important;
 			}
 		}
+		.tdHeaderFilter,
+		.tdFilter{
+			font-size: 0.8rem;
+		}
+	}
 
+	.chzn-drop{
+	  left:9000px !important;
+	}
+	.chzn-container-active .chzn-drop{
+	  left:0px !important;
 	}
 
 	/* header */
+
+	.dd-tab-header-text{
+		font-size: 0.8rem;
+	}
 /*
 	.topPanel{
 		background-color: $color2;

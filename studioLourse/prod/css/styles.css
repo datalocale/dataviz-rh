@@ -622,9 +622,15 @@ body.dashboard_viewer .righted {
 
 .dashboard_viewer .groupFilter {
   z-index: 999 !important;
+  overflow: visible !important;
+}
+
+.dashboard_viewer .groupFilter * {
+  overflow: visible !important;
 }
 
 .dashboard_viewer .groupFilter .filtersSelect {
+  margin-top: 15px;
   padding: 0 15px;
 }
 
@@ -643,15 +649,40 @@ body.dashboard_viewer .righted {
   color: #2b3a85;
 }
 
+.dashboard_viewer .groupFilter .filtersSelect table tbody td.tdMemberActive {
+  background: none;
+}
+
 .dashboard_viewer .groupFilter .filtersSelect table tbody td.tdMemberSelected {
   background: url("../assets/imgs/curseur.svg") no-repeat center left;
   color: #fff;
   border-radius: 10px;
 }
 
-.dashboard_viewer .groupFilter .trFilter .tdFilterImage {
+.dashboard_viewer .slicerTable {
+  width: 100% !important;
+}
+
+.dashboard_viewer .slicerTable .trFilter .tdFilterImage {
   width: 1em !important;
   height: 1em !important;
+}
+
+.dashboard_viewer .slicerTable .tdHeaderFilter,
+.dashboard_viewer .slicerTable .tdFilter {
+  font-size: 0.8rem;
+}
+
+.dashboard_viewer .chzn-drop {
+  left: 9000px !important;
+}
+
+.dashboard_viewer .chzn-container-active .chzn-drop {
+  left: 0px !important;
+}
+
+.dashboard_viewer .dd-tab-header-text {
+  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
