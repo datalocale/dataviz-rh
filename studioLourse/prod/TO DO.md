@@ -80,3 +80,17 @@ Modifications de classes, etc
 
 - Mise à jour de styles.css
 - Ajout de la classe slicerSelectComponent sur les composants 22 et "22 bis" (composant rajouté par la suite, concernant les filtres selon les pôles sol.)
+
+# 21 février #
+
+- Retirer le style inline des images utilisées dans les composants (padding:5px; float:center;)
+- Mettre à jour les templates de composants 3, 4 et 5
+- Mettre à jour les templates de composants 9 et 14
+- Mettre à jour le template de composant 19
+- Mettre à jour la feuille de styles components.css pour chaque composants
+- Mettre à jour la feuille de styles styles.css pour le tableau de bord
+- Ajout de la classe col-7 sur le composant 22 et de la classe col-5 sur le composant 22 bis
+- Ajout de la classe marginBottom-2 sur le composant 8
+- Utiliser le picto mainCursor.svg pour les cartes, dans les couleurs proposées par la maquette
+- Mettre à jour les templates de composants 23 et 30 et leur ajouter la classe marginBottom-2
+- Ajout de la classe minHeight-4 sur les composants 16, 17, 20 et 21

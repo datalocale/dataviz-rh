@@ -1,2 +1,14 @@
 @import "fonts.scss";
 @import "columns.scss";
+
+body{
+  margin:0 !important;
+}
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+.cols.alialignItemsVertBottom{
+  align-items: flex-end;
+}

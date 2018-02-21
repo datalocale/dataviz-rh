@@ -221,6 +221,9 @@ body.dashboard_viewer{
 	.bgImgBottom{
 		background-position: bottom center;
 	}
+	.bgRounded{
+		border-radius: 50%;
+	}
 
 	/* Filters */
 
@@ -274,12 +277,32 @@ body.dashboard_viewer{
 		}
 	}
 
-	.chzn-drop{
-	  left:9000px !important;
-	}
-	.chzn-container-active .chzn-drop{
-	  left:0px !important;
-	}
+/* legends */
+.colorCell{
+	height: 10px !important;
+	width: 10px !important;
+	border: none !important;
+}
+
+ /* Filtre liste flottante */
+	.slicerSelectComponent{
+		.slicerComboDiv{
+			height: 2em !important;
+			table, td{
+				width: 100% !important;
+			}
+			.chzn-drop{
+				left:9000px !important;
+				width: 100% !important;
+				.divContent{
+					max-height: 200px;
+				}
+			}
+			.chzn-container-active .chzn-drop{
+				left:0px !important;
+			}
+		}
+	 }
 
 	/* header */
 

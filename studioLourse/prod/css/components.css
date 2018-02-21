@@ -2,44 +2,49 @@
 /* width */
 /* marge */
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
+
 p {
-  font-size: 1.25rem;
+  font-size    : 1.25rem;
   margin-bottom: 1em;
 }
 
 h1 {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-weight: 700;
-  font-size: 6rem;
-  line-height: 1;
+  font-family   : 'Barlow Condensed', sans-serif;
+  font-weight   : 700;
+  font-size     : 6rem;
+  line-height   : 1;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
 }
 
 h2 {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-weight: 100;
-  font-size: 4rem;
+  font-family   : 'Barlow Condensed', sans-serif;
+  font-weight   : 100;
+  font-size     : 4rem;
+  text-transform: uppercase;
+}
+
+.uppercase {
   text-transform: uppercase;
 }
 
 .little-big {
-  font-size: 1.2rem;
+  font-size  : 1.2rem;
   line-height: 1.2;
 }
 
 .big {
-  font-size: 1.5rem;
+  font-size  : 1.5rem;
   line-height: 1.2;
 }
 
 .very-big {
-  font-size: 3rem;
+  font-size  : 3rem;
   line-height: 1.1;
 }
 
 .very-very-big {
-  font-size: 5rem;
+  font-size  : 5rem;
   line-height: 1;
 }
 
@@ -106,14 +111,16 @@ sup {
 .righted {
   text-align: right;
 }
-
+/* colors */
+/* width */
+/* marge */
 /* Column */
 .cols {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display  : -webkit-box;
+  display  : -ms-flexbox;
+  display  : flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .cols > * {
@@ -122,64 +129,63 @@ sup {
 
 .col-1 {
   -ms-flex-preferred-size: calc(8.33%- 30px);
-  flex-basis: calc(8.33%- 30px);
+      flex-basis: calc(8.33%- 30px);
 }
 
 .col-2 {
   -ms-flex-preferred-size: calc(16.66% - 30px);
-  flex-basis: calc(16.66% - 30px);
+      flex-basis: calc(16.66% - 30px);
 }
 
 .col-3 {
   -ms-flex-preferred-size: calc(25% - 30px);
-  flex-basis: calc(25% - 30px);
+      flex-basis: calc(25% - 30px);
 }
 
 .col-4 {
   -ms-flex-preferred-size: calc(33.33% - 30px);
-  flex-basis: calc(33.33% - 30px);
+      flex-basis: calc(33.33% - 30px);
 }
 
 .col-5 {
   -ms-flex-preferred-size: calc(41.66% - 30px);
-  flex-basis: calc(41.66% - 30px);
+      flex-basis: calc(41.66% - 30px);
 }
 
 .col-6 {
   -ms-flex-preferred-size: calc(50% - 30px);
-  flex-basis: calc(50% - 30px);
+      flex-basis: calc(50% - 30px);
 }
 
 .col-7 {
   -ms-flex-preferred-size: calc(58.33% - 30px);
-  flex-basis: calc(58.33% - 30px);
+      flex-basis: calc(58.33% - 30px);
 }
 
 .col-8 {
   -ms-flex-preferred-size: calc(66.66% - 30px);
-  flex-basis: calc(66.66% - 30px);
+      flex-basis: calc(66.66% - 30px);
 }
 
 .col-9 {
   -ms-flex-preferred-size: calc(75% - 30px);
-  flex-basis: calc(75% - 30px);
+      flex-basis: calc(75% - 30px);
 }
 
 .col-10 {
   -ms-flex-preferred-size: calc(83.33% - 30px);
-  flex-basis: calc(83.33% - 30px);
+      flex-basis: calc(83.33% - 30px);
 }
 
 .col-11 {
   -ms-flex-preferred-size: calc(91.66% - 30px);
-  flex-basis: calc(91.66% - 30px);
+      flex-basis: calc(91.66% - 30px);
 }
 
 .col-12 {
   -ms-flex-preferred-size: calc(100% - 30px);
-  flex-basis: calc(100% - 30px);
+      flex-basis: calc(100% - 30px);
 }
-
 /* Margin */
 .marginLeft-1 {
   margin-left: calc(8.33% + (30px / 2)) !important;
@@ -231,7 +237,7 @@ sup {
 
 .collapsed {
   margin-right: 0 !important;
-  margin-left: 0 !important;
+  margin-left : 0 !important;
 }
 
 .marginBottom-1 {
@@ -258,4 +264,18 @@ sup {
   margin-bottom: 180px !important;
 }
 
-/*# sourceMappingURL=components.css.map */
+body {
+  margin: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  display  : block;
+  height   : auto;
+}
+
+.cols.alialignItemsVertBottom {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
