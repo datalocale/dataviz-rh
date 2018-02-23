@@ -94,3 +94,9 @@ Modifications de classes, etc
 - Utiliser le picto mainCursor.svg pour les cartes, dans les couleurs proposées par la maquette
 - Mettre à jour les templates de composants 23 et 30 et leur ajouter la classe marginBottom-2
 - Ajout de la classe minHeight-4 sur les composants 16, 17, 20 et 21
+
+# 23 février #
+
+- Problème du curseur dans les cartes. Essayer avec la nouvelle version du fichier mainCursor
+- Mettre à jour la css styles.css du tableau de border (ne pas ou oublier de mettre à jour les urls de cette css, une seule pour le moment, celle du curseur des filtres)
+- Ajout de la classe minHeight-3 sur le composant 14
