@@ -111,3 +111,46 @@
 .marginBottom-6{
   margin-bottom: $fullMarge * 6 !important;
 }
+
+
+/* Group behavior Vertical */
+
+.minHeightFull{
+  min-height: 100vh;
+}
+.minHeightAuto{
+  min-height: auto;
+}
+.alignItemsVertTop{
+  justify-content: flex-start;
+}
+.alignItemsVertBottom{
+  justify-content: flex-end;
+}
+.cols.alialignItemsVertBottom{
+  align-items: flex-end;
+}
+
+.component.textBottom{
+  display:flex;
+  flex-flow:column;
+}
+.component.textBottom > div:first-child{
+  order:2;
+}
+.component.textBottom > div:last-child{
+  order:1;
+  margin-top: ($fullMarge / 2);
+  table{
+    background-color: transparent;
+    width: 100% !important;
+    .portlet-header-text{
+      text-align:center;
+      text-transform: uppercase;
+      font-size: 1rem !important;
+      font-weight: 100 !important;
+
+    }
+
+  }
+}

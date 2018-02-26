@@ -100,3 +100,23 @@ Modifications de classes, etc
 - Problème du curseur dans les cartes. Essayer avec la nouvelle version du fichier mainCursor
 - Mettre à jour la css styles.css du tableau de border (ne pas ou oublier de mettre à jour les urls de cette css, une seule pour le moment, celle du curseur des filtres)
 - Ajout de la classe minHeight-3 sur le composant 14
+
+# 26 février #
+
+- Mise à jour des feuilles de styles styles.css et components.css
+- Mise à jour du template 6
+- Mise à jour du template 14
+- Mise à jour du template 16
+- Mise à jour du template 19
+- Mise à jour du template 20
+- Mise à jour du template 23
+- Mise à jour du template 30
+- Le curseur de la carte du composant 7 est-il bien à jour avec le fichier mainCursor.svg ?
+- Respecter les couleurs de la cartes avec les couleurs proposées par la maquette (cantons en blanc)
+- Composant 8 : Utiliser du blanc plutôt que du bleu pour les piles négatives, est-il possible de changer les fonts des légendes et les mettre en blanc ?
+- Composant 10 : mêmes remarques que le composant 8
+- Composant 13 : remplacer la classe col-12 par col-3
+- Groupe E : mettre les composants dans le bon ordre (sur la maquette, les légendes sont à la droite de chaque graphique)
+- Groupe E : Ajouter la classe minHeight-3 à tous les composants du groupe sauf le groupe 23 (titre)
+- Gourpe G : Réorganiser les composants de manière à ce que le nouveau composant "XX % des télétravailleurs on renouvelé leur demande" soit placé après le composant 17. Mettre la classe col-3 sur ce composant à la place de col-4.
+- Composant 16 : classe col-3 à la place de col-4

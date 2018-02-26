@@ -3,7 +3,7 @@
 /* marge */
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
 p {
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
   margin-bottom: 1em; }
 
 h1 {

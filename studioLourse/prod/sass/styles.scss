@@ -10,7 +10,6 @@ body.dashboard_viewer{
 }
 
 
-
 .dashboard_viewer{
 	@import "reset.scss";
 	@import "override.scss";
@@ -84,47 +83,7 @@ body.dashboard_viewer{
 		top:45% !important;
 	}
 
-	/* Group behavior Vertical */
 
-	.minHeightFull{
-		min-height: 100vh;
-	}
-	.minHeightAuto{
-		min-height: auto;
-	}
-	.alignItemsVertTop{
-		justify-content: flex-start;
-	}
-	.alignItemsVertBottom{
-		justify-content: flex-end;
-	}
-	.cols.alialignItemsVertBottom{
-		align-items: flex-end;
-	}
-
-	.component.textBottom{
-	  display:flex;
-	  flex-flow:column;
-	}
-	.component.textBottom > div:first-child{
-	  order:2;
-	}
-	.component.textBottom > div:last-child{
-	  order:1;
-		margin-top: ($fullMarge / 2);
-		table{
-			background-color: transparent;
-			width: 100% !important;
-			.portlet-header-text{
-				text-align:center;
-				text-transform: uppercase;
-				font-size: 1rem !important;
-				font-weight: 100 !important;
-
-			}
-
-		}
-	}
 
 	/* Height iframe */
 
@@ -302,15 +261,10 @@ body.dashboard_viewer{
 		}
 	}
 
-/* legends */
-.colorCell{
-	height: 10px !important;
-	width: 10px !important;
-	border: none !important;
-}
 
  /* Filtre liste flottante */
 	.slicerSelectComponent{
+		z-index:99;
 		.slicerComboDiv{
 			height: 2em !important;
 			table, td{
