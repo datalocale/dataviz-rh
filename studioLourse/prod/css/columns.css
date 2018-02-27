@@ -108,7 +108,7 @@
   min-height: 100vh; }
 
 .minHeightAuto {
-  min-height: auto; }
+  min-height: auto !important; }
 
 .alignItemsVertTop {
   justify-content: flex-start; }
@@ -125,17 +125,17 @@
 
 .component.textBottom > div:first-child {
   order: 2; }
-
-.component.textBottom > div:last-child {
-  order: 1;
-  margin-top: 15px; }
-  .component.textBottom > div:last-child table {
+  .component.textBottom > div:first-child table {
     background-color: transparent;
     width: 100% !important; }
-    .component.textBottom > div:last-child table .portlet-header-text {
+    .component.textBottom > div:first-child table .portlet-header-text {
       text-align: center;
       text-transform: uppercase;
       font-size: 1rem !important;
       font-weight: 100 !important; }
+
+.component.textBottom > div:last-child {
+  order: 1;
+  margin-top: 15px; }
 
 /*# sourceMappingURL=columns.css.map */

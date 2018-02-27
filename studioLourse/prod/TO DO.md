@@ -120,3 +120,15 @@ Modifications de classes, etc
 - Groupe E : Ajouter la classe minHeight-3 à tous les composants du groupe sauf le groupe 23 (titre)
 - Gourpe G : Réorganiser les composants de manière à ce que le nouveau composant "XX % des télétravailleurs on renouvelé leur demande" soit placé après le composant 17. Mettre la classe col-3 sur ce composant à la place de col-4.
 - Composant 16 : classe col-3 à la place de col-4
+
+
+# 27 février #
+
+- Mettre à jour styles.css et components.css
+- Groupe A : Ajouter la classe aboveGroupFilter
+- Composant 6 : changer la classe col-4 par col-5 et la classe minHeight-8 par minHeight-7
+- Composant 7 : changer la classe col-8 par col-7 et la classe minHeight-8 par minHeight-7
+- Composant 8 : ajouter la classe minHeight-5 et réduire l'epaisseur de la courbe rouge au moins de moitié
+- Groupe D : ajouter la classe minHeight-3 sur tous le composants
+- Popin : utiliser le template nouvellement créé
+- Dans le repertoire imgs, j'ai créé un repertoire "pictos département", il contient 4 svg qui sont simplement les pictos recolorisés utilisé dans le composant 14 et 3 png qui sont les pictos par défaut de DigDash que j'ai simplement teinté en blanc. Merci d'utiliser ces versions en attendant que nous validions la création de nouveaux pictos par Dorothée.

@@ -3,7 +3,9 @@
 
 body{
   margin:0 !important;
+  font-family: 'Barlow', sans-serif;
   font-size: 20px;
+  line-height: 1.4;
 }
 img{
   max-width: 100%;
@@ -17,12 +19,4 @@ img{
   right: 0;
   left: 0;
   bottom: 0;
-}
-
-/* legends */
-.colorCell{
-	height: 20px !important;
-	width: 15px !important;
-	border: none !important;
-	box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }

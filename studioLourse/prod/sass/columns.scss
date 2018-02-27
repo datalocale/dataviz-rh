@@ -119,7 +119,7 @@
   min-height: 100vh;
 }
 .minHeightAuto{
-  min-height: auto;
+  min-height: auto !important;
 }
 .alignItemsVertTop{
   justify-content: flex-start;
@@ -137,10 +137,6 @@
 }
 .component.textBottom > div:first-child{
   order:2;
-}
-.component.textBottom > div:last-child{
-  order:1;
-  margin-top: ($fullMarge / 2);
   table{
     background-color: transparent;
     width: 100% !important;
@@ -153,4 +149,8 @@
     }
 
   }
+}
+.component.textBottom > div:last-child{
+  order:1;
+  margin-top: ($fullMarge / 2);
 }

@@ -210,8 +210,12 @@ body.dashboard_viewer{
 
 	/* Filters */
 
-	.groupFilter{
+	.aboveGroupFilter{
 		z-index: 999 !important;
+	}
+
+	.groupFilter{
+		z-index: 998 !important;
 		overflow: visible !important;
 		*{
 			overflow: visible !important;
@@ -230,7 +234,7 @@ body.dashboard_viewer{
 					font-size: 1.5rem;
 					padding:0 0.5em 0 1.5em;
 					&:hover{
-						color: $color2;
+						color: $color1;
 					}
 					&.tdMemberActive{
 						background: none;
@@ -258,13 +262,53 @@ body.dashboard_viewer{
 		.tdFilter{
 			background-color: $color5;
 			font-size: 0.8rem;
+			text-align: left;
+			padding-left: 0.2rem;
 		}
+		.tdHeaderFilter{
+			font-weight: 700;
+		}
+	}
+
+	/* legends */
+	.legendItem{
+
+		.colorCell td{
+			height: 15px !important;
+			width: 20px !important;
+			border: none !important;
+			box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+		}
+	}
+	.bgColor2{
+		.legendItem{
+			color: $color5;
+		}
+	}
+
+	/* popin */
+
+	.dd-window{
+		box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+		border:none !important;
+		background-color: $color2 !important;
+		.dd-window-body{
+			background: transparent !important;
+			.dd-window-content{
+				border:none !important;
+			}
+			.cols{
+				color: $color5;
+				margin: $fullMarge;
+			}
+		}
+
 	}
 
 
  /* Filtre liste flottante */
 	.slicerSelectComponent{
-		z-index:99;
+		z-index:99 !important;
 		.slicerComboDiv{
 			height: 2em !important;
 			table, td{
@@ -315,59 +359,7 @@ body.dashboard_viewer{
 			color: $color5;
 		}
 	}
-/*
-	.topPanel{
-		background-color: $color2;
-		color: $color5;
-		font-size:14px !important;
-		display: flex;
-		align-items:center;
-		padding:0.5em !important;
-		.logoTopPanel{
-			background: url('assets/imgs/logo.png') no-repeat center center;
-			height:32px;
-			width: 87px;
-			margin-right:auto;
-		}
-		.rightTopPanel{
-			display:flex;
-			align-items:center;
-			div{
-				cursor:pointer;
-			}
-			.divider{
-				width:1px;
-				height:1em;
-				background-color:$color5;
-				margin:0px 1em;
-			}
-		}
-	}
 
-	.dd-tab-bar{
-		background-color:$color3;
-		color:$color4;
-		text-transform: uppercase;
-		font-weight: 600;
-		font-size:14px !important;
-		display:flex;
-		padding:0em !important;
-		position:relative !important;
-		left:unset !important;
-		right:unset !important;
-		bottom:unset !important;
-		width:100% !important;
-		line-height:1 !important;
-		.dd-tab-header,
-		.dd-tab-header-selected{
-		  position:relative !important;
-		  margin:5px !important;
-			cursor:pointer;
-		}
-		.dd-tab-header-selected{
-			color:$color1;
-		}
-	}
 
-	*/
+	@import "responsive.scss";
 }
