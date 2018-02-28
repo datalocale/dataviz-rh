@@ -132,3 +132,15 @@ Modifications de classes, etc
 - Groupe D : ajouter la classe minHeight-3 sur tous le composants
 - Popin : utiliser le template nouvellement créé
 - Dans le repertoire imgs, j'ai créé un repertoire "pictos département", il contient 4 svg qui sont simplement les pictos recolorisés utilisé dans le composant 14 et 3 png qui sont les pictos par défaut de DigDash que j'ai simplement teinté en blanc. Merci d'utiliser ces versions en attendant que nous validions la création de nouveaux pictos par Dorothée.
+
+# 28 février #
+
+- maj de styles.css et components.css
+- Pourquoi le compsant 2 est réalisé via l'editeur web alors que le 15 semble réalisé depuis DigDash ? Utiliser aussi l'éditeur pour le composant 15 si possible.
+- Mettre à jour le composant 6
+- Sur les composants 22 et 22bis (filtres) : Ajouter les classes component et marginBottom-1
+- Composant 7 : La carte n'est pas centrée car il semblerait que celle ci n'est pas centré au sein-même du svg. (J'imagine que ceci est du à l'absence des curseurs signalants les tiers lieux hors départements). Voir s'il est possible d'utiliser une carte ou la carte est centrée dans le svg.
+- Composant 16 : rajouter la classe marginBottom-1 sur la div englobant la première partie
+- Mettre à jour le composant 30
+- Mettre à jour le composant 19
+- Voir si tu peux passer les contours des curseurs des cartes en blanc plutôt qu'en gris

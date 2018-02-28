@@ -174,6 +174,9 @@ body.dashboard_viewer{
 	}
 
 
+
+
+
 	/*
 	 * Backgrounds
 	 */
@@ -205,8 +208,51 @@ body.dashboard_viewer{
 		background-position: bottom center;
 	}
 	.bgRounded{
-		border-radius: 50%;
+		background-color: transparent !important;
+		.portlet-content > div{
+			overflow: visible !important;
+			border-radius: 50%;
+			padding-bottom: 100%; /* 16:9 */
+			height: 0 !important;
+			iframe{
+				position: absolute !important;
+				top: 0 !important;
+				left: 0 !important;
+				width: 100% !important;
+				height: 100% !important;
+			}
+		}
+		&.bgColor-1 .portlet-content > div{
+			background-color: $color1 !important;
+		}
+		&.bgColor-2 .portlet-content > div{
+			background-color: $color2 !important;
+		}
+		&.bgColor-3 .portlet-content > div{
+			background-color: $color3 !important;
+		}
+		&.bgColor-White .portlet-content > div{
+			background-color: white !important;
+		}
+		&.bgColor-WhiteTamed .portlet-content > div{
+			background-color:rgba(255,255,255,0.5) !important;
+		}
 	}
+
+
+	.videoWrapper {
+	position: relative;
+	padding-bottom: 100%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 	/* Filters */
 
@@ -272,15 +318,26 @@ body.dashboard_viewer{
 
 	/* legends */
 	.legendItem{
+		.label{
+			padding-left: 1rem;
+			font-size: 0.8rem;
+		}
+		td{
+			vertical-align: middle;
+			padding:0.2rem 0;
+		}
 
-		.colorCell td{
-			height: 15px !important;
-			width: 20px !important;
+		.colorCell{
 			border: none !important;
-			box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+			td{
+				height: 15px !important;
+				width: 20px !important;
+				border: none !important;
+				box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+			}
 		}
 	}
-	.bgColor2{
+	.bgColor-2{
 		.legendItem{
 			color: $color5;
 		}
@@ -311,14 +368,32 @@ body.dashboard_viewer{
 		z-index:99 !important;
 		.slicerComboDiv{
 			height: 2em !important;
+			.chzn-container{
+				width: 100% !important;
+				.chzn-single{
+					border-radius: 0 !important;
+					background: $color3 !important;
+			    border: none !important;
+			    color: $color4 !important;
+			    box-shadow: none !important;
+				}
+			}
 			table, td{
 				width: 100% !important;
 			}
 			.chzn-drop{
 				left:9000px !important;
 				width: 100% !important;
+				border: none !important;
+				background-color: $color3 !important;
+				border-radius: 0 !important;
+				padding: ($fullMarge / 2);
 				.divContent{
 					max-height: 200px;
+					li{
+						font-size: 0.8rem;
+						color:$color4 !important;
+					}
 				}
 			}
 			.chzn-container-active .chzn-drop{

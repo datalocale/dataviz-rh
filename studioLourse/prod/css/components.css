@@ -1,8 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin        : 0;
+  padding       : 0;
+  border        : 0;
+  font-size     : 100%;
+  font          : inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing : 0;
+}
 /* colors */
 /* width */
 /* marge */
-@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
-
 p {
   font-size    : 1.25rem !important;
   margin-bottom: 1em;
@@ -116,11 +249,11 @@ sup {
 /* marge */
 /* Column */
 .cols {
-  display  : -webkit-box;
-  display  : -ms-flexbox;
-  display  : flex;
+  display      : -webkit-box;
+  display      : -ms-flexbox;
+  display      : flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap    : wrap;
 }
 
 .cols > * {
@@ -129,62 +262,62 @@ sup {
 
 .col-1 {
   -ms-flex-preferred-size: calc(8.33%- 30px);
-      flex-basis: calc(8.33%- 30px);
+  flex-basis             : calc(8.33%- 30px);
 }
 
 .col-2 {
   -ms-flex-preferred-size: calc(16.66% - 30px);
-      flex-basis: calc(16.66% - 30px);
+  flex-basis             : calc(16.66% - 30px);
 }
 
 .col-3 {
   -ms-flex-preferred-size: calc(25% - 30px);
-      flex-basis: calc(25% - 30px);
+  flex-basis             : calc(25% - 30px);
 }
 
 .col-4 {
   -ms-flex-preferred-size: calc(33.33% - 30px);
-      flex-basis: calc(33.33% - 30px);
+  flex-basis             : calc(33.33% - 30px);
 }
 
 .col-5 {
   -ms-flex-preferred-size: calc(41.66% - 30px);
-      flex-basis: calc(41.66% - 30px);
+  flex-basis             : calc(41.66% - 30px);
 }
 
 .col-6 {
   -ms-flex-preferred-size: calc(50% - 30px);
-      flex-basis: calc(50% - 30px);
+  flex-basis             : calc(50% - 30px);
 }
 
 .col-7 {
   -ms-flex-preferred-size: calc(58.33% - 30px);
-      flex-basis: calc(58.33% - 30px);
+  flex-basis             : calc(58.33% - 30px);
 }
 
 .col-8 {
   -ms-flex-preferred-size: calc(66.66% - 30px);
-      flex-basis: calc(66.66% - 30px);
+  flex-basis             : calc(66.66% - 30px);
 }
 
 .col-9 {
   -ms-flex-preferred-size: calc(75% - 30px);
-      flex-basis: calc(75% - 30px);
+  flex-basis             : calc(75% - 30px);
 }
 
 .col-10 {
   -ms-flex-preferred-size: calc(83.33% - 30px);
-      flex-basis: calc(83.33% - 30px);
+  flex-basis             : calc(83.33% - 30px);
 }
 
 .col-11 {
   -ms-flex-preferred-size: calc(91.66% - 30px);
-      flex-basis: calc(91.66% - 30px);
+  flex-basis             : calc(91.66% - 30px);
 }
 
 .col-12 {
   -ms-flex-preferred-size: calc(100% - 30px);
-      flex-basis: calc(100% - 30px);
+  flex-basis             : calc(100% - 30px);
 }
 /* Margin */
 .marginLeft-1 {
@@ -274,36 +407,42 @@ sup {
 
 .alignItemsVertTop {
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack   : start;
+  justify-content : flex-start;
 }
 
 .alignItemsVertBottom {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack   : end;
+  justify-content : flex-end;
 }
 
-.cols.alialignItemsVertBottom {
+.cols.alignItemsVertBottom {
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align   : end;
+  align-items      : flex-end;
+}
+
+.cols.alignItemsCenter {
+  -webkit-box-align: center;
+  -ms-flex-align   : center;
+  align-items      : center;
 }
 
 .component.textBottom {
-  display  : -webkit-box;
-  display  : -ms-flexbox;
-  display  : flex;
-  -webkit-box-orient: vertical;
+  display              : -webkit-box;
+  display              : -ms-flexbox;
+  display              : flex;
+  -webkit-box-orient   : vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -ms-flex-flow        : column;
+  flex-flow            : column;
 }
 
 .component.textBottom > div:first-child {
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order           : 2;
+  order                    : 2;
 }
 
 .component.textBottom > div:first-child table {
@@ -319,10 +458,10 @@ sup {
 }
 
 .component.textBottom > div:last-child {
-  -webkit-box-ordinal-group     : 2;
-      -ms-flex-order     : 1;
-          order     : 1;
-  margin-top: 15px;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order           : 1;
+  order                    : 1;
+  margin-top               : 15px;
 }
 
 body {
@@ -338,13 +477,21 @@ img {
   height   : auto;
 }
 
-.cols.alialignItemsVertBottom {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  position   : absolute;
-  top        : 0;
-  right      : 0;
-  left       : 0;
-  bottom     : 0;
+.cols.alignItemsVertBottom {
+  -webkit-box-align: center;
+  -ms-flex-align   : center;
+  align-items      : center;
+  position         : absolute;
+  top              : 0;
+  right            : 0;
+  left             : 0;
+  bottom           : 0;
+  -ms-flex-wrap    : nowrap;
+  flex-wrap        : nowrap;
+}
+
+.cols.alignItemsCenter {
+  -webkit-box-align: center;
+  -ms-flex-align   : center;
+  align-items      : center;
 }

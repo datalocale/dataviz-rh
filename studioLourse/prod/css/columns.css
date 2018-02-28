@@ -116,8 +116,11 @@
 .alignItemsVertBottom {
   justify-content: flex-end; }
 
-.cols.alialignItemsVertBottom {
+.cols.alignItemsVertBottom {
   align-items: flex-end; }
+
+.cols.alignItemsCenter {
+  align-items: center; }
 
 .component.textBottom {
   display: flex;
