@@ -144,3 +144,5 @@ Modifications de classes, etc
 - Mettre à jour le composant 30
 - Mettre à jour le composant 19
 - Voir si tu peux passer les contours des curseurs des cartes en blanc plutôt qu'en gris
+- Tester l'ajout d'un composant invisible, ayant pour template le template_ie_styles.html. Puis vérifier si le texte du composant ne s'affiche bien QUE sous IE 11 et version inférieur.
+Si cette methode marche, j'y rajouterai les styles pour optimiser IE.
