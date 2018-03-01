@@ -8,6 +8,10 @@ body.dashboard_viewer {
   font-family: 'Barlow', sans-serif;
   font-size  : 20px;
   line-height: 1.4;
+  /* colors */
+  /* width */
+  /* marge */
+
 }
 
 body.dashboard_viewer p {
@@ -429,6 +433,22 @@ body.dashboard_viewer .righted {
   margin-bottom: 180px !important;
 }
 
+.dashboard_viewer .padding-1 iframe {
+  padding: 15px;
+}
+
+.dashboard_viewer .padding-2 iframe {
+  padding: 30px;
+}
+
+.dashboard_viewer .padding-3 iframe {
+  padding: 45px;
+}
+
+.dashboard_viewer .padding-4 iframe {
+  padding: 60px;
+}
+
 .dashboard_viewer .minHeightFull {
   min-height: 100vh;
 }
@@ -650,6 +670,10 @@ body.dashboard_viewer .righted {
 
 .dashboard_viewer .bgImgBottom {
   background-position: bottom center;
+}
+
+.dashboard_viewer .bgImgLeft {
+  background-position: 5% center;
 }
 
 .dashboard_viewer .bgRounded {

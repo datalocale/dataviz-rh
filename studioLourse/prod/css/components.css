@@ -396,6 +396,22 @@ sup {
 .marginBottom-6 {
   margin-bottom: 180px !important;
 }
+/* Padding */
+.padding-1 iframe {
+  padding: 15px;
+}
+
+.padding-2 iframe {
+  padding: 30px;
+}
+
+.padding-3 iframe {
+  padding: 45px;
+}
+
+.padding-4 iframe {
+  padding: 60px;
+}
 /* Group behavior Vertical */
 .minHeightFull {
   min-height: 100vh;

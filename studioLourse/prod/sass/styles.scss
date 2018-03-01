@@ -13,7 +13,7 @@ body.dashboard_viewer{
 .dashboard_viewer{
 	@import "reset.scss";
 	@import "override.scss";
-	@import "columns.scss";
+	@import "layout.scss";
 
 
 	/*
@@ -206,6 +206,9 @@ body.dashboard_viewer{
 	}
 	.bgImgBottom{
 		background-position: bottom center;
+	}
+	.bgImgLeft{
+		background-position: 5% center;
 	}
 	.bgRounded{
 		background-color: transparent !important;

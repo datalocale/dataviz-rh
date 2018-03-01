@@ -146,3 +146,18 @@ Modifications de classes, etc
 - Voir si tu peux passer les contours des curseurs des cartes en blanc plutôt qu'en gris
 - Tester l'ajout d'un composant invisible, ayant pour template le template_ie_styles.html. Puis vérifier si le texte du composant ne s'affiche bien QUE sous IE 11 et version inférieur.
 Si cette methode marche, j'y rajouterai les styles pour optimiser IE.
+
+# 1 mars #
+
+- Mettre à jour les css styles.css
+- Groupe A : Repartir sur la mise en page avec le sous-titre "L'heure du bilan...", à gauche du reste du texte. Pour cela utiliser le template du composant 2, mis à jour.
+- Groupe A : il semblerait qu'il y ai un composant vide entre le composant 1 et 2. Le retirer.
+- Groupe A : Sur les trois composants placés sous le titre "Evolution des candidats et télétravailleurs", leur ajouter les classes padding-2 et collapsed. Sur le dernier (légendes), retirer la classe marginRight-5, sur les deux premiers, retirer la classe marginBottom-1
+- Groupe C, dernier composant (celui avec le petit nuage) : rajouter la classe alignItemsCenter à la div qui à la classe cols. Mettre toutes les légendes dans une div avec la classe col-12. Retirer la classe bold de la div qui englobe le petit texte "en trois ans". Rajouter la classe color-5 sur la div avec la classe .cols et les p et h3 la précédant.
+- Dernier groupe : Bien mettre en place le template "template_popin.html" dans chaque contenu ouvert dans les popin.
+- Utiliser le picto de fermeture dans sa version blanche
+- Composant 0 : Ajouter les classes bgColor-WhiteTamed et padding-1
+- à la racine du dossier prod, tu as désormais un fichier "picto definition" qui t'indique quel picto utilisé en fonction du sujet abordé. En effet, sur les 5 premiers indicateurs du goupe, certains pictos sont à réutiliser : celui de l'agent éligibles par exemple, qui devra être utilisé à la fois pour le 2eme et et le 4eme indicateur.
+- Utiliser le picto aide.svg ou aide-blanc.svg (nouveau fichier), partout ou le picto "?" est utilisé
+- Sur le dernier composant, utliser le picto temoignage.svg pour l'ouverture de chaque témoignage
+- Dernier groupe de composant : utiliser comme image de fond "bigSmile.svg", dans le dossier /pictos. Ajouter les classes bgColor-3 et bgImgLeft à ce groupe
