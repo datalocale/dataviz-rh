@@ -161,3 +161,7 @@ Si cette methode marche, j'y rajouterai les styles pour optimiser IE.
 - Utiliser le picto aide.svg ou aide-blanc.svg (nouveau fichier), partout ou le picto "?" est utilisé
 - Sur le dernier composant, utliser le picto temoignage.svg pour l'ouverture de chaque témoignage
 - Dernier groupe de composant : utiliser comme image de fond "bigSmile.svg", dans le dossier /pictos. Ajouter les classes bgColor-3 et bgImgLeft à ce groupe
+
+# 15 mars #
+
+- Insérer un composant dans le tableau de bord ayant pour contenu celui du fichier template_ie_styles.html, ajouter à ce composant le style css : display:none;
