@@ -22,14 +22,21 @@ body.dashboard_viewer{
 
 
 	*{
-		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
 	}
 
 	.componentGroup{
-		min-height: 100vh;
+		/* min-height: 100vh; */
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
 		> div{
 			width: 100% !important;
 			max-width: $pMaxWidth !important;
@@ -41,8 +48,11 @@ body.dashboard_viewer{
 		}
 		> div:last-child{
 			> .portlet-content > div{
+				display: -webkit-box;
+				display: -ms-flexbox;
 				display: flex;
-				flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				    flex-wrap: wrap;
 				padding:$fullMarge ($fullMarge/2);
 				/* background-color: $color1; */
 			}
@@ -55,7 +65,9 @@ body.dashboard_viewer{
 	.justifyCenter{
 		> div:last-child{
 			> .portlet-content > div{
-				justify-content: center;
+				-webkit-box-pack: center;
+				    -ms-flex-pack: center;
+				        justify-content: center;
 			}
 		}
 	}
@@ -336,7 +348,8 @@ body.dashboard_viewer{
 				height: 15px !important;
 				width: 20px !important;
 				border: none !important;
-				box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+				-webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+				        box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 			}
 		}
 	}
@@ -349,7 +362,8 @@ body.dashboard_viewer{
 	/* popin */
 
 	.dd-window{
-		box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+		-webkit-box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+		        box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 		border:none !important;
 		background-color: $color2 !important;
 		.dd-window-body{
@@ -378,7 +392,8 @@ body.dashboard_viewer{
 					background: $color3 !important;
 			    border: none !important;
 			    color: $color4 !important;
-			    box-shadow: none !important;
+			    -webkit-box-shadow: none !important;
+			            box-shadow: none !important;
 				}
 			}
 			table, td{

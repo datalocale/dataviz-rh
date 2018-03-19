@@ -165,3 +165,8 @@ Si cette methode marche, j'y rajouterai les styles pour optimiser IE.
 # 15 mars #
 
 - Insérer un composant dans le tableau de bord ayant pour contenu celui du fichier template_ie_styles.html, ajouter à ce composant le style css : display:none;
+
+# 19 mars #
+
+- Supprimer complètement le composant en charge du commentaire conditionnel destiné à IE
+- Mettre à jour la feuille de style styles.css
