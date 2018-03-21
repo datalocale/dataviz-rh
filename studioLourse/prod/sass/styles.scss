@@ -282,7 +282,10 @@ body.dashboard_viewer{
 			overflow: visible !important;
 		}
 		&.fixed *{
-			min-width: 100% !important;
+			min-width: auto !important;
+		}
+		&.fixed .tdFilterImage{
+			min-width: 20px !important;
 		}
 		.filtersSelect{
 			margin-top: ($fullMarge / 2);

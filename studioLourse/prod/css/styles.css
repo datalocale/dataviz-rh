@@ -8,6 +8,10 @@ body.dashboard_viewer {
   font-family: 'Barlow', sans-serif;
   font-size  : 20px;
   line-height: 1.4;
+  /* colors */
+  /* width */
+  /* marge */
+  @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
 }
 
 body.dashboard_viewer p {
@@ -117,6 +121,54 @@ body.dashboard_viewer .centered {
 
 body.dashboard_viewer .righted {
   text-align: right;
+}
+
+.dashboard_viewer {
+  /* http://meyerweb.com/eric/tools/css/reset/
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  /* HTML5 display-role reset for older browsers */
+  /*
+   * Ensemble de règles !important : pour surcharger les css inline (via js ?)
+   */
+  /*
+   * Idem mais version DEV : à virer en prod
+   */
+  /*
+
+#dashboard_viewer{
+	> tbody > tr:last-child{
+		> td > div,
+		#tabPanel{
+			height:100vh !important;
+			border: 1px solid red;
+		}
+	}
+}
+*/
+  /* colors */
+  /* width */
+  /* marge */
+  /* Column */
+  /* Margin */
+  /* Padding */
+  /* Group behavior Vertical */
+  /*
+   * Layout
+   */
+  /* Height iframe */
+  /*
+   * Backgrounds
+   */
+  /* Filters */
+  /* legends */
+  /* popin */
+  /* Filtre liste flottante */
+  /* header */
+  /* colors */
+  /* width */
+  /* marge */
 }
 
 .dashboard_viewer a,
@@ -742,7 +794,11 @@ body.dashboard_viewer .righted {
 }
 
 .dashboard_viewer .groupFilter.fixed * {
-  min-width: 100% !important;
+  min-width: auto !important;
+}
+
+.dashboard_viewer .groupFilter.fixed .tdFilterImage {
+  min-width: 20px !important;
 }
 
 .dashboard_viewer .groupFilter .filtersSelect {
