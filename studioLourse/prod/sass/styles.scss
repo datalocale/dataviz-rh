@@ -281,6 +281,9 @@ body.dashboard_viewer{
 		*{
 			overflow: visible !important;
 		}
+		&.fixed *{
+			min-width: 100% !important;
+		}
 		.filtersSelect{
 			margin-top: ($fullMarge / 2);
 			padding:0 ($fullMarge / 2);

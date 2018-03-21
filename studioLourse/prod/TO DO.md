@@ -170,3 +170,7 @@ Si cette methode marche, j'y rajouterai les styles pour optimiser IE.
 
 - Supprimer complètement le composant en charge du commentaire conditionnel destiné à IE
 - Mettre à jour la feuille de style styles.css
+
+# 21 mars #
+
+- Mettre à jour la feuille de style styles.css
