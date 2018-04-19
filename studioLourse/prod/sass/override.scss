@@ -1,0 +1,52 @@
+/*
+ * Ensemble de règles !important : pour surcharger les css inline (via js ?)
+ */
+
+
+
+.portletcontainer{
+	position: relative !important;
+	width: 100% !important;
+	height: auto !important;
+	top: inherit !important;
+	left: inherit !important;
+	z-index: inherit !important;
+	*{
+		position: relative !important;
+		width: auto !important;
+		min-height: inherit !important;
+		min-width: inherit !important;
+		top: inherit !important;
+		left: inherit !important;
+	}
+	*:not(iframe){
+		height: auto !important;
+	}
+
+	iframe{
+		width: 100% !important;
+		height: auto !important;
+	}
+	*[style*="visibility: hidden"]{
+		height: 0 !important;
+	}
+}
+
+
+
+/*
+ * Idem mais version DEV : à virer en prod
+ */
+
+ /*
+
+#dashboard_viewer{
+	> tbody > tr:last-child{
+		> td > div,
+		#tabPanel{
+			height:100vh !important;
+			border: 1px solid red;
+		}
+	}
+}
+*/

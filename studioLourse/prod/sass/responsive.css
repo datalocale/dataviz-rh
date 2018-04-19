@@ -1,0 +1,20 @@
+/* colors */
+/* width */
+/* marge */
+@media (max-width: 1680px) {
+  .componentGroup:not(.aboveGroupFilter) > div {
+    margin-left: auto;
+    margin-right: 15px; } }
+@media (max-width: 1500px) {
+  .componentGroup > div {
+    max-width: calc(100% - 200px) !important; } }
+@media (max-width: 1024px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 {
+    flex-basis: calc(50% - 30px);
+    flex-grow: 1; } }
+@media (max-width: 800px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 {
+    flex-basis: calc(100% - 30px);
+    flex-grow: 1; } }
+
+/*# sourceMappingURL=responsive.css.map */

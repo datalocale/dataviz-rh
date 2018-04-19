@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Doc</title>
+  <title>Doc test</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -258,7 +258,8 @@
           <h3 class="bold big">
             La classe collapsed
           </h3>
-          <p>Ajoutée aux classes <span class="italic">col-N</span>, la classe <span class="italic">collapsed</span> permet une fusion des marges.<br>Exemple :</p>
+          <p>Ajoutée aux classes <span class="italic">col-N</span>, la classe <span class="italic">collapsed</span> permet une fusion des marges.</p>
+          <p>Exemple :</p>
         </div>
       </div>
       <div class="cols border">
@@ -271,26 +272,108 @@
       <div>
         <!-- Empty (macth widh DigDash dom structure) -->
       </div>
+      <style>
+      #Layout iframe{
+
+        width: 100% !important;
+        height: 0;
+        min-width: 0 !important;
+      }
+      #Layout .padding-1{
+        padding: 15px;
+      }
+      #Layout .padding-2{
+        padding: 30px;
+      }
+      #Layout .padding-3{
+        padding: 45px;
+      }
+      #Layout .padding-4{
+        padding: 60px;
+      }
+      </style>
       <div class="cols">
         <div class="col-12">
           <h2 class="marginBottom-1">Layout</h2>
+          <p>Certaines des classes présentées ici ne s'appliqueront qu'au composant lui même et ne pourront pas être appliquées au sein d'un élément HTML classique. Ces classes sont alors identifiées par un asterisque*.</p>
         </div>
       </div>
       <div class="cols">
         <div class="col-12">
           <h3 class="bold big">Gestion des hauteurs</h3>
+          <p>La classe <span class="italic">minHeight-N*</span> s'applique uniquement aux <span class="bold">composants</span> et permet à ceux-ci d'avoir une hauteur minimale, évitant ainsi l'appartion d'une barre de scroll. N peut prendre une valeur de 1 à 12 s'indexant alors sur une fraction de la largeur de la grille.</p>
+          <p>Quelques exemples :</p>
+        </div>
+      </div>
+      <div class="cols">
+        <div class="col-3 minHeight-1">
+          <div>minHeight-1*<iframe class="bgColor-3" frameborder="0"></iframe></div>
+        </div>
+        <div class="col-3 minHeight-2">
+          <div>minHeight-2*<iframe class="bgColor-3" frameborder="0"></iframe></div>
+        </div>
+        <div class="col-3 minHeight-3">
+          <div>minHeight-3*<iframe class="bgColor-3" frameborder="0"></iframe></div>
+        </div>
+        <div class="col-3 minHeight-4">
+          <div>minHeight-4*<iframe class="bgColor-3" frameborder="0"></iframe></div>
         </div>
       </div>
       <div class="cols">
         <div class="col-12">
-          <h3 class="bold big">Gestion des marges intérieures et extérieurs</h3>
+          <h3 class="bold big">Gestion des marges intérieures</h3>
+          <p>La classe <span class="italic">padding-N*</span> ne s'applique qu'aux <span class="bold">composants</span>. N peut avoir une valeur de 1 à 4, multipliant ainsi la valeur de la moitié de la marge de base (30px par défaut).</p>
+          <p>Quelques exemples :</p>
         </div>
+      </div>
+      <div class="cols color-5">
+
+        <div class="col-3">
+          <div class="padding-1 bgColor-2">padding-1*</div>
+        </div>
+        <div class="col-3">
+          <div class="padding-2 bgColor-2">padding-2*</div>
+        </div>
+        <div class="col-3">
+          <div class="padding-3 bgColor-2">padding-3*</div>
+        </div>
+        <div class="col-3">
+          <div class="padding-4 bgColor-2">padding-4*</div>
+        </div>
+
       </div>
       <div class="cols">
         <div class="col-12">
           <h3 class="bold big">Alignements verticaux</h3>
+          <p>Les classes <span class="italic">alignItemsVertTop</span>, <span class="italic">alignItemsVertBottom</span> et <span class="italic">alignItemsCenter</span> permettent de centrer des éléments verticalement. Ces classes doivent être appliquée soit directement sur un <span class="bold">groupe de composants</span>, soit sur un élément HTML disposant de la classe <span class="ialic">cols</span>.</p>
         </div>
       </div>
+
+      <style>
+      .min-height{
+        min-height: 300px
+      }
+      </style>
+
+      <div class="cols min-height  alignItemsVertTop bgColor-3">
+        <div class="col-4">alignItemsVertTop</div>
+        <div class="col-4 padding-4 bgColor-2"></div>
+        <div class="col-4 padding-4 bgColor-2"></div>
+      </div>
+
+      <div class="cols min-height alignItemsVertBottom bgColor-3">
+        <div class="col-4">alignItemsVertBottom</div>
+        <div class="col-4 padding-4 bgColor-2"></div>
+        <div class="col-4 padding-4 bgColor-2"></div>
+      </div>
+
+
+      <div class="cols min-height alignItemsCenter bgColor-3">
+        <div class="col-4">alignItemsCenter</div>
+        <div class="col-4 padding-4 bgColor-2"></div>
+        <div class="col-4 padding-4 bgColor-2"></div>
+      </div>
+
       <div class="cols">
         <div class="col-12">
           <h3 class="bold big">Composant "flottant"</h3>
