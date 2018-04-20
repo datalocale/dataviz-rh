@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Doc test</title>
+  <title>Documentation</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -357,31 +357,58 @@
 
       <div class="cols min-height  alignItemsVertTop bgColor-3">
         <div class="col-4">alignItemsVertTop</div>
-        <div class="col-4 padding-4 bgColor-2"></div>
-        <div class="col-4 padding-4 bgColor-2"></div>
+        <div class="col-4 padding-4 bgColor-WhiteTamed"></div>
+        <div class="col-4 padding-4 bgColor-WhiteTamed"></div>
       </div>
 
       <div class="cols min-height alignItemsVertBottom bgColor-3">
         <div class="col-4">alignItemsVertBottom</div>
-        <div class="col-4 padding-4 bgColor-2"></div>
-        <div class="col-4 padding-4 bgColor-2"></div>
+        <div class="col-4 padding-4 bgColor-WhiteTamed"></div>
+        <div class="col-4 padding-4 bgColor-WhiteTamed"></div>
       </div>
 
 
       <div class="cols min-height alignItemsCenter bgColor-3">
         <div class="col-4">alignItemsCenter</div>
-        <div class="col-4 padding-4 bgColor-2"></div>
-        <div class="col-4 padding-4 bgColor-2"></div>
+        <div class="col-4 padding-4 bgColor-WhiteTamed"></div>
+        <div class="col-4 padding-4 bgColor-WhiteTamed"></div>
       </div>
 
       <div class="cols">
         <div class="col-12">
           <h3 class="bold big">Composant "flottant"</h3>
+          <p>Les classes <span class="italic">fixedLeft</span>, <span class="italic">fixedRight</span>, <span class="italic">fixedCenter</span>, <span class="italic">fixedTop</span> et <span class="italic">fixedBottom</span> doivent être utilisées sur un <span class="bold">composant</span> ou <span class="bold">groupe de composants</span> et auront pour effet de rendre celui-ci "flottant" tout en vous permettant de controler sa position au sein de la page (ces classes sont actuellement utilisées sur le menu de cette documentation). <span class="color-1">Ces classes doivent absolument être associées à la classe <span class="italic">fixed</span>.</span> </p>
+        </div>
+      </div>
+      <div class="cols color-5 floatting-grid">
+        <style>
+         .dashboard_viewer #Layout .fixed{
+          position: absolute !important;
+        }
+        </style>
+        <div class="col-6 bgColor-2" style="position:relative; height:180px;margin-bottom:30px;">
+          <div class="bgColor-WhiteTamed padding-1 fixed fixedLeft">fixed fixedLeft</div>
+        </div>
+        <div class="col-6 bgColor-2" style="position:relative; height:180px;margin-bottom:30px;">
+          <div class="bgColor-WhiteTamed padding-1 fixed fixedRight">fixed fixedRight</div>
+        </div>
+        <div class="col-6 bgColor-2" style="position:relative; height:180px;margin-bottom:30px;">
+          <div class="bgColor-WhiteTamed padding-1 fixed fixedLeft fixedCenter">fixed fixedLeft fixedCenter</div>
+        </div>
+        <div class="col-6 bgColor-2" style="position:relative; height:180px;margin-bottom:30px;">
+          <div class="bgColor-WhiteTamed padding-1 fixed fixedRight fixedBottom">fixed fixedRight fixedBottom</div>
+        </div>
+        <div class="col-6 bgColor-2" style="position:relative; height:180px;margin-bottom:30px;">
+          <div class="bgColor-WhiteTamed padding-1 fixed fixedRight fixedLeft">fixed fixedRight fixedLeft</div>
+        </div>
+        <div class="col-6 bgColor-2" style="position:relative; height:180px;margin-bottom:30px;">
+          <div class="bgColor-WhiteTamed padding-1 fixed fixedRight fixedLeft fixedBottom">fixed fixedRight fixedLeft fixedBottom</div>
         </div>
       </div>
       <div class="cols">
         <div class="col-12">
-          <h3 class="bold big">Composant de type filtres</h3>
+          <h3 class="bold big">Quelques classes particulières...</h3>
+          <p>La classe <span class="italic">aboveGroupFilter</span> n'a d'effet que sur les <span class="bold">groupe de composants</span></p>
         </div>
       </div>
     </section>
