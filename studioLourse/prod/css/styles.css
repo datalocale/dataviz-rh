@@ -1,17 +1,12 @@
 @charset "UTF-8";
-/* colors */
-/* width */
-/* marge */
+
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
 
 body.dashboard_viewer {
   font-family: 'Barlow', sans-serif;
   font-size  : 20px;
   line-height: 1.4;
-  /* colors */
-  /* width */
-  /* marge */
-  @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:100,600,700|Barlow:400,600|Merriweather:400,400i,700,900i");
+
 }
 
 body.dashboard_viewer p {
@@ -121,54 +116,6 @@ body.dashboard_viewer .centered {
 
 body.dashboard_viewer .righted {
   text-align: right;
-}
-
-.dashboard_viewer {
-  /* http://meyerweb.com/eric/tools/css/reset/
-     v2.0 | 20110126
-     License: none (public domain)
-  */
-  /* HTML5 display-role reset for older browsers */
-  /*
-   * Ensemble de règles !important : pour surcharger les css inline (via js ?)
-   */
-  /*
-   * Idem mais version DEV : à virer en prod
-   */
-  /*
-
-#dashboard_viewer{
-	> tbody > tr:last-child{
-		> td > div,
-		#tabPanel{
-			height:100vh !important;
-			border: 1px solid red;
-		}
-	}
-}
-*/
-  /* colors */
-  /* width */
-  /* marge */
-  /* Column */
-  /* Margin */
-  /* Padding */
-  /* Group behavior Vertical */
-  /*
-   * Layout
-   */
-  /* Height iframe */
-  /*
-   * Backgrounds
-   */
-  /* Filters */
-  /* legends */
-  /* popin */
-  /* Filtre liste flottante */
-  /* header */
-  /* colors */
-  /* width */
-  /* marge */
 }
 
 .dashboard_viewer a,
@@ -333,11 +280,11 @@ body.dashboard_viewer .righted {
 }
 
 .dashboard_viewer .cols {
-  display  : -webkit-box;
-  display  : -ms-flexbox;
-  display  : flex;
+  display      : -webkit-box;
+  display      : -ms-flexbox;
+  display      : flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap    : wrap;
 }
 
 .dashboard_viewer .cols > * {
@@ -346,62 +293,62 @@ body.dashboard_viewer .righted {
 
 .dashboard_viewer .col-1 {
   -ms-flex-preferred-size: calc(8.33% - 30px);
-      flex-basis: calc(8.33% - 30px);
+  flex-basis             : calc(8.33% - 30px);
 }
 
 .dashboard_viewer .col-2 {
   -ms-flex-preferred-size: calc(16.66% - 30px);
-      flex-basis: calc(16.66% - 30px);
+  flex-basis             : calc(16.66% - 30px);
 }
 
 .dashboard_viewer .col-3 {
   -ms-flex-preferred-size: calc(25% - 30px);
-      flex-basis: calc(25% - 30px);
+  flex-basis             : calc(25% - 30px);
 }
 
 .dashboard_viewer .col-4 {
   -ms-flex-preferred-size: calc(33.33% - 30px);
-      flex-basis: calc(33.33% - 30px);
+  flex-basis             : calc(33.33% - 30px);
 }
 
 .dashboard_viewer .col-5 {
   -ms-flex-preferred-size: calc(41.66% - 30px);
-      flex-basis: calc(41.66% - 30px);
+  flex-basis             : calc(41.66% - 30px);
 }
 
 .dashboard_viewer .col-6 {
   -ms-flex-preferred-size: calc(50% - 30px);
-      flex-basis: calc(50% - 30px);
+  flex-basis             : calc(50% - 30px);
 }
 
 .dashboard_viewer .col-7 {
   -ms-flex-preferred-size: calc(58.33% - 30px);
-      flex-basis: calc(58.33% - 30px);
+  flex-basis             : calc(58.33% - 30px);
 }
 
 .dashboard_viewer .col-8 {
   -ms-flex-preferred-size: calc(66.66% - 30px);
-      flex-basis: calc(66.66% - 30px);
+  flex-basis             : calc(66.66% - 30px);
 }
 
 .dashboard_viewer .col-9 {
   -ms-flex-preferred-size: calc(75% - 30px);
-      flex-basis: calc(75% - 30px);
+  flex-basis             : calc(75% - 30px);
 }
 
 .dashboard_viewer .col-10 {
   -ms-flex-preferred-size: calc(83.33% - 30px);
-      flex-basis: calc(83.33% - 30px);
+  flex-basis             : calc(83.33% - 30px);
 }
 
 .dashboard_viewer .col-11 {
   -ms-flex-preferred-size: calc(91.66% - 30px);
-      flex-basis: calc(91.66% - 30px);
+  flex-basis             : calc(91.66% - 30px);
 }
 
 .dashboard_viewer .col-12 {
   -ms-flex-preferred-size: calc(100% - 30px);
-      flex-basis: calc(100% - 30px);
+  flex-basis             : calc(100% - 30px);
 }
 
 .dashboard_viewer .marginLeft-1 {
@@ -507,42 +454,42 @@ body.dashboard_viewer .righted {
 
 .dashboard_viewer .alignItemsVertTop {
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack   : start;
+  justify-content : flex-start;
 }
 
 .dashboard_viewer .alignItemsVertBottom {
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack   : end;
+  justify-content : flex-end;
 }
 
 .dashboard_viewer .cols.alignItemsVertBottom {
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align   : end;
+  align-items      : flex-end;
 }
 
 .dashboard_viewer .cols.alignItemsCenter {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align   : center;
+  align-items      : center;
 }
 
 .dashboard_viewer .component.textBottom {
-  display  : -webkit-box;
-  display  : -ms-flexbox;
-  display  : flex;
-  -webkit-box-orient: vertical;
+  display              : -webkit-box;
+  display              : -ms-flexbox;
+  display              : flex;
+  -webkit-box-orient   : vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -ms-flex-flow        : column;
+  flex-flow            : column;
 }
 
 .dashboard_viewer .component.textBottom > div:first-child {
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order           : 2;
+  order                    : 2;
 }
 
 .dashboard_viewer .component.textBottom > div:first-child table {
@@ -558,10 +505,10 @@ body.dashboard_viewer .righted {
 }
 
 .dashboard_viewer .component.textBottom > div:last-child {
-  -webkit-box-ordinal-group     : 2;
-      -ms-flex-order     : 1;
-          order     : 1;
-  margin-top: 15px;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order           : 1;
+  order                    : 1;
+  margin-top               : 15px;
 }
 
 .dashboard_viewer * {
@@ -604,6 +551,16 @@ body.dashboard_viewer .righted {
 
 .dashboard_viewer .componentGroup > div:last-child .component {
   margin: 0 15px;
+}
+
+.dashboard_viewer .dashboard_viewer div.portlet-content > div + table {
+  position: absolute !important;
+  right   : 0 !important;
+}
+
+.dashboard_viewer .dashboard_viewer div.portlet-content > div + table td div {
+  height: 16px !important;
+  width : 16px !important;
 }
 
 .dashboard_viewer .justifyCenter > div:last-child > .portlet-content > div {
@@ -1004,10 +961,10 @@ body.dashboard_viewer .righted {
   .dashboard_viewer .col-8,
   .dashboard_viewer .col-9 {
     -ms-flex-preferred-size: calc(50% - 30px);
-        flex-basis: calc(50% - 30px);
-    -webkit-box-flex : 1;
-        -ms-flex-positive : 1;
-            flex-grow : 1;
+    flex-basis             : calc(50% - 30px);
+    -webkit-box-flex       : 1;
+    -ms-flex-positive      : 1;
+    flex-grow              : 1;
   }
 }
 @media (max-width: 800px) {
@@ -1023,9 +980,9 @@ body.dashboard_viewer .righted {
   .dashboard_viewer .col-8,
   .dashboard_viewer .col-9 {
     -ms-flex-preferred-size: calc(100% - 30px);
-        flex-basis: calc(100% - 30px);
-    -webkit-box-flex : 1;
-        -ms-flex-positive : 1;
-            flex-grow : 1;
+    flex-basis             : calc(100% - 30px);
+    -webkit-box-flex       : 1;
+    -ms-flex-positive      : 1;
+    flex-grow              : 1;
   }
 }
